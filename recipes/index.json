@@ -3,8 +3,8 @@
     {
       "id": "seafood-curry",
       "file": "recipes/seafood-curry.json",
-      "title": "One-Pan Seafood Curry",
-      "description": "Seafood curry made entirely in a frying pan — no pot needed.",
+      "title": "Seafood Curry",
+      "description": "Seafood curry made entirely in a frying pan, with no pot needed.",
       "time": "20 min",
       "serves": "1–2",
       "keywords": ["curry", "seafood", "shrimp", "squid", "rice", "one-pan", "frying pan", "quick"]
@@ -21,7 +21,7 @@
     {
       "id": "cheese-risotto",
       "file": "recipes/cheese-risotto.json",
-      "title": "One-Pan Cheese Risotto",
+      "title": "Cheese Risotto",
       "description": "No rinsing the rice, no pot. A simplified risotto where the water goes in all at once.",
       "time": "25 min",
       "serves": "1",

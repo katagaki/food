@@ -1,7 +1,7 @@
 {
   "id": "seafood-curry",
-  "title": "One-Pan Seafood Curry",
-  "lede": "A seafood curry made with nothing but a frying pan — no pot required. Serves 1–2 and comes together in about 20 minutes.",
+  "title": "Seafood Curry",
+  "lede": "A seafood curry made with nothing but a frying pan. No pot required. Serves 1–2 and comes together in about 20 minutes.",
   "time": "20 min",
   "serves": "1–2",
   "ingredients": {
@@ -23,7 +23,7 @@
     { "name": "Cutting board", "required": true, "note": "A clean plate can stand in." },
     { "name": "Spatula or large spoon", "required": true, "note": "For stir-frying and for dissolving the roux." },
     { "name": "Microwave", "required": true, "note": "For the packed rice. 2 minutes at 500–600 W." },
-    { "name": "Measuring cup", "required": false, "note": "A mug is fine — a typical mug holds about 250 ml." },
+    { "name": "Measuring cup", "required": false, "note": "A mug is fine. A typical mug holds about 250 ml." },
     { "name": "Peeler", "required": false, "note": "Carrot skin is edible. Wash well and you can skip peeling." }
   ],
   "steps": [

@@ -1,7 +1,7 @@
 {
   "id": "cheese-risotto",
-  "title": "One-Pan Cheese Risotto",
-  "lede": "No rinsing the rice, no pot — just one frying pan. Instead of ladling in stock bit by bit the traditional way, this simplified version adds all the water at once and simply simmers.",
+  "title": "Cheese Risotto",
+  "lede": "No rinsing the rice, no pot, just one frying pan. Instead of ladling in stock bit by bit the traditional way, this simplified version adds all the water at once and simply simmers.",
   "time": "25 min",
   "serves": "1",
   "ingredients": {
@@ -30,7 +30,7 @@
       "image": "img/cheese-risotto-1.svg"
     },
     {
-      "title": "Add the rice — unwashed",
+      "title": "Add the rice, unwashed",
       "text": "Tip in the rice as-is and stir for a minute, until every grain is coated in fat. When the rice turns faintly translucent, that's enough.",
       "hint": "Rinsing washes off the surface starch, and with it the creaminess. For risotto, unwashed is correct.",
       "image": "img/cheese-risotto-2.svg"
@@ -59,8 +59,8 @@
     }
   ],
   "troubleshooting": [
-    { "problem": "The bottom scorched", "solution": "The heat was too high. Drop it to the lowest setting and stir every 2 minutes instead. Don't stir the burnt layer in — scoop only from the top when serving." },
-    { "problem": "Still chalky after 15 minutes", "solution": "Not enough water. Add 50 ml at a time and check every 3 minutes. A lid speeds things up, but traps moisture — take it off and reduce for a final minute." },
+    { "problem": "The bottom scorched", "solution": "The heat was too high. Drop it to the lowest setting and stir every 2 minutes instead. Don't stir the burnt layer in. Scoop only from the top when serving." },
+    { "problem": "Still chalky after 15 minutes", "solution": "Not enough water. Add 50 ml at a time and check every 3 minutes. A lid speeds things up, but traps moisture, so take it off and reduce for a final minute." },
     { "problem": "It's loose, like soup", "solution": "Raise to medium heat and reduce for about a minute while stirring. It tightens a little from residual heat after plating, so stop while it's just slightly loose." },
     { "problem": "No bouillon cube", "solution": "A scant teaspoon of salt plus a teaspoon of mentsuyu (if you have it) stands in. The bacon brings salt too, so hold back and adjust by taste at the end." },
     { "problem": "The bacon was sold out", "solution": "Two sausages or a can of tuna works instead. For tuna, add it oil and all, and halve the butter." }

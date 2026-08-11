@@ -52,7 +52,7 @@
   /* ---------- Views ---------- */
 
   function renderHome() {
-    document.title = "Food";
+    document.title = "One-Pan Food";
     contentEl.innerHTML =
       '<div class="page">' +
       '<div class="home-hero">' +
@@ -82,7 +82,7 @@
   }
 
   function renderRecipe(r) {
-    document.title = r.title + " — Food";
+    document.title = r.title + " | One-Pan Food";
     contentEl.innerHTML =
       '<div class="page">' +
       '<header class="recipe-header">' +

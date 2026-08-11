@@ -1,7 +1,7 @@
 {
   "id": "pork-bowl",
   "title": "Pork & Onion Rice Bowl",
-  "lede": "One frying pan, one cutting board. All you buy is thin-sliced pork and an onion — the heart of the flavor comes from good browning and a reduced sweet-soy glaze.",
+  "lede": "One frying pan, one cutting board. All you buy is thin-sliced pork and an onion. The heart of the flavor comes from good browning and a reduced sweet-soy glaze.",
   "time": "15 min",
   "serves": "1",
   "ingredients": {
@@ -38,12 +38,12 @@
     },
     {
       "title": "Slice the onion thinly",
-      "text": "Peel it, halve it lengthwise, and slice with the grain into pieces about 5 mm thick. This is the only time you need the cutting board — wash it and the knife now. The pork needs no cutting.",
+      "text": "Peel it, halve it lengthwise, and slice with the grain into pieces about 5 mm thick. This is the only time you need the cutting board, so wash it and the knife now. The pork needs no cutting.",
       "image": "img/pork-bowl-2.svg"
     },
     {
       "title": "Spread the pork out and don't touch it",
-      "text": "Heat the oil over medium-high. Spread the pork so the pieces overlap as little as possible, then leave it alone for 1½ to 2 minutes. Flip only once the underside is well browned — that browning is the heart of the flavor.",
+      "text": "Heat the oil over medium-high. Spread the pork so the pieces overlap as little as possible, then leave it alone for 1½ to 2 minutes. Flip only once the underside is well browned. That browning is the heart of the flavor.",
       "hint": "If the pork is fatty, skip the oil. Stirring too early draws out moisture and you end up steaming the meat instead of searing it.",
       "image": "img/pork-bowl-3.svg"
     },
@@ -54,7 +54,7 @@
     },
     {
       "title": "Pour in the sauce and reduce",
-      "text": "Add the sauce from step 1. Keep it at a lively bubble, shaking the pan, for 1 to 2 minutes — when the sauce has thickened, clings to the meat, and turns glossy, kill the heat. If you're using butter, add it off the heat and let the residual warmth melt it.",
+      "text": "Add the sauce from step 1. Keep it at a lively bubble, shaking the pan, for 1 to 2 minutes. When the sauce has thickened, clings to the meat, and turns glossy, kill the heat. If you're using butter, add it off the heat and let the residual warmth melt it.",
       "hint": "Over-reduce and it suddenly turns salty. Stop while a little sauce still pools at the bottom of the pan.",
       "image": "img/pork-bowl-5.svg"
     },
@@ -65,11 +65,11 @@
     }
   ],
   "troubleshooting": [
-    { "problem": "The pork is tough or dry", "solution": "It was overcooked. Thin-sliced pork is nearly done the moment it's browned — about 30 seconds after flipping is plenty, and the sauce finishes the rest." },
+    { "problem": "The pork is tough or dry", "solution": "It was overcooked. Thin-sliced pork is nearly done the moment it's browned. About 30 seconds after flipping is plenty, and the sauce finishes the rest." },
     { "problem": "The meat weeps water and won't brown", "solution": "The pan wasn't hot enough, or the meat was piled up. Wait until the oil shimmers with a wisp of smoke, then spread the pieces flat. 150 g is the most one pan can sear at once." },
     { "problem": "The flavor is flat", "solution": "The sauce wasn't reduced enough. Stopped while still watery, it soaks into the rice and turns thin. Boil it down until it's glossy and slightly thick." },
     { "problem": "Too salty", "solution": "Reduced too far. Add 1 tablespoon of water and bring it back to a brief simmer. Next time use 3 tablespoons of water for more margin." },
     { "problem": "The onion tastes sharp", "solution": "It needed more heat. Cook until translucent, then give it one more minute in the sauce and the sharpness turns to sweetness." },
-    { "problem": "Want to add something extra", "solution": "Chopped scallions, shichimi pepper, an egg yolk, or mayonnaise — pick exactly one. Stacking several muddies the flavor." }
+    { "problem": "Want to add something extra", "solution": "Chopped scallions, shichimi pepper, an egg yolk, or mayonnaise. Pick exactly one. Stacking several muddies the flavor." }
   ]
 }
