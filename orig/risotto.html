@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>フライパンひとつのチーズリゾット</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#161616;
+  --layer:#262626;
+  --layer2:#393939;
+  --border:#393939;
+  --border-soft:#525252;
+  --text:#f4f4f4;
+  --text2:#c6c6c6;
+  --text3:#8d8d8d;
+  --blue:#4589ff;
+  --yellow:#f1c21b;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:"IBM Plex Sans","IBM Plex Sans JP",system-ui,sans-serif;
+  font-weight:400;
+  line-height:1.6;
+  font-variant-numeric:tabular-nums;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:960px;margin:0 auto;padding:64px 24px 96px}
+h1{
+  font-size:2.5rem;line-height:1.25;font-weight:300;
+  letter-spacing:-0.01em;margin:0 0 12px;
+}
+.lede{color:var(--text2);font-size:1rem;max-width:44rem;margin:0 0 8px}
+h2{
+  font-size:1.25rem;font-weight:400;letter-spacing:0;
+  margin:64px 0 20px;padding-bottom:12px;border-bottom:1px solid var(--border);
+}
+h3{font-size:1rem;font-weight:600;margin:0 0 12px}
+p{margin:0 0 12px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.panel{background:var(--layer);padding:20px 20px 8px}
+ul.items{list-style:none;margin:0;padding:0}
+ul.items li{
+  display:flex;justify-content:space-between;gap:16px;
+  padding:10px 0;border-bottom:1px solid var(--border);
+}
+ul.items li:last-child{border-bottom:none}
+ul.items .amt{color:var(--text3);white-space:nowrap}
+table{width:100%;border-collapse:collapse;font-size:0.9375rem}
+th{
+  text-align:left;font-weight:600;color:var(--text2);
+  padding:12px 16px;background:var(--layer2);border-bottom:1px solid var(--border);
+}
+td{padding:12px 16px;border-bottom:1px solid var(--border);vertical-align:top}
+tr:last-child td{border-bottom:none}
+.req{color:var(--blue)}
+.opt{color:var(--text3)}
+.step{
+  display:grid;grid-template-columns:48px 1fr 160px;gap:24px;
+  padding:28px 0;border-bottom:1px solid var(--border);align-items:start;
+}
+.step:last-of-type{border-bottom:none}
+.num{font-size:1.5rem;font-weight:300;color:var(--text3);line-height:1.2}
+.step h3{margin-bottom:8px}
+.step p{color:var(--text2);margin-bottom:0}
+.note{
+  margin-top:12px;padding-left:12px;border-left:2px solid var(--yellow);
+  color:var(--text2);font-size:0.9375rem;
+}
+.art{width:160px;height:160px}
+.art svg{width:100%;height:100%;display:block}
+.trouble{border-top:1px solid var(--border)}
+.trouble .q{padding:20px 0 0;font-weight:500}
+.trouble .a{color:var(--text2);padding:0 0 20px;border-bottom:1px solid var(--border);margin:6px 0 0}
+.trouble div:last-child .a{border-bottom:none}
+@media (max-width:720px){
+  .wrap{padding:40px 16px 64px}
+  h1{font-size:1.875rem}
+  .cols{grid-template-columns:1fr}
+  .step{grid-template-columns:36px 1fr;gap:16px}
+  .art{grid-column:2;width:140px;height:140px;margin-top:16px}
+  .num{font-size:1.25rem}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>フライパンひとつの<br>チーズリゾット</h1>
+<p class="lede">米を洗わず、鍋も使わず、フライパンひとつで作ります。スープを少しずつ足す本来の作り方ではなく、水を一度に入れて煮るだけの簡略版です。</p>
+
+<h2>材料（1人分）</h2>
+<div class="cols">
+  <div class="panel">
+    <h3>買うもの</h3>
+    <ul class="items">
+      <li><span>ベーコン（ハーフサイズ）</span><span class="amt">2枚</span></li>
+      <li><span>粉チーズ</span><span class="amt">大さじ2</span></li>
+    </ul>
+  </div>
+  <div class="panel">
+    <h3>家にあるもの</h3>
+    <ul class="items">
+      <li><span>米（洗わない）</span><span class="amt">1合</span></li>
+      <li><span>水</span><span class="amt">400 ml</span></li>
+      <li><span>固形コンソメ</span><span class="amt">1個</span></li>
+      <li><span>バターまたはオリーブオイル</span><span class="amt">10 g</span></li>
+      <li><span>塩、黒こしょう</span><span class="amt">少々</span></li>
+    </ul>
+  </div>
+</div>
+
+<h2>道具</h2>
+<table>
+  <thead><tr><th>道具</th><th>区分</th><th>用途</th></tr></thead>
+  <tbody>
+    <tr><td>フライパン（直径24 cm前後）</td><td class="req">必須</td><td>炒めから煮込みまで全部これで行う</td></tr>
+    <tr><td>木べらまたは菜箸</td><td class="req">必須</td><td>煮ている間に底を混ぜる</td></tr>
+    <tr><td>計量カップ</td><td class="opt">任意</td><td>500 mlペットボトルの8割でも代用できる</td></tr>
+    <tr><td>ふた</td><td class="opt">任意</td><td>芯が残ったときの追い蒸らしに使う</td></tr>
+  </tbody>
+</table>
+
+<h2>作り方</h2>
+
+<div class="step">
+  <div class="num">1</div>
+  <div>
+    <h3>ベーコンを切って炒める</h3>
+    <p>ベーコンを1 cm幅に切り、油をひかないフライパンに入れて中火で1分ほど焼きます。脂が出てきたらそれが炒め油になります。</p>
+  </div>
+  <div class="art">
+    <svg viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="18" y="46" width="66" height="34" rx="3" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M84 60h16" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M28 56h20M28 63h20M28 70h20" stroke="#4589ff" stroke-width="2"/>
+      <path d="M56 52l14 14M70 52L56 66" stroke="#4589ff" stroke-width="1.5"/>
+      <path d="M30 88q30 8 44 0" stroke="#8d8d8d" stroke-width="1.5"/>
+    </svg>
+  </div>
+</div>
+
+<div class="step">
+  <div class="num">2</div>
+  <div>
+    <h3>米を洗わずに加える</h3>
+    <p>米1合をそのまま入れ、油が全体に回るまで1分炒めます。米が半透明になればじゅうぶんです。</p>
+    <div class="note">洗うと表面のでんぷんが落ちて、とろみが出ません。リゾットでは洗わないのが正解です。</div>
+  </div>
+  <div class="art">
+    <svg viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 54h60v18a10 10 0 0 1-10 10H32a10 10 0 0 1-10-10z" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M82 60h18" stroke="#8d8d8d" stroke-width="1.5"/>
+      <g stroke="#4589ff" stroke-width="1.8">
+        <path d="M32 66h5M42 64h5M52 68h5M62 64h5M70 68h5M37 73h5M48 74h5M60 73h5"/>
+      </g>
+      <path d="M46 34l6 12M60 30l2 16M74 36l-6 10" stroke="#8d8d8d" stroke-width="1.5"/>
+    </svg>
+  </div>
+</div>
+
+<div class="step">
+  <div class="num">3</div>
+  <div>
+    <h3>水とコンソメを一度に入れる</h3>
+    <p>水400 mlと固形コンソメ1個を加え、コンソメを木べらで崩しながら混ぜます。強火にして沸かします。</p>
+  </div>
+  <div class="art">
+    <svg viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 66h60v14a10 10 0 0 1-10 10H32a10 10 0 0 1-10-10z" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M82 72h18" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M62 20h22v18a6 6 0 0 1-6 6h-4" stroke="#4589ff" stroke-width="1.8"/>
+      <path d="M70 46q-6 10-14 18" stroke="#4589ff" stroke-width="1.8"/>
+      <rect x="30" y="30" width="14" height="14" rx="2" stroke="#4589ff" stroke-width="1.8"/>
+      <path d="M37 44v14" stroke="#4589ff" stroke-width="1.5" stroke-dasharray="3 4"/>
+    </svg>
+  </div>
+</div>
+
+<div class="step">
+  <div class="num">4</div>
+  <div>
+    <h3>弱火で15分、ときどき混ぜる</h3>
+    <p>沸いたら弱火に落とし、ふたはせずに15分煮ます。3分おきくらいに底からゆっくり混ぜてください。</p>
+    <div class="note">混ぜないと底が焦げます。弱火を守り、火から離れすぎないようにします。</div>
+  </div>
+  <div class="art">
+    <svg viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 54h60v18a10 10 0 0 1-10 10H32a10 10 0 0 1-10-10z" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M82 60h18" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M30 62q10 6 20 0t20 0" stroke="#4589ff" stroke-width="1.8"/>
+      <path d="M74 26L48 60" stroke="#4589ff" stroke-width="1.8"/>
+      <path d="M50 96q4-8 0-14 8 4 10-2 4 8 0 16" stroke="#f1c21b" stroke-width="1.6"/>
+      <path d="M34 92h44" stroke="#8d8d8d" stroke-width="1.5"/>
+    </svg>
+  </div>
+</div>
+
+<div class="step">
+  <div class="num">5</div>
+  <div>
+    <h3>味見をして水分を調整する</h3>
+    <p>米を1粒つぶしてみて、芯が残っていたら水を50 ml足してさらに3分煮ます。水っぽければ中火にして1分ほど飛ばします。</p>
+  </div>
+  <div class="art">
+    <svg viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 58h60v16a10 10 0 0 1-10 10H32a10 10 0 0 1-10-10z" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M82 64h18" stroke="#8d8d8d" stroke-width="1.5"/>
+      <ellipse cx="60" cy="34" rx="14" ry="8" stroke="#4589ff" stroke-width="1.8"/>
+      <path d="M46 34q14 16 28 0" stroke="#4589ff" stroke-width="1.8"/>
+      <path d="M60 42v14" stroke="#4589ff" stroke-width="1.5" stroke-dasharray="3 4"/>
+      <path d="M30 68q8 4 16 0t16 0" stroke="#8d8d8d" stroke-width="1.5"/>
+    </svg>
+  </div>
+</div>
+
+<div class="step">
+  <div class="num">6</div>
+  <div>
+    <h3>火を止めてチーズとバターを混ぜる</h3>
+    <p>火を止めてから粉チーズ大さじ2とバター10 gを入れ、20秒ほど混ぜます。塩と黒こしょうで味を調えて完成です。</p>
+    <div class="note">火にかけたままチーズを入れると分離して、ざらついた口当たりになります。</div>
+  </div>
+  <div class="art">
+    <svg viewBox="0 0 120 120" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 62h60v14a10 10 0 0 1-10 10H32a10 10 0 0 1-10-10z" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M82 68h18" stroke="#8d8d8d" stroke-width="1.5"/>
+      <path d="M40 24h20l4 12H36z" stroke="#4589ff" stroke-width="1.8"/>
+      <path d="M40 42v4M48 44v4M56 42v4M44 52v4M52 52v4" stroke="#4589ff" stroke-width="1.8"/>
+      <path d="M72 34l12 6-12 6z" stroke="#4589ff" stroke-width="1.8"/>
+      <path d="M30 70q10 5 20 0t20 0" stroke="#8d8d8d" stroke-width="1.5"/>
+    </svg>
+  </div>
+</div>
+
+<h2>うまくいかないとき</h2>
+<div class="trouble">
+  <div>
+    <p class="q">底が焦げついた</p>
+    <p class="a">火が強すぎます。弱火のいちばん下まで落として、混ぜる間隔を2分おきに縮めてください。焦げた部分は混ぜ込まず、上の層だけをすくって器に移します。</p>
+  </div>
+  <div>
+    <p class="q">15分たっても芯が残る</p>
+    <p class="a">水が足りていません。50 mlずつ足して3分ずつ様子を見ます。ふたをすると早く火が通りますが、水分が飛ばないので最後にふたを外して1分煮詰めてください。</p>
+  </div>
+  <div>
+    <p class="q">スープみたいにゆるい</p>
+    <p class="a">中火にして混ぜながら1分ほど煮詰めます。皿に盛ったあとも余熱で少し締まるので、ほんの少しゆるいくらいで火を止めるのがちょうどよくなります。</p>
+  </div>
+  <div>
+    <p class="q">コンソメがない</p>
+    <p class="a">塩小さじ1弱と、あればめんつゆ小さじ1で代用できます。ベーコンの塩気があるので、入れすぎず最後に味見で足してください。</p>
+  </div>
+  <div>
+    <p class="q">ベーコンが売り切れていた</p>
+    <p class="a">ウインナー2本、またはツナ缶1つで代わりになります。ツナの場合は油ごと入れ、バターは半量にしてください。</p>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
