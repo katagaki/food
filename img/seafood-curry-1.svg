@@ -1,0 +1,22 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sliced carrots and half an onion on a wooden cutting board">
+  <defs>
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d19a5f"/><stop offset="1" stop-color="#b57a3e"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="130" rx="78" ry="8" fill="#000" opacity="0.25"/>
+  <rect x="18" y="70" width="164" height="56" rx="8" fill="url(#board)"/>
+  <rect x="18" y="70" width="164" height="8" rx="4" fill="#e2b078"/>
+  <circle cx="170" cy="98" r="6" fill="#8a5a35"/>
+  <path d="M52 18 L128 18 L140 30 L52 30 Z" fill="#cfd6dd"/>
+  <path d="M52 18 L128 18 L134 24 L52 24 Z" fill="#eef2f5"/>
+  <rect x="22" y="19" width="30" height="10" rx="5" fill="#3d3d3d"/>
+  <circle cx="42" cy="88" r="12" fill="#ff832b"/><circle cx="42" cy="88" r="7" fill="#ffb784"/>
+  <circle cx="66" cy="96" r="12" fill="#ff832b"/><circle cx="66" cy="96" r="7" fill="#ffb784"/>
+  <circle cx="54" cy="112" r="12" fill="#ff832b"/><circle cx="54" cy="112" r="7" fill="#ffb784"/>
+  <path d="M100 112 A26 26 0 0 1 152 112 Z" fill="#f3dfae"/>
+  <path d="M106 112 A20 20 0 0 1 146 112 Z" fill="#e8c66a" opacity="0.7"/>
+  <path d="M112 112 A14 14 0 0 1 140 112 Z" fill="#f3dfae"/>
+  <path d="M118 112 A8 8 0 0 1 134 112 Z" fill="#d9ad4b"/>
+  <path d="M126 86 q0 -8 6 -12" stroke="#7a9e4e" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
