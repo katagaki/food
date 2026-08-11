@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Soy sauce drizzled around the edge of the pan, sesame oil waiting">
+  <defs>
+    <linearGradient id="pan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c6066"/><stop offset="1" stop-color="#3c4046"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="126" rx="80" ry="8" fill="#000" opacity="0.25"/>
+  <path d="M30 62 L170 62 L160 110 Q100 122 40 110 Z" fill="url(#pan)"/>
+  <rect x="26" y="58" width="148" height="8" rx="4" fill="#6f747b"/>
+  <path d="M172 62 L198 56" stroke="#a97142" stroke-width="10" stroke-linecap="round"/>
+  <path d="M56 70 L144 70 L140 100 Q100 108 60 100 Z" fill="#ef8a8a"/>
+  <g fill="#fdeeea">
+    <ellipse cx="76" cy="82" rx="2.6" ry="3.8"/><ellipse cx="98" cy="86" rx="2.6" ry="3.8"/><ellipse cx="120" cy="82" rx="2.6" ry="3.8"/>
+  </g>
+  <path d="M46 74 Q48 88 54 96" stroke="#6b3f23" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M154 74 Q152 88 146 96" stroke="#6b3f23" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <g transform="translate(30,8)">
+    <rect x="0" y="10" width="18" height="30" rx="4" fill="#33383e"/>
+    <rect x="5" y="2" width="8" height="10" rx="2" fill="#fa4d56"/>
+    <path d="M22 34 Q30 44 34 56" stroke="#6b3f23" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(150,6)">
+    <rect x="0" y="12" width="20" height="30" rx="5" fill="#e2b04a"/>
+    <rect x="0" y="12" width="20" height="10" rx="5" fill="#f0c86e"/>
+    <rect x="6" y="4" width="8" height="10" rx="2" fill="#8a5a35"/>
+  </g>
+  <path d="M64 50 q-3 -6 0 -11 M136 50 q-3 -6 0 -11" stroke="#aab6c0" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M100 116 q-4 6 0 11" stroke="#ffb000" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

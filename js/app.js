@@ -30,7 +30,7 @@
     var active = currentId();
     var shown = manifest.filter(function (r) {
       if (!q) return true;
-      var hay = [r.title, r.description].concat(r.keywords || []).join(" ").toLowerCase();
+      var hay = [r.title].concat(r.keywords || []).join(" ").toLowerCase();
       return q.split(/\s+/).every(function (w) { return hay.indexOf(w) !== -1; });
     });
 
@@ -75,7 +75,6 @@
       '<div class="page">' +
       '<header class="recipe-header">' +
       "<h1>" + esc(r.title) + "</h1>" +
-      '<p class="lede">' + esc(r.lede) + "</p>" +
       '<div class="tags"><span class="tag blue">' + esc(r.time) + '</span><span class="tag">Serves ' + esc(r.serves) + "</span></div>" +
       "</header>" +
 

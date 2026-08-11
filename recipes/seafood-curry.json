@@ -1,30 +1,80 @@
 {
   "id": "seafood-curry",
   "title": "Seafood Curry",
-  "lede": "A seafood curry made with nothing but a frying pan. No pot required. Serves 1–2 and comes together in about 20 minutes.",
   "time": "20 min",
   "serves": "1–2",
   "ingredients": {
     "toBuy": [
-      { "item": "Frozen seafood mix", "note": "Shrimp, squid, and clams. Pre-cleaned, ready to use straight from the bag.", "amount": "1 bag (150 g)" },
-      { "item": "Microwavable packed rice", "note": "The heat-in-the-microwave kind.", "amount": "1 pack per person" }
+      {
+        "item": "Frozen seafood mix",
+        "note": "Shrimp, squid, and clams. Pre-cleaned, ready to use straight from the bag.",
+        "amount": "1 bag (150 g)"
+      },
+      {
+        "item": "Microwavable packed rice",
+        "note": "The heat-in-the-microwave kind.",
+        "amount": "1 pack per person"
+      }
     ],
     "fromThePantry": [
-      { "item": "Curry roux", "amount": "2 blocks" },
-      { "item": "Onion", "amount": "1/2, thinly sliced" },
-      { "item": "Carrots", "amount": "2 small, in thin quarter-rounds" },
-      { "item": "Butter", "amount": "1 tbsp, plus a little to finish" },
-      { "item": "Water", "amount": "250 ml" }
+      {
+        "item": "Curry roux",
+        "amount": "2 blocks"
+      },
+      {
+        "item": "Onion",
+        "amount": "1/2, thinly sliced"
+      },
+      {
+        "item": "Carrots",
+        "amount": "2 small, in thin quarter-rounds"
+      },
+      {
+        "item": "Butter",
+        "amount": "1 tbsp, plus a little to finish"
+      },
+      {
+        "item": "Water",
+        "amount": "250 ml"
+      }
     ]
   },
   "tools": [
-    { "name": "Frying pan with a lid", "required": true, "note": "The pan stands in for a pot. No lid? An upturned plate works too." },
-    { "name": "Knife", "required": true, "note": "For the onion and carrots. The seafood needs no cutting." },
-    { "name": "Cutting board", "required": true, "note": "A clean plate can stand in." },
-    { "name": "Spatula or large spoon", "required": true, "note": "For stir-frying and for dissolving the roux." },
-    { "name": "Microwave", "required": true, "note": "For the packed rice. 2 minutes at 500–600 W." },
-    { "name": "Measuring cup", "required": false, "note": "A mug is fine. A typical mug holds about 250 ml." },
-    { "name": "Peeler", "required": false, "note": "Carrot skin is edible. Wash well and you can skip peeling." }
+    {
+      "name": "Frying pan with a lid",
+      "required": true,
+      "note": "The pan stands in for a pot. No lid? An upturned plate works too."
+    },
+    {
+      "name": "Knife",
+      "required": true,
+      "note": "For the onion and carrots. The seafood needs no cutting."
+    },
+    {
+      "name": "Cutting board",
+      "required": true,
+      "note": "A clean plate can stand in."
+    },
+    {
+      "name": "Spatula or large spoon",
+      "required": true,
+      "note": "For stir-frying and for dissolving the roux."
+    },
+    {
+      "name": "Microwave",
+      "required": true,
+      "note": "For the packed rice. 2 minutes at 500–600 W."
+    },
+    {
+      "name": "Measuring cup",
+      "required": false,
+      "note": "A mug is fine. A typical mug holds about 250 ml."
+    },
+    {
+      "name": "Peeler",
+      "required": false,
+      "note": "Carrot skin is edible. Wash well and you can skip peeling."
+    }
   ],
   "steps": [
     {
@@ -69,9 +119,21 @@
     }
   ],
   "troubleshooting": [
-    { "problem": "Too thin", "solution": "The frozen seafood released water. Take the seafood out, simmer uncovered for 2 minutes to reduce, then return it." },
-    { "problem": "Too thick", "solution": "With the heat off, add water 2 tablespoons at a time, stirring after each addition." },
-    { "problem": "The roux won't dissolve", "solution": "Press it against the side of the pan with a spoon. It's pressure that breaks it down, not heat." },
-    { "problem": "The squid is rubbery", "solution": "It was simmered too long. Next time, start a 4-minute timer the moment the seafood goes in." }
+    {
+      "problem": "Too thin",
+      "solution": "The frozen seafood released water. Take the seafood out, simmer uncovered for 2 minutes to reduce, then return it."
+    },
+    {
+      "problem": "Too thick",
+      "solution": "With the heat off, add water 2 tablespoons at a time, stirring after each addition."
+    },
+    {
+      "problem": "The roux won't dissolve",
+      "solution": "Press it against the side of the pan with a spoon. It's pressure that breaks it down, not heat."
+    },
+    {
+      "problem": "The squid is rubbery",
+      "solution": "It was simmered too long. Next time, start a 4-minute timer the moment the seafood goes in."
+    }
   ]
 }

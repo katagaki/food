@@ -1,33 +1,92 @@
 {
   "id": "pork-bowl",
   "title": "Pork & Onion Rice Bowl",
-  "lede": "One frying pan, one cutting board. All you buy is thin-sliced pork and an onion. The heart of the flavor comes from good browning and a reduced sweet-soy glaze.",
   "time": "15 min",
   "serves": "1",
   "ingredients": {
     "toBuy": [
-      { "item": "Thin-sliced pork offcuts", "amount": "150 g" },
-      { "item": "Onion", "amount": "1/2" },
-      { "item": "Microwavable packed rice", "amount": "200 g" }
+      {
+        "item": "Thin-sliced pork offcuts",
+        "amount": "150 g"
+      },
+      {
+        "item": "Onion",
+        "amount": "1/2"
+      },
+      {
+        "item": "Microwavable packed rice",
+        "amount": "200 g"
+      }
     ],
     "fromThePantry": [
-      { "item": "Soy sauce", "amount": "2 tbsp" },
-      { "item": "Sugar", "amount": "1 tbsp" },
-      { "item": "Sake", "amount": "1 tbsp" },
-      { "item": "Water", "amount": "2 tbsp" },
-      { "item": "Cooking oil", "amount": "1 tsp" },
-      { "item": "Butter", "amount": "5 g", "optional": true },
-      { "item": "Ginger paste (tube)", "amount": "2 cm", "optional": true }
+      {
+        "item": "Soy sauce",
+        "amount": "2 tbsp"
+      },
+      {
+        "item": "Sugar",
+        "amount": "1 tbsp"
+      },
+      {
+        "item": "Sake",
+        "amount": "1 tbsp"
+      },
+      {
+        "item": "Water",
+        "amount": "2 tbsp"
+      },
+      {
+        "item": "Cooking oil",
+        "amount": "1 tsp"
+      },
+      {
+        "item": "Butter",
+        "amount": "5 g",
+        "optional": true
+      },
+      {
+        "item": "Ginger paste (tube)",
+        "amount": "2 cm",
+        "optional": true
+      }
     ]
   },
   "tools": [
-    { "name": "Frying pan (about 24 cm)", "required": true, "note": "For searing and reducing." },
-    { "name": "Cutting board", "required": true, "note": "For the onion." },
-    { "name": "Knife", "required": true, "note": "For the onion." },
-    { "name": "Cooking chopsticks or tongs", "required": true, "note": "For turning the meat and stirring." },
-    { "name": "Microwave", "required": true, "note": "For heating the packed rice." },
-    { "name": "Measuring spoons", "required": false, "note": "For the sauce." },
-    { "name": "Donburi bowl", "required": false, "note": "For serving." }
+    {
+      "name": "Frying pan (about 24 cm)",
+      "required": true,
+      "note": "For searing and reducing."
+    },
+    {
+      "name": "Cutting board",
+      "required": true,
+      "note": "For the onion."
+    },
+    {
+      "name": "Knife",
+      "required": true,
+      "note": "For the onion."
+    },
+    {
+      "name": "Cooking chopsticks or tongs",
+      "required": true,
+      "note": "For turning the meat and stirring."
+    },
+    {
+      "name": "Microwave",
+      "required": true,
+      "note": "For heating the packed rice."
+    },
+    {
+      "name": "Measuring spoons",
+      "required": false,
+      "note": "For the sauce."
+    },
+    {
+      "name": "Donburi bowl",
+      "required": false,
+      "note": "For serving."
+    }
   ],
   "steps": [
     {
@@ -65,11 +124,29 @@
     }
   ],
   "troubleshooting": [
-    { "problem": "The pork is tough or dry", "solution": "It was overcooked. Thin-sliced pork is nearly done the moment it's browned. About 30 seconds after flipping is plenty, and the sauce finishes the rest." },
-    { "problem": "The meat weeps water and won't brown", "solution": "The pan wasn't hot enough, or the meat was piled up. Wait until the oil shimmers with a wisp of smoke, then spread the pieces flat. 150 g is the most one pan can sear at once." },
-    { "problem": "The flavor is flat", "solution": "The sauce wasn't reduced enough. Stopped while still watery, it soaks into the rice and turns thin. Boil it down until it's glossy and slightly thick." },
-    { "problem": "Too salty", "solution": "Reduced too far. Add 1 tablespoon of water and bring it back to a brief simmer. Next time use 3 tablespoons of water for more margin." },
-    { "problem": "The onion tastes sharp", "solution": "It needed more heat. Cook until translucent, then give it one more minute in the sauce and the sharpness turns to sweetness." },
-    { "problem": "Want to add something extra", "solution": "Chopped scallions, shichimi pepper, an egg yolk, or mayonnaise. Pick exactly one. Stacking several muddies the flavor." }
+    {
+      "problem": "The pork is tough or dry",
+      "solution": "It was overcooked. Thin-sliced pork is nearly done the moment it's browned. About 30 seconds after flipping is plenty, and the sauce finishes the rest."
+    },
+    {
+      "problem": "The meat weeps water and won't brown",
+      "solution": "The pan wasn't hot enough, or the meat was piled up. Wait until the oil shimmers with a wisp of smoke, then spread the pieces flat. 150 g is the most one pan can sear at once."
+    },
+    {
+      "problem": "The flavor is flat",
+      "solution": "The sauce wasn't reduced enough. Stopped while still watery, it soaks into the rice and turns thin. Boil it down until it's glossy and slightly thick."
+    },
+    {
+      "problem": "Too salty",
+      "solution": "Reduced too far. Add 1 tablespoon of water and bring it back to a brief simmer. Next time use 3 tablespoons of water for more margin."
+    },
+    {
+      "problem": "The onion tastes sharp",
+      "solution": "It needed more heat. Cook until translucent, then give it one more minute in the sauce and the sharpness turns to sweetness."
+    },
+    {
+      "problem": "Want to add something extra",
+      "solution": "Chopped scallions, shichimi pepper, an egg yolk, or mayonnaise. Pick exactly one. Stacking several muddies the flavor."
+    }
   ]
 }

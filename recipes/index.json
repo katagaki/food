@@ -4,28 +4,65 @@
       "id": "seafood-curry",
       "file": "recipes/seafood-curry.json",
       "title": "Seafood Curry",
-      "description": "Seafood curry made entirely in a frying pan, with no pot needed.",
       "time": "20 min",
       "serves": "1–2",
-      "keywords": ["curry", "seafood", "shrimp", "squid", "rice", "one-pan", "frying pan", "quick"]
+      "keywords": [
+        "curry",
+        "seafood",
+        "shrimp",
+        "squid",
+        "rice",
+        "one-pan",
+        "frying pan",
+        "quick"
+      ]
     },
     {
       "id": "pork-bowl",
       "file": "recipes/pork-bowl.json",
       "title": "Pork & Onion Rice Bowl",
-      "description": "One pan, one cutting board. Browning and a reduced sweet-soy glaze do all the work.",
       "time": "15 min",
       "serves": "1",
-      "keywords": ["pork", "butadon", "donburi", "rice bowl", "onion", "soy sauce", "quick"]
+      "keywords": [
+        "pork",
+        "butadon",
+        "donburi",
+        "rice bowl",
+        "onion",
+        "soy sauce",
+        "quick"
+      ]
+    },
+    {
+      "id": "kimchi-fried-rice",
+      "file": "recipes/kimchi-fried-rice.json",
+      "title": "Kimchi Fried Rice",
+      "time": "15 min",
+      "serves": "1",
+      "keywords": [
+        "kimchi",
+        "fried rice",
+        "korean",
+        "egg",
+        "pork",
+        "spicy",
+        "quick"
+      ]
     },
     {
       "id": "cheese-risotto",
       "file": "recipes/cheese-risotto.json",
       "title": "Cheese Risotto",
-      "description": "No rinsing the rice, no pot. A simplified risotto where the water goes in all at once.",
       "time": "25 min",
       "serves": "1",
-      "keywords": ["risotto", "cheese", "bacon", "rice", "one-pan", "italian"]
+      "keywords": [
+        "risotto",
+        "cheese",
+        "bacon",
+        "rice",
+        "one-pan",
+        "italian"
+      ]
     }
   ]
 }

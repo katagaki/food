@@ -1,0 +1,140 @@
+{
+  "id": "kimchi-fried-rice",
+  "title": "Kimchi Fried Rice",
+  "time": "15 min",
+  "serves": "1",
+  "ingredients": {
+    "toBuy": [
+      {
+        "item": "Napa cabbage kimchi",
+        "note": "Riper and more sour is better here. Keep the juice.",
+        "amount": "150 g"
+      },
+      {
+        "item": "Thin-sliced pork belly or bacon",
+        "amount": "80 g"
+      },
+      {
+        "item": "Microwavable packed rice",
+        "amount": "200 g"
+      }
+    ],
+    "fromThePantry": [
+      {
+        "item": "Egg",
+        "amount": "1"
+      },
+      {
+        "item": "Soy sauce",
+        "amount": "1 tsp"
+      },
+      {
+        "item": "Sesame oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "item": "Cooking oil",
+        "amount": "1 tsp"
+      },
+      {
+        "item": "Sugar",
+        "amount": "1/2 tsp"
+      },
+      {
+        "item": "Gochujang",
+        "amount": "1 tsp",
+        "optional": true
+      },
+      {
+        "item": "Chopped scallion or toasted sesame",
+        "amount": "A little",
+        "optional": true
+      }
+    ]
+  },
+  "tools": [
+    {
+      "name": "Frying pan (about 24 cm)",
+      "required": true,
+      "note": "For frying everything, egg included."
+    },
+    {
+      "name": "Spatula",
+      "required": true,
+      "note": "For pressing the rice flat, not just stirring."
+    },
+    {
+      "name": "Kitchen scissors",
+      "required": true,
+      "note": "Cut the kimchi in a bowl. No cutting board needed."
+    },
+    {
+      "name": "Microwave",
+      "required": true,
+      "note": "For the packed rice. 2 minutes at 500 to 600 W."
+    },
+    {
+      "name": "Small bowl",
+      "required": false,
+      "note": "For holding the cut kimchi and its juice."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Snip the kimchi with scissors",
+      "text": "Put the kimchi in a small bowl with its juice and snip it into bite-size pieces with kitchen scissors. If the pork is in long strips, snip that too.",
+      "hint": "The juice is seasoning. Keep about a tablespoon of it in the bowl and you can skip measuring anything else later.",
+      "image": "img/kimchi-fried-rice-1.svg"
+    },
+    {
+      "title": "Microwave the rice for 2 minutes",
+      "text": "Heat the packed rice, then open it and let the steam escape for a minute. Slightly dry rice fries better than fresh, moist rice.",
+      "image": "img/kimchi-fried-rice-2.svg"
+    },
+    {
+      "title": "Fry the pork, then the kimchi",
+      "text": "Heat the oil over medium and fry the pork until the edges color. Add the kimchi, its juice, and the sugar, and fry for 2 minutes more.",
+      "hint": "Frying the kimchi properly is the whole recipe. Raw kimchi tastes sharp; fried kimchi turns savory and mellow.",
+      "image": "img/kimchi-fried-rice-3.svg"
+    },
+    {
+      "title": "Add the rice and press it flat",
+      "text": "Add the rice, break up the lumps, and mix until evenly pink. Then press everything flat with the spatula and leave it for a minute so the bottom toasts. Turn it over and press again.",
+      "hint": "Pressing, not constant stirring, is what makes the crispy bits.",
+      "image": "img/kimchi-fried-rice-4.svg"
+    },
+    {
+      "title": "Season around the edge of the pan",
+      "text": "Pour the soy sauce onto the bare metal around the edge so it scorches for a second, then stir it in. Add the gochujang here if you're using it. Kill the heat and stir in the sesame oil.",
+      "image": "img/kimchi-fried-rice-5.svg"
+    },
+    {
+      "title": "Fry an egg and put it on top",
+      "text": "Slide the rice onto a plate. In the same pan, fry the egg sunny-side up until the edges crisp but the yolk is still runny. Set it on the rice and scatter over the scallion or sesame.",
+      "hint": "Break the yolk at the table and mix as you eat. It softens the heat and ties everything together.",
+      "image": "img/kimchi-fried-rice-6.svg"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "It came out soggy",
+      "solution": "Too much kimchi juice, or the rice was too moist. Press it flat over medium heat for an extra minute or two per side. Next time, hold back some of the juice."
+    },
+    {
+      "problem": "Too sour",
+      "solution": "The kimchi was very ripe and needed more frying. Add another pinch of sugar and fry 2 minutes longer. Sourness mellows with heat."
+    },
+    {
+      "problem": "Tastes flat",
+      "solution": "Young kimchi has less to give. Add the gochujang, or another half teaspoon of soy sauce scorched at the edge of the pan."
+    },
+    {
+      "problem": "It sticks to the pan",
+      "solution": "The heat was too low, or there wasn't enough fat. Raise the heat slightly and add a small drizzle of oil before pressing."
+    },
+    {
+      "problem": "No pork belly",
+      "solution": "Bacon, canned tuna, or diced spam all work. For tuna, drain lightly and add it with the kimchi rather than frying it first."
+    }
+  ]
+}

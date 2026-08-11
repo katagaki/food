@@ -1,27 +1,63 @@
 {
   "id": "cheese-risotto",
   "title": "Cheese Risotto",
-  "lede": "No rinsing the rice, no pot, just one frying pan. Instead of ladling in stock bit by bit the traditional way, this simplified version adds all the water at once and simply simmers.",
   "time": "25 min",
   "serves": "1",
   "ingredients": {
     "toBuy": [
-      { "item": "Bacon (half-size slices)", "amount": "2 slices" },
-      { "item": "Grated cheese", "amount": "2 tbsp" }
+      {
+        "item": "Bacon (half-size slices)",
+        "amount": "2 slices"
+      },
+      {
+        "item": "Grated cheese",
+        "amount": "2 tbsp"
+      }
     ],
     "fromThePantry": [
-      { "item": "Rice (unwashed)", "amount": "1 cup (180 ml)" },
-      { "item": "Water", "amount": "400 ml" },
-      { "item": "Bouillon cube", "amount": "1" },
-      { "item": "Butter or olive oil", "amount": "10 g" },
-      { "item": "Salt and black pepper", "amount": "To taste" }
+      {
+        "item": "Rice (unwashed)",
+        "amount": "1 cup (180 ml)"
+      },
+      {
+        "item": "Water",
+        "amount": "400 ml"
+      },
+      {
+        "item": "Bouillon cube",
+        "amount": "1"
+      },
+      {
+        "item": "Butter or olive oil",
+        "amount": "10 g"
+      },
+      {
+        "item": "Salt and black pepper",
+        "amount": "To taste"
+      }
     ]
   },
   "tools": [
-    { "name": "Frying pan (about 24 cm)", "required": true, "note": "Handles everything from frying to simmering." },
-    { "name": "Wooden spatula or cooking chopsticks", "required": true, "note": "For stirring the bottom while it simmers." },
-    { "name": "Measuring cup", "required": false, "note": "A 500 ml bottle filled to about 80% works too." },
-    { "name": "Lid", "required": false, "note": "For an extra steam if the rice is still chalky at the end." }
+    {
+      "name": "Frying pan (about 24 cm)",
+      "required": true,
+      "note": "Handles everything from frying to simmering."
+    },
+    {
+      "name": "Wooden spatula or cooking chopsticks",
+      "required": true,
+      "note": "For stirring the bottom while it simmers."
+    },
+    {
+      "name": "Measuring cup",
+      "required": false,
+      "note": "A 500 ml bottle filled to about 80% works too."
+    },
+    {
+      "name": "Lid",
+      "required": false,
+      "note": "For an extra steam if the rice is still chalky at the end."
+    }
   ],
   "steps": [
     {
@@ -59,10 +95,25 @@
     }
   ],
   "troubleshooting": [
-    { "problem": "The bottom scorched", "solution": "The heat was too high. Drop it to the lowest setting and stir every 2 minutes instead. Don't stir the burnt layer in. Scoop only from the top when serving." },
-    { "problem": "Still chalky after 15 minutes", "solution": "Not enough water. Add 50 ml at a time and check every 3 minutes. A lid speeds things up, but traps moisture, so take it off and reduce for a final minute." },
-    { "problem": "It's loose, like soup", "solution": "Raise to medium heat and reduce for about a minute while stirring. It tightens a little from residual heat after plating, so stop while it's just slightly loose." },
-    { "problem": "No bouillon cube", "solution": "A scant teaspoon of salt plus a teaspoon of mentsuyu (if you have it) stands in. The bacon brings salt too, so hold back and adjust by taste at the end." },
-    { "problem": "The bacon was sold out", "solution": "Two sausages or a can of tuna works instead. For tuna, add it oil and all, and halve the butter." }
+    {
+      "problem": "The bottom scorched",
+      "solution": "The heat was too high. Drop it to the lowest setting and stir every 2 minutes instead. Don't stir the burnt layer in. Scoop only from the top when serving."
+    },
+    {
+      "problem": "Still chalky after 15 minutes",
+      "solution": "Not enough water. Add 50 ml at a time and check every 3 minutes. A lid speeds things up, but traps moisture, so take it off and reduce for a final minute."
+    },
+    {
+      "problem": "It's loose, like soup",
+      "solution": "Raise to medium heat and reduce for about a minute while stirring. It tightens a little from residual heat after plating, so stop while it's just slightly loose."
+    },
+    {
+      "problem": "No bouillon cube",
+      "solution": "A scant teaspoon of salt plus a teaspoon of mentsuyu (if you have it) stands in. The bacon brings salt too, so hold back and adjust by taste at the end."
+    },
+    {
+      "problem": "The bacon was sold out",
+      "solution": "Two sausages or a can of tuna works instead. For tuna, add it oil and all, and halve the butter."
+    }
   ]
 }
