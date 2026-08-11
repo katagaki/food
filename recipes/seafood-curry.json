@@ -1,0 +1,77 @@
+{
+  "id": "seafood-curry",
+  "title": "One-Pan Seafood Curry",
+  "lede": "A seafood curry made with nothing but a frying pan — no pot required. Serves 1–2 and comes together in about 20 minutes.",
+  "time": "20 min",
+  "serves": "1–2",
+  "ingredients": {
+    "toBuy": [
+      { "item": "Frozen seafood mix", "note": "Shrimp, squid, and clams. Pre-cleaned, ready to use straight from the bag.", "amount": "1 bag (150 g)" },
+      { "item": "Microwavable packed rice", "note": "The heat-in-the-microwave kind.", "amount": "1 pack per person" }
+    ],
+    "fromThePantry": [
+      { "item": "Curry roux", "amount": "2 blocks" },
+      { "item": "Onion", "amount": "1/2, thinly sliced" },
+      { "item": "Carrots", "amount": "2 small, in thin quarter-rounds" },
+      { "item": "Butter", "amount": "1 tbsp, plus a little to finish" },
+      { "item": "Water", "amount": "250 ml" }
+    ]
+  },
+  "tools": [
+    { "name": "Frying pan with a lid", "required": true, "note": "The pan stands in for a pot. No lid? An upturned plate works too." },
+    { "name": "Knife", "required": true, "note": "For the onion and carrots. The seafood needs no cutting." },
+    { "name": "Cutting board", "required": true, "note": "A clean plate can stand in." },
+    { "name": "Spatula or large spoon", "required": true, "note": "For stir-frying and for dissolving the roux." },
+    { "name": "Microwave", "required": true, "note": "For the packed rice. 2 minutes at 500–600 W." },
+    { "name": "Measuring cup", "required": false, "note": "A mug is fine — a typical mug holds about 250 ml." },
+    { "name": "Peeler", "required": false, "note": "Carrot skin is edible. Wash well and you can skip peeling." }
+  ],
+  "steps": [
+    {
+      "title": "Cut the vegetables small",
+      "text": "Slice the onion thinly, and cut the carrots into thin quarter-rounds about 3 mm thick.",
+      "hint": "A frying pan holds less water than a pot, so thin slices are the trick to cooking everything through before the liquid reduces away.",
+      "image": "img/seafood-curry-1.svg"
+    },
+    {
+      "title": "Melt 1 tbsp of butter over medium heat",
+      "text": "Add the carrots and cook for 2 minutes, then add the onion and cook 3 minutes more, until translucent.",
+      "hint": "Don't turn the heat up high. Butter burns at high temperatures and turns bitter.",
+      "image": "img/seafood-curry-2.svg"
+    },
+    {
+      "title": "Add 250 ml of water and cover",
+      "text": "Once it boils, drop the heat to low and simmer, covered, for 8 minutes.",
+      "hint": "Poke a carrot with the tip of a knife to check. If it slides in without resistance, it's done.",
+      "image": "img/seafood-curry-3.svg"
+    },
+    {
+      "title": "Turn off the heat before adding the roux",
+      "text": "Break in the 2 blocks and stir until completely dissolved.",
+      "hint": "Turning off the heat matters. Roux added to boiling liquid goes lumpy, and it scorches in a thin pan.",
+      "image": "img/seafood-curry-4.svg"
+    },
+    {
+      "title": "Add the seafood straight from frozen",
+      "text": "Return to low heat and simmer for 4 minutes, stirring gently.",
+      "hint": "When the shrimp turn opaque and the squid curls up, it's cooked. Any longer and the squid turns rubbery.",
+      "image": "img/seafood-curry-5.svg"
+    },
+    {
+      "title": "Microwave the rice for 2 minutes",
+      "text": "Turn it out onto a plate and fluff it with a spoon.",
+      "image": "img/seafood-curry-6.svg"
+    },
+    {
+      "title": "Finish with a little butter and serve",
+      "text": "Ladle the curry beside the rice rather than on top. Eat while it's hot.",
+      "image": "img/seafood-curry-7.svg"
+    }
+  ],
+  "troubleshooting": [
+    { "problem": "Too thin", "solution": "The frozen seafood released water. Take the seafood out, simmer uncovered for 2 minutes to reduce, then return it." },
+    { "problem": "Too thick", "solution": "With the heat off, add water 2 tablespoons at a time, stirring after each addition." },
+    { "problem": "The roux won't dissolve", "solution": "Press it against the side of the pan with a spoon. It's pressure that breaks it down, not heat." },
+    { "problem": "The squid is rubbery", "solution": "It was simmered too long. Next time, start a 4-minute timer the moment the seafood goes in." }
+  ]
+}
