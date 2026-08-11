@@ -54,22 +54,10 @@
   function renderHome() {
     document.title = "One-Pan Food";
     contentEl.innerHTML =
-      '<div class="page">' +
-      '<div class="home-hero">' +
+      '<div class="home-empty">' +
       "<h1>What are you cooking?</h1>" +
-      '<p class="lede">Simple recipes that lean on one frying pan and a microwave. Pick one from the sidebar, or start below.</p>' +
-      "</div>" +
-      '<div class="home-cards">' +
-      manifest.map(function (r) {
-        return (
-          '<a class="home-card" href="#/' + esc(r.id) + '">' +
-          "<h3>" + esc(r.title) + "</h3>" +
-          "<p>" + esc(r.description) + "</p>" +
-          '<span class="meta">' + esc(r.time) + " &middot; serves " + esc(r.serves) + "</span>" +
-          "</a>"
-        );
-      }).join("") +
-      "</div></div>";
+      '<p class="lede">Select a recipe from the sidebar to get started.</p>' +
+      "</div>";
   }
 
   function ingredientItem(i) {
