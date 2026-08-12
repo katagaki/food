@@ -8,6 +8,12 @@ A static single-page recipe app. Recipe data lives in `recipes/` as JSON, step i
 - Avoid AI-writing tropes in general: no "it's not X, it's Y" constructions, no breathless adjectives, no rule-of-three padding. Write plainly, like a good cookbook.
 - All user-facing text is English.
 
+## UI rules
+
+- All text is non-selectable (`user-select: none` on `body`), except the recipe content itself: `.content .page` re-enables selection with `user-select: text`. Keep any new UI (sidebar, buttons, empty states) non-selectable.
+- Links and clickable controls use the default cursor. Never use `cursor: pointer`.
+- The sidebar recipe list is sorted alphabetically by title, ascending. The sort happens in `js/app.js` after the manifest loads; do not rely on the order in `recipes/index.json`.
+
 ## SVG style rules
 
 Step illustrations in `img/` share one visual language:

@@ -1,21 +1,42 @@
-<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kimchi being snipped into pieces with scissors over a small bowl">
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scissors snipping a kimchi leaf into a bowl of kimchi and juice">
   <defs>
     <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#e8edf2"/><stop offset="1" stop-color="#b9c2cb"/>
+      <stop offset="0" stop-color="#f4f6f8"/><stop offset="1" stop-color="#c2cad2"/>
     </linearGradient>
   </defs>
-  <ellipse cx="96" cy="128" rx="66" ry="8" fill="#000" opacity="0.25"/>
-  <path d="M40 76 L152 76 L140 120 Q96 130 52 120 Z" fill="url(#bowl)"/>
-  <path d="M40 76 L152 76 L150 84 L42 84 Z" fill="#ffffff"/>
-  <path d="M50 90 Q96 100 142 90 L136 112 Q96 120 56 112 Z" fill="#e33b3b"/>
-  <path d="M58 96 q8 -5 14 0 M84 99 q8 -5 14 0 M112 96 q8 -5 14 0" stroke="#f7736d" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M70 44 q10 -6 20 -2 q8 4 4 12 q-10 4 -20 0 Z" fill="#fa4d56"/>
-  <path d="M74 46 q8 -4 15 0" stroke="#ffd7d9" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <g transform="translate(118,26) rotate(28)">
-    <line x1="0" y1="0" x2="34" y2="22" stroke="#8f959c" stroke-width="5" stroke-linecap="round"/>
-    <line x1="0" y1="22" x2="34" y2="0" stroke="#aeb6bf" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="-4" cy="-2" r="7" fill="none" stroke="#33b1ff" stroke-width="4"/>
-    <circle cx="-4" cy="24" r="7" fill="none" stroke="#33b1ff" stroke-width="4"/>
+  <ellipse cx="100" cy="132" rx="66" ry="8" fill="#000" opacity="0.25"/>
+
+  <!-- Bowl of kimchi -->
+  <path d="M42 84 L158 84 L146 124 Q100 134 54 124 Z" fill="url(#bowl)"/>
+  <path d="M42 84 L158 84 L156 92 L44 92 Z" fill="#ffffff"/>
+  <path d="M52 96 Q100 106 148 96 L142 118 Q100 126 58 118 Z" fill="#e33b3b"/>
+  <path d="M60 102 q8 -5 15 0 M88 106 q8 -5 15 0 M116 102 q8 -5 15 0" stroke="#f7736d" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="74" cy="112" r="2" fill="#7d1f26"/>
+  <circle cx="104" cy="114" r="2" fill="#7d1f26"/>
+  <circle cx="130" cy="110" r="2" fill="#7d1f26"/>
+
+  <!-- Kimchi leaf hanging into the bowl, cream stem inside red leaf -->
+  <path d="M88 24 Q80 42 90 56 Q98 68 92 82" stroke="#fa4d56" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M88 24 Q80 42 90 56 Q98 68 92 82" stroke="#f3dfae" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Scissors: blades crossing at the pivot, ring handles -->
+  <line x1="84" y1="18" x2="118" y2="34" stroke="#cfd6dd" stroke-width="6" stroke-linecap="round"/>
+  <line x1="84" y1="50" x2="118" y2="34" stroke="#9aa2ab" stroke-width="6" stroke-linecap="round"/>
+  <line x1="118" y1="34" x2="134" y2="26" stroke="#cfd6dd" stroke-width="5" stroke-linecap="round"/>
+  <line x1="118" y1="34" x2="134" y2="44" stroke="#9aa2ab" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="142" cy="22" r="8" fill="none" stroke="#4a90d9" stroke-width="5"/>
+  <circle cx="144" cy="46" r="8" fill="none" stroke="#4a90d9" stroke-width="5"/>
+  <circle cx="118" cy="34" r="3.5" fill="#33383e"/>
+
+  <!-- Cut pieces falling toward the bowl -->
+  <g transform="rotate(-14 66 64)">
+    <rect x="58" y="58" width="16" height="11" rx="4" fill="#e33b3b"/>
+    <rect x="61" y="62" width="10" height="3" rx="1.5" fill="#f3dfae"/>
   </g>
-  <path d="M96 58 L96 70 M91 65 L96 71 L101 65" stroke="#fa4d56" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="rotate(12 56 84)">
+    <rect x="50" y="79" width="12" height="9" rx="3.5" fill="#fa4d56"/>
+  </g>
+  <path d="M70 74 q-3 5 -6 8 M58 92 q-2 4 -4 6" stroke="#f7736d" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="118" cy="72" r="2.5" fill="#e33b3b"/>
+  <circle cx="126" cy="80" r="2" fill="#fa4d56"/>
 </svg>

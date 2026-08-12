@@ -197,7 +197,9 @@
       return res.json();
     })
     .then(function (data) {
-      manifest = data.recipes || [];
+      manifest = (data.recipes || []).slice().sort(function (a, b) {
+        return a.title.localeCompare(b.title);
+      });
       route();
     })
     .catch(function () {

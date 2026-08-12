@@ -39,7 +39,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-variant-numeric: tabular-nums;
+  -webkit-user-select: none;
+  user-select: none;
 }
+
+/* Recipe content is the only selectable text */
+.content .page {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+a { cursor: default; }
 
 /* ---------- Side navigation ---------- */
 .sidenav {
@@ -172,7 +182,7 @@ body {
   background: var(--layer-01);
   border: 1px solid var(--border-subtle);
   color: var(--text-primary);
-  cursor: pointer;
+  cursor: default;
   padding: 0;
 }
 
