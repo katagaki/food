@@ -78,7 +78,7 @@ a { cursor: default; }
 
 .sidenav-title:focus-visible,
 .recipe-link:focus-visible,
-.menu-toggle:focus-visible {
+.back-btn:focus-visible {
   outline: 2px solid var(--focus);
   outline-offset: -2px;
 }
@@ -171,15 +171,15 @@ a { cursor: default; }
   border-top: 1px solid var(--border-subtle);
 }
 
-/* ---------- Mobile toggle ---------- */
-.menu-toggle {
+/* ---------- Mobile back button ---------- */
+.back-btn {
   display: none;
   position: fixed;
-  top: 12px;
-  left: 12px;
-  z-index: 30;
-  width: 40px;
-  height: 40px;
+  top: calc(8px + env(safe-area-inset-top));
+  left: calc(8px + env(safe-area-inset-left));
+  z-index: 40;
+  width: 44px;
+  height: 44px;
   align-items: center;
   justify-content: center;
   background: var(--layer-01);
@@ -187,14 +187,6 @@ a { cursor: default; }
   color: var(--text-primary);
   cursor: default;
   padding: 0;
-}
-
-.scrim {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 15;
 }
 
 /* ---------- Content ---------- */
@@ -444,34 +436,39 @@ dl.trouble dd:last-child { border-bottom: none; }
 }
 
 @media (max-width: 720px) {
-  .menu-toggle {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    top: calc(8px + env(safe-area-inset-top));
-    left: calc(8px + env(safe-area-inset-left));
-    /* Below the drawer, so the open drawer covers it; close via scrim or Escape */
-    z-index: 16;
-  }
-
+  /* The recipe list is the root view; recipes push in from the right
+     like a navigation stack, with the list sliding partly out behind them. */
   .sidenav {
-    transform: translateX(-100%);
-    transition: transform 160ms ease-out;
-    width: min(var(--sidenav-width), 84vw);
+    width: 100%;
+    border-right: none;
+    transform: none;
+    transition: transform 240ms ease;
     padding-top: env(safe-area-inset-top);
     padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
   }
 
-  body.nav-open .sidenav { transform: translateX(0); }
-  body.nav-open .scrim { display: block; }
-  body.nav-open { overflow: hidden; }
+  body.recipe-open .sidenav { transform: translateX(-30%); }
+
+  .content {
+    position: fixed;
+    inset: 0;
+    margin-left: 0;
+    z-index: 25;
+    background: var(--bg);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    transform: translateX(100%);
+    transition: transform 240ms ease;
+  }
+
+  body.recipe-open .content { transform: translateX(0); }
+  body.recipe-open .back-btn { display: flex; }
 
   /* 16px stops iOS from zooming the page when the field is focused */
   #search { font-size: 16px; padding-top: 12px; padding-bottom: 12px; }
 
   .recipe-link { padding: 14px var(--sp-4); }
-
-  .content { margin-left: 0; }
 
   .page {
     padding: calc(64px + env(safe-area-inset-top)) var(--sp-4) calc(48px + env(safe-area-inset-bottom));
@@ -499,6 +496,10 @@ dl.trouble dd:last-child { border-bottom: none; }
     margin-top: 0;
   }
 
-  /* No homepage on mobile: the recipe drawer opens instead */
+  /* No homepage on mobile: the recipe list is the root view */
   .home-empty { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidenav, .content { transition: none; }
 }

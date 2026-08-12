@@ -4,8 +4,7 @@
   var listEl = document.getElementById("recipeList");
   var contentEl = document.getElementById("content");
   var searchEl = document.getElementById("search");
-  var menuToggle = document.getElementById("menuToggle");
-  var scrim = document.getElementById("scrim");
+  var backBtn = document.getElementById("backBtn");
 
   var manifest = [];
   var cache = {};
@@ -151,45 +150,37 @@
       });
   }
 
-  var mobileQuery = window.matchMedia("(max-width: 720px)");
-
   function route() {
     var id = currentId();
     renderList(searchEl.value);
     if (id) {
-      closeNav();
+      // Pushes the recipe view onto the stack on mobile
+      document.body.classList.add("recipe-open");
       loadRecipe(id);
     } else {
+      document.body.classList.remove("recipe-open");
       renderHome();
-      // On mobile there is no homepage: the recipe list itself is the start screen
-      if (mobileQuery.matches) openNav();
-      else closeNav();
     }
     contentEl.scrollTop = 0;
     window.scrollTo(0, 0);
   }
 
-  /* ---------- Mobile nav ---------- */
+  /* ---------- Mobile navigation stack ---------- */
 
-  function openNav() {
-    document.body.classList.add("nav-open");
-    menuToggle.setAttribute("aria-expanded", "true");
+  function popToList() {
+    location.hash = "#/";
   }
 
-  function closeNav() {
-    document.body.classList.remove("nav-open");
-    menuToggle.setAttribute("aria-expanded", "false");
-  }
-
-  menuToggle.addEventListener("click", function () {
-    if (document.body.classList.contains("nav-open")) closeNav();
-    else openNav();
-  });
-
-  scrim.addEventListener("click", closeNav);
+  backBtn.addEventListener("click", popToList);
 
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") closeNav();
+    if (
+      e.key === "Escape" &&
+      document.body.classList.contains("recipe-open") &&
+      window.matchMedia("(max-width: 720px)").matches
+    ) {
+      popToList();
+    }
   });
 
   /* ---------- Boot ---------- */

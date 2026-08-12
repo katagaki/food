@@ -1,6 +1,6 @@
 # One-Pan Food
 
-A static single-page recipe app. Recipe data lives in `recipes/` as JSON, step illustrations in `img/` as SVG. The original reference pages are in `orig/` (Japanese; the site itself is English only). The site title is "One-Pan Food"; individual recipe titles do not repeat the "One-Pan" wording.
+A static single-page recipe app. Recipe data lives in `recipes/` as JSON, step illustrations in `img/` as SVG. All site content is English only. The site title is "One-Pan Food"; individual recipe titles do not repeat the "One-Pan" wording.
 
 ## Copy style rules
 
@@ -13,6 +13,7 @@ A static single-page recipe app. Recipe data lives in `recipes/` as JSON, step i
 - All text is non-selectable (`user-select: none` on `body`), except the recipe content itself: `.content .page` re-enables selection with `user-select: text`. Keep any new UI (sidebar, buttons, empty states) non-selectable.
 - Links and clickable controls use the default cursor. Never use `cursor: pointer`.
 - The sidebar recipe list is sorted alphabetically by title, ascending. The sort happens in `js/app.js` after the manifest loads; do not rely on the order in `recipes/index.json`.
+- On mobile (720px and below) there is no drawer and no homepage: the sidebar recipe list is the root view, and opening a recipe pushes the recipe view in from the right like a navigation stack (`body.recipe-open`), with a fixed back button to pop it. Desktop keeps the permanent sidebar plus content layout.
 
 ## SVG style rules
 
