@@ -96,6 +96,38 @@
         "quick",
         "easy"
       ]
+    },
+    {
+      "id": "chicken-rice",
+      "file": "recipes/chicken-rice.json",
+      "title": "Ketchup Chicken Rice",
+      "time": "20 min",
+      "serves": "1",
+      "keywords": [
+        "chicken",
+        "rice",
+        "ketchup",
+        "omurice",
+        "onion",
+        "fried rice",
+        "one-pan"
+      ]
+    },
+    {
+      "id": "sausage-cabbage",
+      "file": "recipes/sausage-cabbage.json",
+      "title": "Sausage & Cabbage Stir-Fry",
+      "time": "15 min",
+      "serves": "1",
+      "keywords": [
+        "sausage",
+        "cabbage",
+        "stir-fry",
+        "mustard",
+        "soy sauce",
+        "vegetables",
+        "quick"
+      ]
     }
   ]
 }

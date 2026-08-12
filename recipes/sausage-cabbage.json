@@ -1,0 +1,120 @@
+{
+  "id": "sausage-cabbage",
+  "title": "Sausage & Cabbage Stir-Fry",
+  "time": "15 min",
+  "serves": "1",
+  "ingredients": {
+    "toBuy": [
+      {
+        "item": "Sausages",
+        "amount": "4 (about 120 g)"
+      },
+      {
+        "item": "Cabbage",
+        "amount": "1/4 head (about 250 g)"
+      }
+    ],
+    "fromThePantry": [
+      {
+        "item": "Cooking oil",
+        "amount": "1 tsp"
+      },
+      {
+        "item": "Soy sauce",
+        "amount": "2 tsp"
+      },
+      {
+        "item": "Whole-grain mustard",
+        "amount": "2 tsp"
+      },
+      {
+        "item": "Black pepper",
+        "amount": "to taste"
+      },
+      {
+        "item": "Salt",
+        "amount": "a pinch",
+        "optional": true
+      }
+    ]
+  },
+  "tools": [
+    {
+      "name": "Frying pan (about 24 cm)",
+      "required": true,
+      "note": "A big pan helps, cabbage starts bulky."
+    },
+    {
+      "name": "Cutting board",
+      "required": true,
+      "note": "For the cabbage and sausages."
+    },
+    {
+      "name": "Knife",
+      "required": true,
+      "note": "For the cabbage and sausages."
+    },
+    {
+      "name": "Cooking chopsticks or tongs",
+      "required": true,
+      "note": "For tossing."
+    },
+    {
+      "name": "Small bowl",
+      "required": false,
+      "note": "For mixing the soy sauce and mustard."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cut everything first",
+      "text": "Tear or cut the cabbage into rough 4 cm squares, discarding the thick core. Slice the sausages diagonally into coins about 1 cm thick. Stir the soy sauce and mustard together in a small bowl.",
+      "hint": "Diagonal cuts give the sausage more browning surface, and the sauce must be ready because the end goes fast.",
+      "image": "img/sausage-cabbage-1.svg"
+    },
+    {
+      "title": "Brown the sausage",
+      "text": "Heat the oil over medium-high. Spread the sausage coins in one layer and cook about 2 minutes, turning once, until both sides pick up color and the fat starts to run.",
+      "image": "img/sausage-cabbage-2.svg"
+    },
+    {
+      "title": "Add the cabbage and leave it alone",
+      "text": "Pile in all the cabbage. It looks like too much, it isn't. Let it sit untouched for 1 minute so the bottom layer chars a little, then toss and repeat: rest, toss, rest.",
+      "hint": "Constant stirring steams the cabbage. Letting it sit against the hot pan is what gives you sweet, browned edges.",
+      "image": "img/sausage-cabbage-3.svg"
+    },
+    {
+      "title": "Cook until just tender",
+      "text": "After 3 to 4 minutes the cabbage should be glossy and wilted at the edges but still have crunch in the thick parts. Kill the heat there, it keeps cooking in the pan.",
+      "image": "img/sausage-cabbage-4.svg"
+    },
+    {
+      "title": "Sauce, toss, and serve",
+      "text": "Pour the soy and mustard mixture around the edge of the pan, toss everything for 30 seconds, and plate. Finish with plenty of black pepper. Taste first, the sausage may carry enough salt on its own.",
+      "hint": "Sauce poured onto the hot pan edge sizzles and gets aromatic. Poured on the vegetables it just makes them wet.",
+      "image": "img/sausage-cabbage-5.svg"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "The cabbage is watery",
+      "solution": "The heat was too low or it was stirred nonstop. High heat and patience: let it press against the pan, toss briefly, and repeat. Salting early also draws water out, so season only at the end."
+    },
+    {
+      "problem": "The cabbage is still tough",
+      "solution": "The pieces were too big or the core sneaked in. Thick ribs take longest, cut them thinner than the leaves next time, or give the pan 1 more minute with a splash of water and a brief lid."
+    },
+    {
+      "problem": "It's too salty",
+      "solution": "Sausages vary a lot. With saltier brands, halve the soy sauce, the mustard alone carries plenty of flavor."
+    },
+    {
+      "problem": "No whole-grain mustard",
+      "solution": "Dijon works, use a little less. Even plain yellow mustard is fine. Or skip it and add a small knob of butter with the soy sauce instead."
+    },
+    {
+      "problem": "It feels thin as a meal",
+      "solution": "Serve it over rice, or push everything aside at the end and fry an egg in the empty half. Both turn it into dinner."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "chicken-rice",
+  "title": "Ketchup Chicken Rice",
+  "time": "20 min",
+  "serves": "1",
+  "ingredients": {
+    "toBuy": [
+      {
+        "item": "Chicken thigh, boneless",
+        "amount": "150 g"
+      },
+      {
+        "item": "Onion",
+        "amount": "1/2"
+      },
+      {
+        "item": "Microwavable packed rice",
+        "amount": "200 g"
+      }
+    ],
+    "fromThePantry": [
+      {
+        "item": "Ketchup",
+        "amount": "3 tbsp"
+      },
+      {
+        "item": "Cooking oil",
+        "amount": "1 tsp"
+      },
+      {
+        "item": "Salt",
+        "amount": "a pinch"
+      },
+      {
+        "item": "Black pepper",
+        "amount": "to taste"
+      },
+      {
+        "item": "Butter",
+        "amount": "10 g",
+        "optional": true
+      },
+      {
+        "item": "Soy sauce",
+        "amount": "1 tsp",
+        "optional": true
+      }
+    ]
+  },
+  "tools": [
+    {
+      "name": "Frying pan (about 24 cm)",
+      "required": true,
+      "note": "Everything cooks in it."
+    },
+    {
+      "name": "Cutting board",
+      "required": true,
+      "note": "For the chicken and onion."
+    },
+    {
+      "name": "Knife",
+      "required": true,
+      "note": "For the chicken and onion."
+    },
+    {
+      "name": "Spatula or rice paddle",
+      "required": true,
+      "note": "For breaking up and tossing the rice."
+    },
+    {
+      "name": "Microwave",
+      "required": true,
+      "note": "For heating the packed rice."
+    },
+    {
+      "name": "Measuring spoons",
+      "required": false,
+      "note": "For the ketchup."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cut the chicken and onion",
+      "text": "Cut the chicken into bite-size pieces, about 2 cm, and season with the salt. Dice the onion into small pieces, around 5 mm. This is the only knife work, so wash the board and knife now.",
+      "hint": "Raw chicken touched the board, so wash it with soap and hot water, not just a rinse.",
+      "image": "img/chicken-rice-1.svg"
+    },
+    {
+      "title": "Brown the chicken",
+      "text": "Heat the oil over medium-high. Lay the chicken in skin side down and leave it for 2 to 3 minutes, until well browned, then flip and cook 1 minute more. It can stay slightly underdone inside, it finishes with the rice.",
+      "hint": "As with any searing, the less you poke it, the better the color.",
+      "image": "img/chicken-rice-2.svg"
+    },
+    {
+      "title": "Soften the onion",
+      "text": "Add the onion and cook for about 2 minutes, stirring, until translucent. While it cooks, microwave the packed rice as directed so it's hot and ready.",
+      "image": "img/chicken-rice-3.svg"
+    },
+    {
+      "title": "Fry the ketchup",
+      "text": "Push everything to one side and squeeze the ketchup onto the empty half. Let it bubble for 30 seconds, stirring just the ketchup, until it darkens slightly and smells sweet instead of sharp.",
+      "hint": "This little step cooks off the raw sourness and is what separates good chicken rice from rice with ketchup on it.",
+      "image": "img/chicken-rice-4.svg"
+    },
+    {
+      "title": "Add the rice and toss",
+      "text": "Add the hot rice and break it up with the spatula, folding until every grain is evenly orange, about 2 minutes. If you're using butter or soy sauce, add it now and toss once more. Finish with black pepper.",
+      "hint": "Hot rice separates easily. Cold rice clumps and tears, so heat it first, always.",
+      "image": "img/chicken-rice-5.svg"
+    },
+    {
+      "title": "Plate it",
+      "text": "Taste, adjust with a pinch of salt if needed, and mound it onto a plate. A little extra ketchup on top is traditional, and a fried egg on top is even better if you have one spare.",
+      "image": "img/chicken-rice-6.svg"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "The rice turned mushy",
+      "solution": "Too much stirring after the rice went in, or the rice was overheated and wet. Fold gently to coat rather than mashing, and use the standard heating time on the pack, no longer."
+    },
+    {
+      "problem": "It tastes sour or raw",
+      "solution": "The ketchup wasn't fried. Give it its 30 seconds alone in the pan next time. If the dish is already mixed, keep tossing over medium heat for another minute or two and the sharpness fades."
+    },
+    {
+      "problem": "The color is patchy",
+      "solution": "The ketchup was dropped on top of the rice instead of under it. Frying it first, then folding the rice through, coats evenly. Streaks fix themselves with another minute of folding."
+    },
+    {
+      "problem": "The chicken is dry",
+      "solution": "It was fully cooked before the rice stage. Brown it well on the outside but pull the pan together while the center is still a touch pink, the last few minutes of tossing finish it."
+    },
+    {
+      "problem": "It's bland",
+      "solution": "Ketchup alone can fall flat. The optional teaspoon of soy sauce or knob of butter rounds it out, and enough salt on the chicken at the start matters more than it seems."
+    },
+    {
+      "problem": "Want the omurice experience",
+      "solution": "Beat 2 eggs with a pinch of salt, wipe the empty pan, and cook a soft thin omelet in butter. Slide it over the mounded rice and let it drape."
+    }
+  ]
+}
