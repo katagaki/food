@@ -63,6 +63,39 @@
         "one-pan",
         "italian"
       ]
+    },
+    {
+      "id": "spaghetti-carbonara",
+      "file": "recipes/spaghetti-carbonara.json",
+      "title": "Spaghetti Carbonara",
+      "time": "20 min",
+      "serves": "1",
+      "keywords": [
+        "carbonara",
+        "spaghetti",
+        "pasta",
+        "bacon",
+        "egg",
+        "parmesan",
+        "one-pan",
+        "italian"
+      ]
+    },
+    {
+      "id": "butter-toast",
+      "file": "recipes/butter-toast.json",
+      "title": "Butter Toast",
+      "time": "10 min",
+      "serves": "1",
+      "keywords": [
+        "toast",
+        "bread",
+        "butter",
+        "breakfast",
+        "frying pan",
+        "quick",
+        "easy"
+      ]
     }
   ]
 }

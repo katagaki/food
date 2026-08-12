@@ -1,0 +1,99 @@
+{
+  "id": "butter-toast",
+  "title": "Butter Toast",
+  "time": "10 min",
+  "serves": "1",
+  "ingredients": {
+    "toBuy": [
+      {
+        "item": "Thick-cut bread (about 3 cm)",
+        "amount": "1 slice"
+      }
+    ],
+    "fromThePantry": [
+      {
+        "item": "Butter",
+        "amount": "15 g"
+      },
+      {
+        "item": "Salt",
+        "amount": "a small pinch",
+        "optional": true
+      },
+      {
+        "item": "Honey",
+        "amount": "1 tsp",
+        "optional": true
+      }
+    ]
+  },
+  "tools": [
+    {
+      "name": "Frying pan (any size)",
+      "required": true,
+      "note": "A lid helps but is not required."
+    },
+    {
+      "name": "Spatula or tongs",
+      "required": true,
+      "note": "For flipping and pressing."
+    },
+    {
+      "name": "Butter knife",
+      "required": false,
+      "note": "For the finishing butter."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Split the butter into two jobs",
+      "text": "Take the butter out of the fridge and cut it in two: about 10 g for the pan, about 5 g to melt on top at the end. Leave the finishing piece out so it softens while you cook.",
+      "hint": "Cold butter on hot toast just sits there. A softened piece melts in and soaks through.",
+      "image": "img/butter-toast-1.svg"
+    },
+    {
+      "title": "Melt the butter over low heat",
+      "text": "Set the pan over low heat and add the 10 g piece. Swirl it as it melts and stop as soon as the foam starts to settle. Don't let it brown yet.",
+      "hint": "High heat burns butter before the bread can toast. Low and patient is the whole technique.",
+      "image": "img/butter-toast-2.svg"
+    },
+    {
+      "title": "Toast the first side",
+      "text": "Lay the bread in the pan and slide it around once so the underside drinks the butter evenly. Toast for 2 to 3 minutes, pressing gently with the spatula, until the underside is deep golden brown.",
+      "hint": "Peek early by lifting a corner. The line between golden and burnt is about 30 seconds wide.",
+      "image": "img/butter-toast-3.svg"
+    },
+    {
+      "title": "Flip and toast the other side",
+      "text": "Flip the bread and toast the second side for 2 minutes more. If the pan looks dry, run a thin sliver of butter along the edge and tilt the pan so it slides underneath.",
+      "image": "img/butter-toast-4.svg"
+    },
+    {
+      "title": "Top with butter and serve hot",
+      "text": "Move the toast to a plate, set the softened butter in the middle, and let it melt in. Add the pinch of salt or a thread of honey if you like. Eat it right away, while the outside still crackles.",
+      "image": "img/butter-toast-5.svg"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "The toast burned",
+      "solution": "The heat was too high. Butter solids scorch fast, so stay on low and check the underside after the first minute. A dark pan hides the color of the butter, so go by smell too: nutty is fine, acrid is past it."
+    },
+    {
+      "problem": "It came out greasy",
+      "solution": "Too much butter in the pan, or the heat was so low the bread soaked instead of toasting. 10 g is enough for one slice, and the pan should sizzle quietly the whole time."
+    },
+    {
+      "problem": "Crisp outside, cold inside",
+      "solution": "The slice was too thick for the heat, or straight from the freezer. Cover the pan with a lid for the first side, or give frozen bread 20 seconds in the microwave before it hits the pan."
+    },
+    {
+      "problem": "It went soft after a few minutes",
+      "solution": "Steam trapped under the toast softened the base. Rest it against the rim of the plate so air reaches both sides, and eat it sooner. Toast does not wait."
+    },
+    {
+      "problem": "No thick-cut bread",
+      "solution": "Regular sandwich bread works with about half the time per side. Watch it closely, thin slices go from pale to burnt quickly."
+    }
+  ]
+}
