@@ -18,6 +18,25 @@
       ]
     },
     {
+      "id": "seafood-fried-rice",
+      "file": "recipes/seafood-fried-rice.json",
+      "title": "Seafood Butter Fried Rice",
+      "time": "15 min",
+      "serves": "1–2",
+      "keywords": [
+        "seafood",
+        "shrimp",
+        "squid",
+        "fried rice",
+        "butter",
+        "carrot",
+        "onion",
+        "egg",
+        "one-pan",
+        "quick"
+      ]
+    },
+    {
       "id": "pork-bowl",
       "file": "recipes/pork-bowl.json",
       "title": "Pork & Onion Rice Bowl",
