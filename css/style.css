@@ -29,7 +29,10 @@
 
 * { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
 
 body {
   margin: 0;
@@ -310,8 +313,14 @@ ul.items .amt {
 }
 
 /* Tools table */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 table {
   width: 100%;
+  min-width: 460px;
   border-collapse: collapse;
   font-size: 14px;
 }
@@ -408,6 +417,7 @@ dl.trouble dd:last-child { border-bottom: none; }
 /* Home */
 .home-empty {
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -434,21 +444,61 @@ dl.trouble dd:last-child { border-bottom: none; }
 }
 
 @media (max-width: 720px) {
-  .menu-toggle { display: flex; }
+  .menu-toggle {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    top: calc(8px + env(safe-area-inset-top));
+    left: calc(8px + env(safe-area-inset-left));
+    /* Below the drawer, so the open drawer covers it; close via scrim or Escape */
+    z-index: 16;
+  }
 
   .sidenav {
     transform: translateX(-100%);
     transition: transform 160ms ease-out;
     width: min(var(--sidenav-width), 84vw);
+    padding-top: env(safe-area-inset-top);
+    padding-left: env(safe-area-inset-left);
   }
 
   body.nav-open .sidenav { transform: translateX(0); }
   body.nav-open .scrim { display: block; }
+  body.nav-open { overflow: hidden; }
+
+  /* 16px stops iOS from zooming the page when the field is focused */
+  #search { font-size: 16px; padding-top: 12px; padding-bottom: 12px; }
+
+  .recipe-link { padding: 14px var(--sp-4); }
 
   .content { margin-left: 0; }
-  .page { padding: 72px var(--sp-4) 64px; }
+
+  .page {
+    padding: calc(64px + env(safe-area-inset-top)) var(--sp-4) calc(48px + env(safe-area-inset-bottom));
+    padding-left: calc(var(--sp-4) + env(safe-area-inset-left));
+    padding-right: calc(var(--sp-4) + env(safe-area-inset-right));
+  }
+
   h1 { font-size: 30px; }
   .lede { font-size: 15px; }
   .cols { grid-template-columns: 1fr; }
+  section { margin-bottom: var(--sp-6); }
   th, td { padding: 9px 10px; }
+
+  ol.steps > li {
+    grid-template-columns: 32px 1fr;
+    gap: var(--sp-4);
+    padding: var(--sp-4) 0;
+  }
+
+  ol.steps > li::before { font-size: 16px; line-height: 1.6; }
+
+  .step-figure {
+    grid-column: 1 / -1;
+    max-width: none;
+    margin-top: 0;
+  }
+
+  /* No homepage on mobile: the recipe drawer opens instead */
+  .home-empty { display: none; }
 }

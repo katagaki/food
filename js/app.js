@@ -88,7 +88,7 @@
       "</ul></div>" +
       "</div></section>" +
 
-      "<section><h2>Tools</h2><table>" +
+      '<section><h2>Tools</h2><div class="table-wrap"><table>' +
       "<thead><tr><th>Tool</th><th>Needed?</th><th>Notes</th></tr></thead><tbody>" +
       r.tools.map(function (t) {
         return (
@@ -97,7 +97,7 @@
           "<td>" + esc(t.note || "") + "</td></tr>"
         );
       }).join("") +
-      "</tbody></table></section>" +
+      "</tbody></table></div></section>" +
 
       '<section><h2>Method</h2><ol class="steps">' +
       r.steps.map(function (s) {
@@ -151,14 +151,19 @@
       });
   }
 
+  var mobileQuery = window.matchMedia("(max-width: 720px)");
+
   function route() {
     var id = currentId();
     renderList(searchEl.value);
-    closeNav();
     if (id) {
+      closeNav();
       loadRecipe(id);
     } else {
       renderHome();
+      // On mobile there is no homepage: the recipe list itself is the start screen
+      if (mobileQuery.matches) openNav();
+      else closeNav();
     }
     contentEl.scrollTop = 0;
     window.scrollTo(0, 0);
@@ -182,6 +187,10 @@
   });
 
   scrim.addEventListener("click", closeNav);
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeNav();
+  });
 
   /* ---------- Boot ---------- */
 
