@@ -438,9 +438,15 @@ dl.trouble dd:last-child { border-bottom: none; }
 @media (max-width: 720px) {
   /* The recipe list is the root view; recipes push in from the right
      like a navigation stack, with the list sliding partly out behind them. */
+  /* bottom: 0 would size these against the layout viewport, which iOS Safari
+     keeps at the toolbar-hidden height, clipping the bottom behind the address
+     bar. 100dvh tracks the toolbar instead. */
   .sidenav {
     width: 100%;
     border-right: none;
+    bottom: auto;
+    height: 100vh;
+    height: 100dvh;
     transform: none;
     transition: transform 240ms ease;
     padding-top: env(safe-area-inset-top);
@@ -454,6 +460,9 @@ dl.trouble dd:last-child { border-bottom: none; }
   .content {
     position: fixed;
     inset: 0;
+    bottom: auto;
+    height: 100vh;
+    height: 100dvh;
     margin-left: 0;
     z-index: 25;
     background: var(--bg);
