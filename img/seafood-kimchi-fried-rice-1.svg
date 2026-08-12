@@ -1,0 +1,56 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kimchi snipped into a bowl with scissors beside a board of finely diced onion">
+  <defs>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f6f8"/><stop offset="1" stop-color="#c2cad2"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="42" cy="126" rx="38" ry="6" fill="#000" opacity="0.25"/>
+  <ellipse cx="138" cy="120" rx="48" ry="7" fill="#000" opacity="0.25"/>
+
+  <!-- Cutting board with finely diced onion -->
+  <rect x="8" y="82" width="70" height="42" rx="7" fill="#c9a15f"/>
+  <rect x="8" y="82" width="70" height="8" rx="4" fill="#dbb476"/>
+  <g fill="#f3dfae">
+    <rect x="18" y="98" width="9" height="9" rx="2" transform="rotate(-7 22 102)"/>
+    <rect x="32" y="105" width="9" height="9" rx="2" transform="rotate(8 36 109)"/>
+    <rect x="24" y="112" width="9" height="9" rx="2" transform="rotate(-4 28 116)"/>
+    <rect x="47" y="99" width="9" height="9" rx="2" transform="rotate(5 51 103)"/>
+    <rect x="56" y="109" width="9" height="9" rx="2" transform="rotate(-9 60 113)"/>
+    <rect x="61" y="96" width="9" height="9" rx="2" transform="rotate(6 65 100)"/>
+  </g>
+  <g transform="translate(20,44)">
+    <path d="M0 0 q14 2 14 14 q0 12 -14 12 q-14 0 -14 -12 Q-14 2 0 0 Z" fill="#f3dfae"/>
+    <path d="M0 0 q7 4 7 14 q0 8 -7 12" stroke="#e8c66a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M0 0 q1 -6 -3 -9" stroke="#b58a4c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bowl of kimchi with scissors snipping into it -->
+  <g transform="translate(44,-4) scale(0.88)">
+    <path d="M42 84 L158 84 L146 124 Q100 134 54 124 Z" fill="url(#bowl)"/>
+    <path d="M42 84 L158 84 L156 92 L44 92 Z" fill="#ffffff"/>
+    <path d="M52 96 Q100 106 148 96 L142 118 Q100 126 58 118 Z" fill="#e33b3b"/>
+    <path d="M60 102 q8 -5 15 0 M88 106 q8 -5 15 0 M116 102 q8 -5 15 0" stroke="#f7736d" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="74" cy="112" r="2" fill="#7d1f26"/>
+    <circle cx="104" cy="114" r="2" fill="#7d1f26"/>
+    <circle cx="130" cy="110" r="2" fill="#7d1f26"/>
+
+    <path d="M88 24 Q80 42 90 56 Q98 68 92 82" stroke="#fa4d56" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M88 24 Q80 42 90 56 Q98 68 92 82" stroke="#f3dfae" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+    <line x1="84" y1="18" x2="118" y2="34" stroke="#cfd6dd" stroke-width="6" stroke-linecap="round"/>
+    <line x1="84" y1="50" x2="118" y2="34" stroke="#9aa2ab" stroke-width="6" stroke-linecap="round"/>
+    <line x1="118" y1="34" x2="134" y2="26" stroke="#cfd6dd" stroke-width="5" stroke-linecap="round"/>
+    <line x1="118" y1="34" x2="134" y2="44" stroke="#9aa2ab" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="142" cy="22" r="8" fill="none" stroke="#4a90d9" stroke-width="5"/>
+    <circle cx="144" cy="46" r="8" fill="none" stroke="#4a90d9" stroke-width="5"/>
+    <circle cx="118" cy="34" r="3.5" fill="#33383e"/>
+
+    <g transform="rotate(-14 66 64)">
+      <rect x="58" y="58" width="16" height="11" rx="4" fill="#e33b3b"/>
+      <rect x="61" y="62" width="10" height="3" rx="1.5" fill="#f3dfae"/>
+    </g>
+    <path d="M70 74 q-3 5 -6 8" stroke="#f7736d" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="118" cy="72" r="2.5" fill="#e33b3b"/>
+    <circle cx="126" cy="80" r="2" fill="#fa4d56"/>
+  </g>
+</svg>

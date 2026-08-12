@@ -1,0 +1,173 @@
+{
+  "id": "seafood-kimchi-fried-rice",
+  "title": "Seafood Kimchi Fried Rice",
+  "time": "15 min",
+  "serves": "1–2",
+  "ingredients": {
+    "toBuy": [
+      {
+        "item": "Frozen seafood mix",
+        "note": "Shrimp, squid, and clams. Half a bag is plenty for this.",
+        "amount": "75 g (1/2 bag)"
+      },
+      {
+        "item": "Napa cabbage kimchi",
+        "note": "Riper and more sour is better here. Keep the juice.",
+        "amount": "150 g"
+      },
+      {
+        "item": "Microwavable packed rice",
+        "amount": "300 g"
+      }
+    ],
+    "fromThePantry": [
+      {
+        "item": "Butter",
+        "amount": "2 tbsp, used in two goes"
+      },
+      {
+        "item": "Onion",
+        "amount": "1/2, finely diced"
+      },
+      {
+        "item": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "item": "Sugar",
+        "amount": "1/2 tsp"
+      },
+      {
+        "item": "Salt and black pepper",
+        "amount": "A pinch of each"
+      },
+      {
+        "item": "Sesame oil",
+        "amount": "1 tsp",
+        "note": "Stirred in off the heat for aroma. Skip it and the rice is still good, just less nutty.",
+        "optional": true
+      },
+      {
+        "item": "Egg",
+        "amount": "1",
+        "note": "Worth the trip. It coats the grains and softens the heat of the kimchi.",
+        "optional": true
+      },
+      {
+        "item": "Garlic",
+        "amount": "1 clove, minced",
+        "optional": true
+      },
+      {
+        "item": "Chopped scallion or toasted sesame",
+        "amount": "A little",
+        "optional": true
+      }
+    ]
+  },
+  "tools": [
+    {
+      "name": "Frying pan (about 24 cm)",
+      "required": true,
+      "note": "Everything happens here, in three passes."
+    },
+    {
+      "name": "Spatula",
+      "required": true,
+      "note": "For pressing the rice flat, not just stirring."
+    },
+    {
+      "name": "Kitchen scissors",
+      "required": true,
+      "note": "Cut the kimchi in a bowl. Much faster than a knife."
+    },
+    {
+      "name": "Knife",
+      "required": true,
+      "note": "The onion needs to be cut small."
+    },
+    {
+      "name": "Cutting board",
+      "required": true,
+      "note": "A clean plate can stand in."
+    },
+    {
+      "name": "Microwave",
+      "required": true,
+      "note": "For the packed rice. 2 minutes at 500 to 600 W."
+    },
+    {
+      "name": "Plate",
+      "required": true,
+      "note": "To park the cooked seafood while the kimchi fries."
+    },
+    {
+      "name": "Small bowl",
+      "required": false,
+      "note": "For holding the cut kimchi and its juice."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Snip the kimchi and dice the onion",
+      "text": "Put the kimchi in a small bowl with its juice and snip it into bite-size pieces with kitchen scissors. Cut the onion into pieces about 5 mm across, roughly the size of the shrimp in the mix.",
+      "hint": "The juice is seasoning. Keep about a tablespoon of it in the bowl. Anything cut bigger than 5 mm will still be crunchy when the rice is done.",
+      "image": "img/seafood-kimchi-fried-rice-1.svg"
+    },
+    {
+      "title": "Microwave the rice for 2 minutes",
+      "text": "Heat both packs, then open them and let the steam escape while you cook. Slightly dry rice fries better than fresh, moist rice.",
+      "image": "img/seafood-kimchi-fried-rice-2.svg"
+    },
+    {
+      "title": "Cook the seafood first and take it out",
+      "text": "Melt 1 tbsp of butter over medium-high heat, add the seafood straight from frozen, and cook for 3 minutes until the shrimp turn opaque. Move it to a plate and leave the liquid in the pan.",
+      "hint": "This is the step that decides whether the fried rice is soggy. Frozen seafood dumps a lot of water, and the kimchi juice will add more, so get this water out of the pan first.",
+      "image": "img/seafood-kimchi-fried-rice-3.svg"
+    },
+    {
+      "title": "Boil off the liquid, then fry the onion and kimchi",
+      "text": "Let the liquid in the pan bubble away for about a minute until the pan is nearly dry. Add the remaining 1 tbsp of butter, the onion, and the garlic if using, and fry for 2 minutes until the onion turns translucent. Add the kimchi, its juice, and the sugar, and fry 2 minutes more.",
+      "hint": "Frying the kimchi properly is the whole recipe. Raw kimchi tastes sharp; fried kimchi turns savory and mellow. Keep the heat at medium once the butter goes in, since butter burns and turns bitter over high heat.",
+      "image": "img/seafood-kimchi-fried-rice-4.svg"
+    },
+    {
+      "title": "Add the rice and press it flat",
+      "text": "If you're using the egg, push everything to one side, crack it into the bare half of the pan, and scramble it loosely for 20 seconds. Add the rice, break up the lumps, and mix until every grain is evenly colored. Then press it flat with the spatula and leave it for a minute so the bottom toasts. Turn it over and press again.",
+      "hint": "Pressing, not constant stirring, is what makes the crispy bits. Add the rice while the egg is still wet and it will coat the grains instead of forming lumps.",
+      "image": "img/seafood-kimchi-fried-rice-5.svg"
+    },
+    {
+      "title": "Season at the edge and fold the seafood back in",
+      "text": "Pour the soy sauce onto the bare metal around the edge so it scorches for a second, then stir it through. Return the seafood, season with salt and pepper, and toss for 30 seconds. Kill the heat, stir in the sesame oil if you have it, and scatter over the scallion or sesame. Serve straight away.",
+      "hint": "The seafood only goes back at the end. Squid that gets fried twice turns rubbery.",
+      "image": "img/seafood-kimchi-fried-rice-6.svg"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "It came out soggy",
+      "solution": "The seafood liquid stayed in the pan, there was too much kimchi juice, or the rice was still steaming. Press the rice flat over medium heat for an extra minute or two per side to drive the moisture off."
+    },
+    {
+      "problem": "Too sour",
+      "solution": "The kimchi was very ripe and needed more frying. Add another pinch of sugar and fry 2 minutes longer. Sourness mellows with heat."
+    },
+    {
+      "problem": "The squid is rubbery",
+      "solution": "It cooked too long. Three minutes in the first pass and 30 seconds at the end is the whole budget."
+    },
+    {
+      "problem": "The rice is clumpy",
+      "solution": "Break the lumps with the edge of the spatula rather than folding them. A little extra butter helps the grains separate."
+    },
+    {
+      "problem": "Tastes flat",
+      "solution": "Young kimchi has less to give. Add another 1/2 tsp of soy sauce scorched at the edge of the pan, and be generous with the black pepper. Butter needs more salt than oil does."
+    },
+    {
+      "problem": "No seafood mix",
+      "solution": "Thin-sliced pork belly, bacon, or canned tuna all work. Fry pork or bacon in place of the seafood; for tuna, drain it well and add it with the rice rather than frying it first."
+    }
+  ]
+}

@@ -18,20 +18,22 @@
       ]
     },
     {
-      "id": "seafood-fried-rice",
-      "file": "recipes/seafood-fried-rice.json",
-      "title": "Seafood Butter Fried Rice",
+      "id": "seafood-kimchi-fried-rice",
+      "file": "recipes/seafood-kimchi-fried-rice.json",
+      "title": "Seafood Kimchi Fried Rice",
       "time": "15 min",
       "serves": "1–2",
       "keywords": [
         "seafood",
         "shrimp",
         "squid",
+        "kimchi",
         "fried rice",
+        "korean",
         "butter",
-        "carrot",
         "onion",
         "egg",
+        "spicy",
         "one-pan",
         "quick"
       ]
@@ -49,22 +51,6 @@
         "rice bowl",
         "onion",
         "soy sauce",
-        "quick"
-      ]
-    },
-    {
-      "id": "kimchi-fried-rice",
-      "file": "recipes/kimchi-fried-rice.json",
-      "title": "Kimchi Fried Rice",
-      "time": "15 min",
-      "serves": "1",
-      "keywords": [
-        "kimchi",
-        "fried rice",
-        "korean",
-        "egg",
-        "pork",
-        "spicy",
         "quick"
       ]
     },
