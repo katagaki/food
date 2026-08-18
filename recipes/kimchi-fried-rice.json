@@ -1,14 +1,14 @@
 {
-  "id": "seafood-kimchi-fried-rice",
-  "title": "Seafood Kimchi Fried Rice",
+  "id": "kimchi-fried-rice",
+  "title": "Kimchi Fried Rice",
   "time": "15 min",
   "serves": "1",
   "ingredients": {
     "toBuy": [
       {
-        "item": "Frozen seafood mix",
-        "note": "Shrimp, squid, and clams. A third of a bag is plenty for this.",
-        "amount": "50 g (1/3 bag)"
+        "item": "Frozen seafood mix or bacon",
+        "note": "Pick one. Seafood brings sweetness, bacon brings smoke and renders its own fat.",
+        "amount": "50 g seafood (1/3 bag), or 2 rashers of bacon"
       },
       {
         "item": "Napa cabbage kimchi",
@@ -79,7 +79,7 @@
     {
       "name": "Kitchen scissors",
       "required": true,
-      "note": "Cut the kimchi in a bowl. Much faster than a knife."
+      "note": "Cut the kimchi in a bowl, and the bacon too if you use it. Much faster than a knife."
     },
     {
       "name": "Knife",
@@ -99,7 +99,7 @@
     {
       "name": "Plate",
       "required": true,
-      "note": "To park the cooked seafood while the kimchi fries."
+      "note": "To park the cooked seafood or bacon while the kimchi fries."
     },
     {
       "name": "Small bowl",
@@ -112,36 +112,36 @@
       "title": "Snip the kimchi and dice the onion",
       "text": "Put the kimchi in a small bowl with its juice and snip it into bite-size pieces with kitchen scissors. Cut the onion into pieces about 5 mm across, roughly the size of the shrimp in the mix.",
       "hint": "The juice is seasoning. Keep about a tablespoon of it in the bowl. Anything cut bigger than 5 mm will still be crunchy when the rice is done.",
-      "image": "img/seafood-kimchi-fried-rice-1.svg"
+      "image": "img/kimchi-fried-rice-1.svg"
     },
     {
       "title": "Microwave the rice for 2 minutes",
       "text": "Heat the pack, then open it and let the steam escape while you cook. Slightly dry rice fries better than fresh, moist rice.",
-      "image": "img/seafood-kimchi-fried-rice-2.svg"
+      "image": "img/kimchi-fried-rice-2.svg"
     },
     {
-      "title": "Cook the seafood first and take it out",
-      "text": "Melt 1 tbsp of butter over medium-high heat, add the seafood straight from frozen, and cook for 3 minutes until the shrimp turn opaque. Move it to a plate and leave the liquid in the pan.",
-      "hint": "This is the step that decides whether the fried rice is soggy. Frozen seafood dumps a lot of water, and the kimchi juice will add more, so get this water out of the pan first.",
-      "image": "img/seafood-kimchi-fried-rice-3.svg"
+      "title": "Cook the seafood or bacon first and take it out",
+      "text": "For seafood, melt 1 tbsp of butter over medium-high heat, add the mix straight from frozen, and cook for 3 minutes until the shrimp turn opaque. For bacon, skip the butter, snip it into 1 cm strips, and fry for 3 minutes until the edges crisp. Either way, move it to a plate and leave what it left behind in the pan.",
+      "hint": "This is the step that decides whether the fried rice is soggy. Frozen seafood dumps a lot of water, and the kimchi juice will add more, so get this water out of the pan first. Bacon leaves fat rather than water, which is worth keeping.",
+      "image": "img/kimchi-fried-rice-3.svg"
     },
     {
       "title": "Boil off the liquid, then fry the onion and kimchi",
-      "text": "Let the liquid in the pan bubble away for about a minute until the pan is nearly dry. Add the remaining 1/2 tbsp of butter, the onion, and the garlic if using, and fry for 2 minutes until the onion turns translucent. Add the kimchi, its juice, and the sugar, and fry 2 minutes more.",
+      "text": "After seafood, let the liquid in the pan bubble away for about a minute until the pan is nearly dry. After bacon, the rendered fat is ready as it is. Add the remaining 1/2 tbsp of butter, holding it back if the bacon left plenty of fat, then the onion and the garlic if using, and fry for 2 minutes until the onion turns translucent. Add the kimchi, its juice, and the sugar, and fry 2 minutes more.",
       "hint": "Frying the kimchi properly is the whole recipe. Raw kimchi tastes sharp; fried kimchi turns savory and mellow. Keep the heat at medium once the butter goes in, since butter burns and turns bitter over high heat.",
-      "image": "img/seafood-kimchi-fried-rice-4.svg"
+      "image": "img/kimchi-fried-rice-4.svg"
     },
     {
       "title": "Add the rice and press it flat",
       "text": "If you're using the egg, push everything to one side, crack it into the bare half of the pan, and scramble it loosely for 20 seconds. Add the rice, break up the lumps, and mix until every grain is evenly colored. Then press it flat with the spatula and leave it for a minute so the bottom toasts. Turn it over and press again.",
       "hint": "Pressing, not constant stirring, is what makes the crispy bits. Add the rice while the egg is still wet and it will coat the grains instead of forming lumps.",
-      "image": "img/seafood-kimchi-fried-rice-5.svg"
+      "image": "img/kimchi-fried-rice-5.svg"
     },
     {
-      "title": "Season at the edge and fold the seafood back in",
-      "text": "Pour the soy sauce onto the bare metal around the edge so it scorches for a second, then stir it through. Return the seafood, season with salt and pepper, and toss for 30 seconds. Kill the heat, stir in the sesame oil if you have it, and scatter over the scallion or sesame. Serve straight away.",
-      "hint": "The seafood only goes back at the end. Squid that gets fried twice turns rubbery.",
-      "image": "img/seafood-kimchi-fried-rice-6.svg"
+      "title": "Season at the edge and fold it back in",
+      "text": "Pour the soy sauce onto the bare metal around the edge so it scorches for a second, then stir it through. Return the seafood or bacon, season with salt and pepper, and toss for 30 seconds. Kill the heat, stir in the sesame oil if you have it, and scatter over the scallion or sesame. Serve straight away.",
+      "hint": "It only goes back at the end. Squid fried twice turns rubbery, and bacon loses its crisp edge if it sits in the rice.",
+      "image": "img/kimchi-fried-rice-6.svg"
     }
   ],
   "troubleshooting": [
@@ -166,8 +166,8 @@
       "solution": "Young kimchi has less to give. Add another 1/2 tsp of soy sauce scorched at the edge of the pan, and be generous with the black pepper. Butter needs more salt than oil does."
     },
     {
-      "problem": "No seafood mix",
-      "solution": "Thin-sliced pork belly, bacon, or canned tuna all work. Fry pork or bacon in place of the seafood; for tuna, drain it well and add it with the rice rather than frying it first."
+      "problem": "Neither seafood nor bacon",
+      "solution": "Thin-sliced pork belly, sausage, or canned tuna all work. Fry pork or sausage in the same slot; for tuna, drain it well and add it with the rice rather than frying it first. The rice is fine with no meat at all if the kimchi is good."
     }
   ]
 }

@@ -18,16 +18,17 @@
       ]
     },
     {
-      "id": "seafood-kimchi-fried-rice",
-      "file": "recipes/seafood-kimchi-fried-rice.json",
-      "title": "Seafood Kimchi Fried Rice",
+      "id": "kimchi-fried-rice",
+      "file": "recipes/kimchi-fried-rice.json",
+      "title": "Kimchi Fried Rice",
       "time": "15 min",
       "serves": "1",
       "keywords": [
+        "kimchi",
         "seafood",
         "shrimp",
         "squid",
-        "kimchi",
+        "bacon",
         "fried rice",
         "korean",
         "butter",
