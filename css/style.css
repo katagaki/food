@@ -233,6 +233,7 @@ h1 {
 }
 
 .tag.blue { background: #1a3768; color: #a6c8ff; }
+.tag.green { background: #0e3a1c; color: var(--support-success); }
 
 /* Sections */
 section { margin-bottom: var(--sp-8); }

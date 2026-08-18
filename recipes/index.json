@@ -6,6 +6,7 @@
       "title": "Seafood Curry",
       "time": "20 min",
       "serves": "1–2",
+      "tried": true,
       "keywords": [
         "curry",
         "seafood",
@@ -23,6 +24,7 @@
       "title": "Kimchi Fried Rice",
       "time": "15 min",
       "serves": "1",
+      "tried": true,
       "keywords": [
         "kimchi",
         "seafood",

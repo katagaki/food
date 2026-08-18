@@ -42,7 +42,8 @@
       return (
         '<li><a class="recipe-link' + (r.id === active ? " active" : "") + '" href="#/' + esc(r.id) + '">' +
         '<span class="name">' + esc(r.title) + "</span>" +
-        '<span class="meta">' + esc(r.time) + " &middot; serves " + esc(r.serves) + "</span>" +
+        '<span class="meta">' + esc(r.time) + " &middot; serves " + esc(r.serves) +
+        (r.tried ? " &middot; human tested" : "") + "</span>" +
         "</a></li>"
       );
     }).join("");
@@ -74,7 +75,8 @@
       '<div class="page">' +
       '<header class="recipe-header">' +
       "<h1>" + esc(r.title) + "</h1>" +
-      '<div class="tags"><span class="tag blue">' + esc(r.time) + '</span><span class="tag">Serves ' + esc(r.serves) + "</span></div>" +
+      '<div class="tags"><span class="tag blue">' + esc(r.time) + '</span><span class="tag">Serves ' + esc(r.serves) + "</span>" +
+      (r.tried ? '<span class="tag green">Human Tested</span>' : "") + "</div>" +
       "</header>" +
 
       "<section><h2>Ingredients</h2>" +
