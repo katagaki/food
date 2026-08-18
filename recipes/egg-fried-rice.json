@@ -1,0 +1,139 @@
+{
+  "id": "egg-fried-rice",
+  "title": "Egg Fried Rice",
+  "time": "15 min",
+  "serves": "1",
+  "ingredients": {
+    "toBuy": [
+      {
+        "item": "Eggs",
+        "amount": "2"
+      },
+      {
+        "item": "Microwavable packed rice",
+        "amount": "200 g"
+      },
+      {
+        "item": "Spring onion",
+        "amount": "2 stalks"
+      }
+    ],
+    "fromThePantry": [
+      {
+        "item": "Cooking oil",
+        "amount": "1 tbsp"
+      },
+      {
+        "item": "Soy sauce",
+        "amount": "1 tbsp"
+      },
+      {
+        "item": "Salt",
+        "amount": "a pinch"
+      },
+      {
+        "item": "White pepper",
+        "amount": "to taste"
+      },
+      {
+        "item": "Sesame oil",
+        "amount": "1/2 tsp",
+        "optional": true
+      },
+      {
+        "item": "Butter",
+        "amount": "5 g",
+        "optional": true
+      }
+    ]
+  },
+  "tools": [
+    {
+      "name": "Frying pan (about 24 cm)",
+      "required": true,
+      "note": "Everything cooks in it."
+    },
+    {
+      "name": "Bowl",
+      "required": true,
+      "note": "For beating the eggs."
+    },
+    {
+      "name": "Chopsticks or a fork",
+      "required": true,
+      "note": "For beating the eggs and stirring the curds."
+    },
+    {
+      "name": "Spatula or rice paddle",
+      "required": true,
+      "note": "For breaking up and tossing the rice."
+    },
+    {
+      "name": "Microwave",
+      "required": true,
+      "note": "For heating the packed rice."
+    },
+    {
+      "name": "Knife and cutting board",
+      "required": false,
+      "note": "For the spring onion. Scissors work just as well."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Get everything ready",
+      "text": "Beat the eggs in a bowl with the pinch of salt until the yolks and whites are fully mixed, no streaks. Slice the spring onion thinly, keeping the white and green parts apart. Microwave the packed rice so it's hot when you need it.",
+      "hint": "Fried rice cooks faster than you can chop. Everything goes in the pan within four minutes, so prep it all first.",
+      "image": "img/egg-fried-rice-1.svg"
+    },
+    {
+      "title": "Scramble the eggs",
+      "text": "Heat the oil over medium-high until it shimmers, then pour in the eggs. Let them sit for 10 seconds, then stir with chopsticks until they form soft curds that are still a little wet, about 30 seconds. Scoop them back into the bowl.",
+      "hint": "Take them out while they look underdone. They cook again at the end, and twice-cooked egg turns rubbery.",
+      "image": "img/egg-fried-rice-2.svg"
+    },
+    {
+      "title": "Fry the rice",
+      "text": "Add the white parts of the spring onion to the pan and stir for 20 seconds. Add the hot rice, press it flat with the spatula, and let it sit for 30 seconds before folding. Repeat the press and fold for about 2 minutes, until the grains separate and jump loose in the pan.",
+      "hint": "Pressing gives the rice contact with the hot metal. Constant stirring steams it instead, which is why it goes sticky.",
+      "image": "img/egg-fried-rice-3.svg"
+    },
+    {
+      "title": "Season around the edge",
+      "text": "Pour the soy sauce around the rim of the pan, not onto the rice, and toss immediately. It hits the bare metal, sizzles, and goes in toasty rather than wet. Add white pepper, then the sesame oil or butter if using.",
+      "hint": "Soy sauce poured straight onto the pile makes dark patches and soggy grains. The rim trick fixes both.",
+      "image": "img/egg-fried-rice-4.svg"
+    },
+    {
+      "title": "Return the eggs and plate",
+      "text": "Tip the eggs back in along with the green parts of the spring onion, break the curds up with the spatula, and fold for 30 seconds. Taste, adjust with a little salt, and mound it onto a plate while it's still steaming.",
+      "image": "img/egg-fried-rice-5.svg"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "The rice is sticky and clumped",
+      "solution": "The pan wasn't hot enough or the rice was stirred nonstop. Get the pan properly hot, press the rice flat, and leave it alone in between folds. Day-old rice from the fridge, broken up cold, also fries drier than fresh."
+    },
+    {
+      "problem": "The egg is rubbery",
+      "solution": "It cooked too long the first time. Pull the curds out while they still look wet, they set the rest of the way in the final 30 seconds."
+    },
+    {
+      "problem": "It's dark and soggy in patches",
+      "solution": "The soy sauce landed on the rice instead of the pan edge. Keep tossing over high heat for another minute to drive the moisture off, and pour around the rim next time."
+    },
+    {
+      "problem": "It tastes flat",
+      "solution": "Usually not enough salt, not more soy sauce. Soy adds color faster than seasoning, so reach for a pinch of salt and a good hit of white pepper first."
+    },
+    {
+      "problem": "The rice sticks to the pan",
+      "solution": "Too little oil, or the rice went in before the pan recovered its heat. A full tablespoon is right, and let the pan come back up for a few seconds after the spring onion goes in."
+    },
+    {
+      "problem": "Want it more filling",
+      "solution": "A handful of frozen peas and corn, or chopped bacon or ham, goes in with the white spring onion. Anything wet, like tomato, will steam the rice, so keep additions dry."
+    }
+  ]
+}

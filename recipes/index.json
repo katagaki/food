@@ -134,6 +134,25 @@
         "vegetables",
         "quick"
       ]
+    },
+    {
+      "id": "egg-fried-rice",
+      "file": "recipes/egg-fried-rice.json",
+      "title": "Egg Fried Rice",
+      "time": "15 min",
+      "serves": "1",
+      "keywords": [
+        "egg",
+        "fried rice",
+        "rice",
+        "spring onion",
+        "soy sauce",
+        "one-pan",
+        "frying pan",
+        "quick",
+        "easy",
+        "cheap"
+      ]
     }
   ]
 }

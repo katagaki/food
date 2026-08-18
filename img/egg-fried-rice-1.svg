@@ -1,0 +1,41 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Beaten egg in a bowl with chopsticks beside a board of sliced spring onion and a bowl of hot rice">
+  <defs>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f6f8"/><stop offset="1" stop-color="#c2cad2"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="62" cy="122" rx="50" ry="7" fill="#000" opacity="0.25"/>
+  <ellipse cx="152" cy="126" rx="38" ry="6" fill="#000" opacity="0.25"/>
+
+  <!-- Bowl of beaten egg with chopsticks -->
+  <path d="M18 76 L106 76 L96 114 Q62 124 28 114 Z" fill="url(#bowl)"/>
+  <path d="M18 76 L106 76 L104 83 L20 83 Z" fill="#ffffff"/>
+  <path d="M28 88 Q62 98 96 88 L90 108 Q62 116 34 108 Z" fill="#f1c21b"/>
+  <path d="M36 94 q10 -5 19 0 M68 96 q10 -5 19 0" stroke="#ffd75e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <circle cx="60" cy="104" r="2.2" fill="#ffe97a"/>
+  <line x1="70" y1="26" x2="92" y2="92" stroke="#a97142" stroke-width="5" stroke-linecap="round"/>
+  <line x1="80" y1="26" x2="96" y2="92" stroke="#c08a54" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Board with sliced spring onion, white and green kept apart -->
+  <rect x="112" y="88" width="80" height="38" rx="7" fill="#c9a15f"/>
+  <rect x="112" y="88" width="80" height="8" rx="4" fill="#dbb476"/>
+  <g fill="#f0ece4">
+    <circle cx="124" cy="108" r="4"/><circle cx="134" cy="115" r="4"/><circle cx="128" cy="119" r="4"/>
+    <circle cx="138" cy="105" r="4"/>
+  </g>
+  <g fill="#42be65">
+    <circle cx="160" cy="107" r="4"/><circle cx="170" cy="114" r="4"/><circle cx="178" cy="106" r="4"/>
+    <circle cx="164" cy="118" r="4"/>
+  </g>
+  <line x1="150" y1="98" x2="150" y2="122" stroke="#b58a4c" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Packed rice heated in the microwave, steaming -->
+  <g transform="translate(128,34)">
+    <path d="M0 22 L56 22 L50 46 Q28 52 6 46 Z" fill="#e6e0d4"/>
+    <path d="M4 26 Q28 34 52 26 L48 42 Q28 48 8 42 Z" fill="#f0ece4"/>
+    <g fill="#ffffff">
+      <ellipse cx="16" cy="32" rx="2.4" ry="3.4"/><ellipse cx="28" cy="36" rx="2.4" ry="3.4"/><ellipse cx="40" cy="32" rx="2.4" ry="3.4"/>
+    </g>
+    <path d="M12 14 q-4 -8 0 -14 M28 10 q-4 -8 0 -14 M44 14 q-4 -8 0 -14" stroke="#aab6c0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>
