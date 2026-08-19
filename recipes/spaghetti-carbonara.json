@@ -94,7 +94,7 @@
     },
     {
       "title": "Add water and spaghetti to the same pan",
-      "text": "Pour in the water and the salt and bring it to a boil. Lay the spaghetti in whole, fanned across the pan, and let the submerged ends soften for about 30 seconds. Press the standing ends down with the tongs until every strand is under, then cook uncovered for the time on the packet, usually 8 to 9 minutes.",
+      "text": "Leave the bacon and all its fat in the pan. Pour in the water and the salt and bring it to a boil. Lay the spaghetti in whole, fanned across the pan, and let the submerged ends soften for about 30 seconds. Press the standing ends down with the tongs until every strand is under, then cook uncovered for the time on the packet, usually 8 to 9 minutes.",
       "hint": "Whole strands are longer than the pan and will stick out at first. They bend on their own in half a minute. Stir during the first minute so they don't glue together while the surface starch dissolves.",
       "image": "img/spaghetti-carbonara-3.svg"
     },
@@ -127,6 +127,10 @@
     {
       "problem": "The sauce seized after plating",
       "solution": "Parmesan keeps drinking liquid as it sits. Loosen it with a spoonful of hot water and toss again. Serving on a warmed plate slows this down."
+    },
+    {
+      "problem": "I want the bacon crisp in the finished dish",
+      "solution": "Boiling with the pasta softens it. Lift the bacon out after browning, leaving every bit of fat behind, and stir it back in with the egg at the end. The fat still flavors the sauce and the bacon keeps its crunch, at the cost of one extra plate."
     },
     {
       "problem": "The spaghetti won't fit in the pan",
