@@ -89,8 +89,8 @@
     },
     {
       "title": "Add water and spaghetti to the same pan",
-      "text": "Pour in the water and the salt and bring it to a boil. Snap the spaghetti in half, fan it out in the pan, and cook uncovered for the time on the packet, usually 8 to 9 minutes.",
-      "hint": "Stir during the first minute so the strands don't glue together while the surface starch dissolves.",
+      "text": "Pour in the water and the salt and bring it to a boil. Lay the spaghetti in whole, fanned across the pan, and let the submerged ends soften for about 30 seconds. Press the standing ends down with the tongs until every strand is under, then cook uncovered for the time on the packet, usually 8 to 9 minutes.",
+      "hint": "Whole strands are longer than the pan and will stick out at first. They bend on their own in half a minute. Stir during the first minute so they don't glue together while the surface starch dissolves.",
       "image": "img/spaghetti-carbonara-3.svg"
     },
     {
@@ -124,8 +124,12 @@
       "solution": "Parmesan keeps drinking liquid as it sits. Loosen it with a spoonful of hot water and toss again. Serving on a warmed plate slows this down."
     },
     {
+      "problem": "The spaghetti won't fit in the pan",
+      "solution": "Fan it out so the strands hit the water at different points, and give it 30 seconds before pushing. Anything that softens goes under easily. There is no need to snap the strands: long spaghetti is what lets the sauce cling and twirl at the end."
+    },
+    {
       "problem": "The pasta clumped together",
-      "solution": "It wasn't stirred in the first minute. Snapped spaghetti in a shallow pan needs early loosening while the surface is at its stickiest."
+      "solution": "It wasn't stirred in the first minute. Spaghetti in a shallow pan needs early loosening while the surface is at its stickiest, especially where the bent ends pile up in the middle."
     },
     {
       "problem": "It's too salty",
