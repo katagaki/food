@@ -14,8 +14,8 @@
         "amount": "60 g"
       },
       {
-        "item": "Egg",
-        "amount": "1 whole + 1 yolk"
+        "item": "Eggs",
+        "amount": "2 whole"
       },
       {
         "item": "Grated parmesan",
@@ -82,7 +82,7 @@
   "steps": [
     {
       "title": "Mix the egg and cheese first",
-      "text": "Beat the whole egg, the extra yolk, and the parmesan together in a small bowl with a generous grind of pepper. Set it next to the stove.",
+      "text": "Beat both eggs and the parmesan together in a small bowl with a generous grind of pepper. Set it next to the stove.",
       "hint": "The sauce comes together in seconds at the end, so it must be ready and within reach before anything touches the pan.",
       "image": "img/spaghetti-carbonara-1.svg"
     },
@@ -100,13 +100,14 @@
     },
     {
       "title": "Boil until only a little liquid is left",
-      "text": "Keep it at a steady bubble, stirring now and then. When the pasta is done there should be just a few spoonfuls of starchy, cloudy liquid left in the pan. If it dries out early, add a splash of water; if there's too much, boil it off.",
-      "image": "img/spaghetti-carbonara-4.svg"
+      "text": "Keep it at a steady bubble, stirring now and then. When the pasta is done there should be about two spoonfuls of starchy, cloudy liquid left in the pan. If it dries out early, add a splash of water; if there's too much, boil it off.",
+      "image": "img/spaghetti-carbonara-4.svg",
+      "hint": "Whole eggs carry more water than yolks do, so leave the pan on the dry side. The sauce loosens easily later, but a watery one is hard to bring back."
     },
     {
       "title": "Kill the heat, then add the egg",
-      "text": "Turn the heat off and let the pan stop bubbling, about 30 seconds. Pour in the egg mixture and toss fast with the tongs. The residual heat and starchy liquid turn it into a glossy cream that coats every strand.",
-      "hint": "Egg into a bubbling pan means scrambled eggs. Off the heat with a short wait is the entire trick to carbonara.",
+      "text": "Turn the heat off and let the pan stop bubbling, about 45 seconds. Pour in the egg mixture and toss fast with the tongs. The residual heat and starchy liquid turn it into a glossy cream that coats every strand.",
+      "hint": "Egg into a bubbling pan means scrambled eggs. Egg white sets sooner than yolk, so give the pan the full wait. Off the heat with a short pause is the entire trick to carbonara.",
       "image": "img/spaghetti-carbonara-5.svg"
     },
     {
@@ -122,7 +123,11 @@
     },
     {
       "problem": "The sauce is watery",
-      "solution": "Too much liquid was left in the pan. Next time boil it down to 2 or 3 spoonfuls before the egg goes in. This time, toss over the lowest possible heat for 10 to 15 seconds and it will tighten."
+      "solution": "Too much liquid was left in the pan. Next time boil it down to about two spoonfuls before the egg goes in. This time, toss over the lowest possible heat for 10 to 15 seconds and it will tighten."
+    },
+    {
+      "problem": "I want a richer sauce",
+      "solution": "Richness comes from the yolk, not the white. Use one whole egg plus one extra yolk instead of two whole eggs. To separate one without a tool, crack the egg into a clean cupped hand over a bowl and let the white run between your fingers."
     },
     {
       "problem": "The sauce seized after plating",
