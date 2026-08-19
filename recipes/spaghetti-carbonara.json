@@ -59,6 +59,11 @@
       "note": "For the bacon."
     },
     {
+      "name": "Fine grater",
+      "required": true,
+      "note": "For the cheese. A microplane or the fine side of a box grater. Skip it if you buy the cheese already grated."
+    },
+    {
       "name": "Cooking chopsticks or tongs",
       "required": true,
       "note": "For loosening and tossing the pasta."
