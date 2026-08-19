@@ -1,31 +1,11 @@
-<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kimchi snipped into a bowl with scissors beside a board of finely diced onion">
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kimchi snipped into bite-size pieces in a bowl with kitchen scissors, its juice kept in">
   <defs>
     <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#f4f6f8"/><stop offset="1" stop-color="#c2cad2"/>
     </linearGradient>
   </defs>
-  <ellipse cx="42" cy="126" rx="38" ry="6" fill="#000" opacity="0.25"/>
-  <ellipse cx="138" cy="120" rx="48" ry="7" fill="#000" opacity="0.25"/>
-
-  <!-- Cutting board with finely diced onion -->
-  <rect x="8" y="82" width="70" height="42" rx="7" fill="#c9a15f"/>
-  <rect x="8" y="82" width="70" height="8" rx="4" fill="#dbb476"/>
-  <g fill="#f3dfae">
-    <rect x="18" y="98" width="9" height="9" rx="2" transform="rotate(-7 22 102)"/>
-    <rect x="32" y="105" width="9" height="9" rx="2" transform="rotate(8 36 109)"/>
-    <rect x="24" y="112" width="9" height="9" rx="2" transform="rotate(-4 28 116)"/>
-    <rect x="47" y="99" width="9" height="9" rx="2" transform="rotate(5 51 103)"/>
-    <rect x="56" y="109" width="9" height="9" rx="2" transform="rotate(-9 60 113)"/>
-    <rect x="61" y="96" width="9" height="9" rx="2" transform="rotate(6 65 100)"/>
-  </g>
-  <g transform="translate(20,44)">
-    <path d="M0 0 q14 2 14 14 q0 12 -14 12 q-14 0 -14 -12 Q-14 2 0 0 Z" fill="#f3dfae"/>
-    <path d="M0 0 q7 4 7 14 q0 8 -7 12" stroke="#e8c66a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-    <path d="M0 0 q1 -6 -3 -9" stroke="#b58a4c" stroke-width="3" fill="none" stroke-linecap="round"/>
-  </g>
-
-  <!-- Bowl of kimchi with scissors snipping into it -->
-  <g transform="translate(44,-4) scale(0.88)">
+  <ellipse cx="100" cy="130" rx="62" ry="8" fill="#000" opacity="0.25"/>
+  <g transform="translate(0,4)">
     <path d="M42 84 L158 84 L146 124 Q100 134 54 124 Z" fill="url(#bowl)"/>
     <path d="M42 84 L158 84 L156 92 L44 92 Z" fill="#ffffff"/>
     <path d="M52 96 Q100 106 148 96 L142 118 Q100 126 58 118 Z" fill="#e33b3b"/>

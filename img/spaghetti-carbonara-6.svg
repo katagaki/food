@@ -1,32 +1,23 @@
-<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Carbonara twirled on a plate, finished with black pepper and parmesan">
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cooked spaghetti in the pan with only a little cloudy liquid left">
   <defs>
-    <radialGradient id="plate" cx="0.5" cy="0.4" r="0.7">
-      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f0ece4"/>
-    </radialGradient>
+    <linearGradient id="pan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c6066"/><stop offset="1" stop-color="#3c4046"/>
+    </linearGradient>
   </defs>
-  <ellipse cx="100" cy="128" rx="82" ry="8" fill="#000" opacity="0.25"/>
-  <ellipse cx="100" cy="96" rx="80" ry="30" fill="url(#plate)"/>
-  <ellipse cx="100" cy="94" rx="64" ry="23" fill="#e6e0d4"/>
-  <g stroke="#f5d878" stroke-width="5" stroke-linecap="round" fill="none">
-    <path d="M62 94 q18 -16 38 -8 t38 8"/>
-    <path d="M68 100 q16 -12 32 -6 t32 6"/>
-    <path d="M76 86 q14 -12 26 -4 t24 6"/>
+  <ellipse cx="100" cy="126" rx="80" ry="8" fill="#000" opacity="0.25"/>
+  <path d="M30 64 L170 64 L160 112 Q100 124 40 112 Z" fill="url(#pan)"/>
+  <rect x="26" y="60" width="148" height="8" rx="4" fill="#6f747b"/>
+  <path d="M172 64 L198 58" stroke="#a97142" stroke-width="10" stroke-linecap="round"/>
+  <path d="M50 96 Q100 108 150 96 L148 102 Q100 112 52 102 Z" fill="#cfe3ec"/>
+  <g stroke="#f5d878" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M54 92 q14 -10 28 0 t28 0 t28 0"/>
+    <path d="M60 84 q14 -10 28 0 t28 0 t24 2"/>
+    <path d="M68 98 q14 -8 26 0 t26 0"/>
   </g>
-  <path d="M70 92 q30 14 60 0" stroke="#ffe9a8" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <rect x="84" y="80" width="13" height="7" rx="2" fill="#e05c54" transform="rotate(-10 90 83)"/>
-  <rect x="112" y="88" width="13" height="7" rx="2" fill="#e05c54" transform="rotate(8 118 91)"/>
-  <circle cx="80" cy="94" r="1.8" fill="#33383e"/>
-  <circle cx="102" cy="86" r="1.8" fill="#33383e"/>
-  <circle cx="124" cy="96" r="1.8" fill="#33383e"/>
-  <circle cx="94" cy="100" r="1.8" fill="#33383e"/>
-  <path d="M86 52 q-5 -9 0 -18 M114 52 q-5 -9 0 -18" stroke="#aab6c0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.8"/>
-  <g transform="translate(164,34)">
-    <rect x="-8" y="0" width="16" height="26" rx="4" fill="#33383e"/>
-    <rect x="-6" y="-8" width="12" height="8" rx="3" fill="#4c5056"/>
-    <circle cx="-14" cy="32" r="1.6" fill="#33383e"/>
-    <circle cx="-6" cy="36" r="1.6" fill="#33383e"/>
-    <circle cx="4" cy="33" r="1.6" fill="#33383e"/>
-  </g>
-  <path d="M20 30 L44 30 L49 46 L15 46 Z" fill="#fddc69"/>
-  <path d="M20 30 L44 30 L46 36 L18 36 Z" fill="#ffeaa0"/>
+  <rect x="70" y="88" width="12" height="6" rx="2" fill="#e05c54" transform="rotate(-10 76 91)"/>
+  <rect x="116" y="92" width="12" height="6" rx="2" fill="#e05c54" transform="rotate(8 122 95)"/>
+  <path d="M70 52 q-5 -9 0 -18 M100 50 q-5 -9 0 -18 M130 52 q-5 -9 0 -18" stroke="#aab6c0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M60 118 q-5 8 0 14 M100 120 q-5 8 0 14 M140 118 q-5 8 0 14" stroke="#ff832b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M28 24 L52 24 L58 42 L22 42 Z" fill="#33b1ff" opacity="0.9"/>
+  <path d="M40 46 L40 58 M34 53 L40 59 L46 53" stroke="#33b1ff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

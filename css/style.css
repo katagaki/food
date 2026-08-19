@@ -369,8 +369,33 @@ ol.steps > li::before {
   font-size: 15px;
 }
 
+ul.step-points {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+ul.step-points > li {
+  position: relative;
+  padding-left: var(--sp-4);
+}
+
+ul.step-points > li + li { margin-top: 4px; }
+
+ul.step-points > li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 9px;
+  width: 4px;
+  height: 4px;
+  background: var(--interactive);
+}
+
 .step-hint {
-  margin-top: var(--sp-3);
+  margin-top: var(--sp-4);
   padding-left: var(--sp-3);
   border-left: 2px solid var(--support-caution);
   color: var(--text-secondary);

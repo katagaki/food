@@ -90,37 +90,67 @@
   ],
   "steps": [
     {
-      "title": "Mix the sauce first",
-      "text": "Combine the soy sauce, sugar, sake, and water in a small bowl and stir until the sugar dissolves. If you're using ginger, add it now.",
+      "title": "Mix sauce",
+      "points": [
+        "Combine the soy sauce, sugar, sake, and water in a small bowl.",
+        "Stir until the sugar dissolves.",
+        "Add the ginger now if you are using it."
+      ],
       "hint": "If you start measuring after the heat is on, the pork overcooks while you do it. Making the sauce first is the single most effective move in this recipe.",
       "image": "img/pork-bowl-1.svg"
     },
     {
-      "title": "Slice the onion thinly",
-      "text": "Peel it, halve it lengthwise, and slice with the grain into pieces about 5 mm thick. This is the only time you need the cutting board, so wash it and the knife now. The pork needs no cutting.",
+      "title": "Slice onion",
+      "points": [
+        "Peel the onion and halve it lengthwise.",
+        "Slice with the grain into pieces about 5 mm thick.",
+        "Wash the board and knife now: the pork needs no cutting."
+      ],
       "image": "img/pork-bowl-2.svg"
     },
     {
-      "title": "Spread the pork out and don't touch it",
-      "text": "Heat the oil over medium-high. Spread the pork so the pieces overlap as little as possible, then leave it alone for 1½ to 2 minutes. Flip only once the underside is well browned. That browning is the heart of the flavor.",
-      "hint": "If the pork is fatty, skip the oil. Stirring too early draws out moisture and you end up steaming the meat instead of searing it.",
+      "title": "Brown pork",
+      "points": [
+        "Heat the oil over medium-high, or skip the oil if the pork is fatty.",
+        "Spread the pork so the pieces overlap as little as possible, then leave it alone for 1 to 2 minutes.",
+        "Flip only once the underside is well browned."
+      ],
+      "hint": "Stirring too early draws out moisture and you end up steaming the meat instead of searing it.",
       "image": "img/pork-bowl-3.svg"
     },
     {
-      "title": "Add the onion and let it soften",
-      "text": "Push the meat to one side and add the onion to the empty half. Cook for about 2 minutes, until translucent with lightly colored edges.",
+      "title": "Soften onion",
+      "points": [
+        "Push the meat to one side and add the onion to the empty half.",
+        "Cook for about 2 minutes, until translucent with lightly colored edges."
+      ],
       "image": "img/pork-bowl-4.svg"
     },
     {
-      "title": "Pour in the sauce and reduce",
-      "text": "Add the sauce from step 1. Keep it at a lively bubble, shaking the pan, for 1 to 2 minutes. When the sauce has thickened, clings to the meat, and turns glossy, kill the heat. If you're using butter, add it off the heat and let the residual warmth melt it.",
+      "title": "Reduce sauce",
+      "points": [
+        "Pour in the sauce and keep it at a lively bubble, shaking the pan, for 1 to 2 minutes.",
+        "Kill the heat once it thickens, clings to the meat, and turns glossy.",
+        "Add the butter off the heat and let the residual warmth melt it."
+      ],
       "hint": "Over-reduce and it suddenly turns salty. Stop while a little sauce still pools at the bottom of the pan.",
       "image": "img/pork-bowl-5.svg"
     },
     {
-      "title": "Serve over hot rice",
-      "text": "Heat the packed rice as directed, tip it into a bowl, and pile on the pork and onion. Scrape every last bit of sauce from the pan over the top.",
+      "title": "Heat rice",
+      "points": [
+        "Heat the packed rice as directed.",
+        "Tip it into a deep bowl."
+      ],
       "image": "img/pork-bowl-6.svg"
+    },
+    {
+      "title": "Assemble bowl",
+      "points": [
+        "Pile the pork and onion over the rice.",
+        "Scrape every last bit of sauce from the pan over the top."
+      ],
+      "image": "img/pork-bowl-7.svg"
     }
   ],
   "troubleshooting": [

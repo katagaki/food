@@ -46,31 +46,51 @@
   ],
   "steps": [
     {
-      "title": "Split the butter into two jobs",
-      "text": "Take the butter out of the fridge and cut it in two: about 10 g for the pan, about 5 g to melt on top at the end. Leave the finishing piece out so it softens while you cook.",
+      "title": "Cut butter",
+      "points": [
+        "Take the butter out of the fridge and cut it in two.",
+        "About 10 g goes in the pan, about 5 g on top at the end.",
+        "Leave the finishing piece out so it softens while you cook."
+      ],
       "hint": "Cold butter on hot toast just sits there. A softened piece melts in and soaks through.",
       "image": "img/butter-toast-1.svg"
     },
     {
-      "title": "Melt the butter over low heat",
-      "text": "Set the pan over low heat and add the 10 g piece. Swirl it as it melts and stop as soon as the foam starts to settle. Don't let it brown yet.",
+      "title": "Melt butter",
+      "points": [
+        "Set the pan over low heat and add the 10 g piece.",
+        "Swirl it as it melts.",
+        "Stop as soon as the foam settles, before it browns."
+      ],
       "hint": "High heat burns butter before the bread can toast. Low and patient is the whole technique.",
       "image": "img/butter-toast-2.svg"
     },
     {
-      "title": "Toast the first side",
-      "text": "Lay the bread in the pan and slide it around once so the underside drinks the butter evenly. Toast for 2 to 3 minutes, pressing gently with the spatula, until the underside is deep golden brown.",
+      "title": "Toast first side",
+      "points": [
+        "Lay the bread in and slide it around once so the underside drinks the butter.",
+        "Toast for 2 to 3 minutes, pressing gently with the spatula.",
+        "It is ready when the underside is deep golden brown."
+      ],
       "hint": "Peek early by lifting a corner. The line between golden and burnt is about 30 seconds wide.",
       "image": "img/butter-toast-3.svg"
     },
     {
-      "title": "Flip and toast the other side",
-      "text": "Flip the bread and toast the second side for 2 minutes more. If the pan looks dry, run a thin sliver of butter along the edge and tilt the pan so it slides underneath.",
+      "title": "Toast second side",
+      "points": [
+        "Flip the bread over.",
+        "Toast for 2 minutes more.",
+        "If the pan looks dry, run a sliver of butter along the edge and tilt it underneath."
+      ],
       "image": "img/butter-toast-4.svg"
     },
     {
-      "title": "Top with butter and serve hot",
-      "text": "Move the toast to a plate, set the softened butter in the middle, and let it melt in. Add the pinch of salt or a thread of honey if you like. Eat it right away, while the outside still crackles.",
+      "title": "Top with butter",
+      "points": [
+        "Move the toast to a plate and set the softened butter in the middle.",
+        "Add the pinch of salt or a thread of honey if you like.",
+        "Eat it right away, while the outside still crackles."
+      ],
       "image": "img/butter-toast-5.svg"
     }
   ],

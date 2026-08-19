@@ -104,7 +104,10 @@
       r.steps.map(function (s) {
         return (
           "<li>" +
-          '<div class="step-body"><h3>' + esc(s.title) + "</h3><p>" + esc(s.text) + "</p>" +
+          '<div class="step-body"><h3>' + esc(s.title) + "</h3>" +
+          '<ul class="step-points">' +
+          (s.points || []).map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") +
+          "</ul>" +
           (s.hint ? '<p class="step-hint">' + esc(s.hint) + "</p>" : "") +
           "</div>" +
           '<div class="step-figure"><img src="' + esc(s.image) + '" alt="" loading="lazy"></div>' +

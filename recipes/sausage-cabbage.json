@@ -67,32 +67,66 @@
   ],
   "steps": [
     {
-      "title": "Cut everything first",
-      "text": "Tear or cut the cabbage into rough 4 cm squares, discarding the thick core. Slice the sausages diagonally into coins about 1 cm thick. Stir the soy sauce and mustard together in a small bowl.",
-      "hint": "Diagonal cuts give the sausage more browning surface, and the sauce must be ready because the end goes fast.",
+      "title": "Cut cabbage",
+      "points": [
+        "Tear or cut the cabbage into rough 4 cm squares.",
+        "Discard the thick core."
+      ],
       "image": "img/sausage-cabbage-1.svg"
     },
     {
-      "title": "Brown the sausage",
-      "text": "Heat the oil over medium-high. Spread the sausage coins in one layer and cook about 2 minutes, turning once, until both sides pick up color and the fat starts to run.",
+      "title": "Slice sausage",
+      "points": [
+        "Slice the sausages diagonally into coins about 1 cm thick.",
+        "Diagonal cuts give each piece more surface to brown."
+      ],
       "image": "img/sausage-cabbage-2.svg"
     },
     {
-      "title": "Add the cabbage and leave it alone",
-      "text": "Pile in all the cabbage. It looks like too much, it isn't. Let it sit untouched for 1 minute so the bottom layer chars a little, then toss and repeat: rest, toss, rest.",
-      "hint": "Constant stirring steams the cabbage. Letting it sit against the hot pan is what gives you sweet, browned edges.",
+      "title": "Mix sauce",
+      "points": [
+        "Stir the soy sauce and mustard together in a small bowl.",
+        "Set it next to the stove: the end of this recipe goes fast."
+      ],
       "image": "img/sausage-cabbage-3.svg"
     },
     {
-      "title": "Cook until just tender",
-      "text": "After 3 to 4 minutes the cabbage should be glossy and wilted at the edges but still have crunch in the thick parts. Kill the heat there, it keeps cooking in the pan.",
+      "title": "Brown sausage",
+      "points": [
+        "Heat the oil over medium-high.",
+        "Spread the sausage coins in one layer and cook about 2 minutes, turning once.",
+        "They are ready when both sides have color and the fat starts to run."
+      ],
       "image": "img/sausage-cabbage-4.svg"
     },
     {
-      "title": "Sauce, toss, and serve",
-      "text": "Pour the soy and mustard mixture around the edge of the pan, toss everything for 30 seconds, and plate. Finish with plenty of black pepper. Taste first, the sausage may carry enough salt on its own.",
-      "hint": "Sauce poured onto the hot pan edge sizzles and gets aromatic. Poured on the vegetables it just makes them wet.",
+      "title": "Add cabbage",
+      "points": [
+        "Pile in all the cabbage. It looks like too much, it isn't.",
+        "Let it sit untouched for 1 minute so the bottom layer chars a little.",
+        "Toss, then repeat: rest, toss, rest."
+      ],
+      "hint": "Constant stirring steams the cabbage. Letting it sit against the hot pan is what gives you sweet, browned edges.",
       "image": "img/sausage-cabbage-5.svg"
+    },
+    {
+      "title": "Check cabbage",
+      "points": [
+        "After 3 to 4 minutes it should be glossy and wilted at the edges.",
+        "The thick parts should still have some crunch.",
+        "Kill the heat there, it keeps cooking in the pan."
+      ],
+      "image": "img/sausage-cabbage-6.svg"
+    },
+    {
+      "title": "Add sauce",
+      "points": [
+        "Pour the soy and mustard mixture around the edge of the pan.",
+        "Toss everything for 30 seconds, then plate.",
+        "Taste before you finish with black pepper: the sausage may carry enough salt on its own."
+      ],
+      "hint": "Sauce poured onto the hot pan edge sizzles and gets aromatic. Poured on the vegetables it just makes them wet.",
+      "image": "img/sausage-cabbage-7.svg"
     }
   ],
   "troubleshooting": [

@@ -1,27 +1,31 @@
-<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ketchup chicken rice mounded on a plate with a ketchup stripe on top">
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ketchup bubbling on the empty half of the pan next to the chicken and onion">
   <defs>
-    <radialGradient id="plate" cx="0.5" cy="0.4" r="0.7">
-      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f0ece4"/>
-    </radialGradient>
+    <linearGradient id="pan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5c6066"/><stop offset="1" stop-color="#3c4046"/>
+    </linearGradient>
   </defs>
-  <ellipse cx="100" cy="128" rx="82" ry="8" fill="#000" opacity="0.25"/>
-  <ellipse cx="100" cy="102" rx="80" ry="28" fill="url(#plate)"/>
-  <ellipse cx="100" cy="100" rx="64" ry="22" fill="#e6e0d4"/>
-  <path d="M58 100 Q60 74 100 72 Q140 74 142 100 Q120 110 100 110 Q80 110 58 100 Z" fill="#f08a4b"/>
-  <path d="M66 94 q12 6 24 0 M110 92 q12 6 24 0" stroke="#f5a26e" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <rect x="80" y="82" width="16" height="11" rx="4" fill="#e8b26a" transform="rotate(-8 88 87)"/>
-  <rect x="108" y="86" width="16" height="11" rx="4" fill="#e8b26a" transform="rotate(6 116 91)"/>
-  <circle cx="74" cy="100" r="2.2" fill="#fbe3c6"/>
-  <circle cx="128" cy="98" r="2.2" fill="#fbe3c6"/>
-  <path d="M84 78 Q100 70 116 78" stroke="#e04a54" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <path d="M84 34 q-5 -9 0 -18 M104 30 q-5 -9 0 -18 M124 36 q-5 -9 0 -18" stroke="#aab6c0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.8"/>
-  <g transform="translate(168,44)">
-    <path d="M-6 0 L6 0 L4 24 L-4 24 Z" fill="#e04a54"/>
-    <rect x="-6" y="-2" width="12" height="8" rx="2" fill="#f0666e"/>
-    <rect x="-2.5" y="-8" width="5" height="7" rx="2" fill="#ffffff"/>
+  <ellipse cx="100" cy="126" rx="80" ry="8" fill="#000" opacity="0.25"/>
+  <path d="M30 64 L170 64 L160 112 Q100 124 40 112 Z" fill="url(#pan)"/>
+  <rect x="26" y="60" width="148" height="8" rx="4" fill="#6f747b"/>
+  <path d="M172 64 L198 58" stroke="#a97142" stroke-width="10" stroke-linecap="round"/>
+  <g>
+    <rect x="48" y="78" width="22" height="15" rx="5" fill="#e8b26a" transform="rotate(-6 59 85)"/>
+    <rect x="52" y="94" width="22" height="15" rx="5" fill="#e8b26a" transform="rotate(5 63 101)"/>
+    <rect x="74" y="86" width="8" height="8" rx="2" fill="#f3dfae" transform="rotate(-8 78 90)"/>
+    <rect x="68" y="102" width="8" height="8" rx="2" fill="#f3dfae" transform="rotate(10 72 106)"/>
   </g>
-  <g transform="translate(26,48) rotate(-15)">
-    <ellipse cx="0" cy="0" rx="11" ry="8" fill="#f5f1e8"/>
-    <circle cx="0" cy="-1" r="4" fill="#ffb000"/>
+  <path d="M104 86 Q120 78 136 86 Q146 92 140 100 Q124 108 108 100 Q98 94 104 86 Z" fill="#e04a54"/>
+  <path d="M110 88 Q122 83 132 88" stroke="#f0666e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <circle cx="116" cy="97" r="2.2" fill="#f58f95"/>
+  <circle cx="130" cy="94" r="1.8" fill="#f58f95"/>
+  <g transform="translate(150,14) rotate(18)">
+    <path d="M-8 0 L8 0 L6 34 L-6 34 Z" fill="#e04a54"/>
+    <rect x="-8" y="-2" width="16" height="10" rx="3" fill="#f0666e"/>
+    <rect x="-3" y="-9" width="6" height="8" rx="2" fill="#ffffff"/>
+    <path d="M0 40 L0 52" stroke="#e04a54" stroke-width="4" stroke-linecap="round"/>
   </g>
+  <path d="M120 68 q-4 -8 0 -15" stroke="#aab6c0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M70 118 q-5 8 0 14 M130 118 q-5 8 0 14" stroke="#ff832b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <rect x="14" y="20" width="38" height="22" rx="4" fill="#1d2b1e"/>
+  <text x="33" y="36" font-family="sans-serif" font-size="13" font-weight="700" fill="#42be65" text-anchor="middle">0:30</text>
 </svg>

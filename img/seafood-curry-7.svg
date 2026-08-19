@@ -1,18 +1,19 @@
-<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Plated seafood curry beside rice with a pat of butter on top">
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Packed rice heating in a microwave set to two minutes">
   <defs>
-    <radialGradient id="plate" cx="0.5" cy="0.4" r="0.7">
-      <stop offset="0" stop-color="#f4f6f8"/><stop offset="1" stop-color="#c9d1d9"/>
-    </radialGradient>
+    <linearGradient id="mw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8d939b"/><stop offset="1" stop-color="#5f656d"/>
+    </linearGradient>
   </defs>
-  <ellipse cx="100" cy="132" rx="86" ry="9" fill="#000" opacity="0.25"/>
-  <ellipse cx="100" cy="88" rx="86" ry="44" fill="url(#plate)"/>
-  <ellipse cx="100" cy="86" rx="72" ry="35" fill="#e4e9ee"/>
-  <path d="M34 96 q7 -30 30 -30 q23 0 30 30 Z" fill="#ffffff"/>
-  <path d="M40 96 q6 -22 24 -22" stroke="#dfe5ea" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M98 98 q5 -28 32 -28 q27 0 32 28 Q130 108 98 98 Z" fill="#a4693a"/>
-  <path d="M108 84 q7 -5 13 0 M126 78 q6 -4 11 0" stroke="#c58a52" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M116 92 q-2 -8 6 -9 q8 -1 8 5 q0 6 -6 6" stroke="#fa7368" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-  <rect x="126" y="58" width="15" height="11" rx="2" fill="#f1c21b"/>
-  <rect x="126" y="58" width="15" height="4" rx="2" fill="#ffe97a"/>
-  <path d="M62 44 q-4 -7 0 -13 M78 40 q-4 -7 0 -13 M122 42 q-4 -7 0 -13" stroke="#aab6c0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <ellipse cx="100" cy="130" rx="84" ry="8" fill="#000" opacity="0.25"/>
+  <rect x="14" y="26" width="172" height="98" rx="10" fill="url(#mw)"/>
+  <rect x="26" y="38" width="102" height="74" rx="6" fill="#2b2e33"/>
+  <rect x="30" y="42" width="94" height="66" rx="4" fill="#3a3220"/>
+  <rect x="52" y="72" width="50" height="26" rx="4" fill="#f0ece4"/>
+  <rect x="52" y="72" width="50" height="9" rx="4" fill="#ffffff"/>
+  <path d="M60 66 q-4 -6 0 -12 M77 64 q-4 -6 0 -12 M94 66 q-4 -6 0 -12" stroke="#ffd75e" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <rect x="140" y="40" width="36" height="20" rx="4" fill="#1d2b1e"/>
+  <text x="158" y="55" font-family="sans-serif" font-size="13" font-weight="700" fill="#42be65" text-anchor="middle">2:00</text>
+  <circle cx="158" cy="88" r="14" fill="#4c5056"/>
+  <circle cx="158" cy="88" r="14" fill="none" stroke="#33b1ff" stroke-width="3" stroke-dasharray="44 44" stroke-linecap="round" transform="rotate(-90 158 88)"/>
+  <circle cx="158" cy="112" r="5" fill="#33383e"/>
 </svg>

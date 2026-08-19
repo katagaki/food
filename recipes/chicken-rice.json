@@ -81,38 +81,77 @@
   ],
   "steps": [
     {
-      "title": "Cut the chicken and onion",
-      "text": "Cut the chicken into bite-size pieces, about 2 cm, and season with the salt. Dice the onion into small pieces, around 5 mm. This is the only knife work, so wash the board and knife now.",
+      "title": "Cut chicken",
+      "points": [
+        "Cut the chicken into bite-size pieces, about 2 cm.",
+        "Season the pieces with the salt.",
+        "Wash the board and knife before anything else touches them."
+      ],
       "hint": "Raw chicken touched the board, so wash it with soap and hot water, not just a rinse.",
       "image": "img/chicken-rice-1.svg"
     },
     {
-      "title": "Brown the chicken",
-      "text": "Heat the oil over medium-high. Lay the chicken in skin side down and leave it for 2 to 3 minutes, until well browned, then flip and cook 1 minute more. It can stay slightly underdone inside, it finishes with the rice.",
-      "hint": "As with any searing, the less you poke it, the better the color.",
+      "title": "Dice onion",
+      "points": [
+        "Dice the onion into small pieces, around 5 mm.",
+        "That is the last of the knife work."
+      ],
       "image": "img/chicken-rice-2.svg"
     },
     {
-      "title": "Soften the onion",
-      "text": "Add the onion and cook for about 2 minutes, stirring, until translucent. While it cooks, microwave the packed rice as directed so it's hot and ready.",
+      "title": "Brown chicken",
+      "points": [
+        "Heat the oil over medium-high.",
+        "Lay the chicken in skin side down and leave it for 2 to 3 minutes, until well browned.",
+        "Flip and cook 1 minute more. It can stay slightly underdone, it finishes with the rice."
+      ],
+      "hint": "As with any searing, the less you poke it, the better the color.",
       "image": "img/chicken-rice-3.svg"
     },
     {
-      "title": "Fry the ketchup",
-      "text": "Push everything to one side and squeeze the ketchup onto the empty half. Let it bubble for 30 seconds, stirring just the ketchup, until it darkens slightly and smells sweet instead of sharp.",
-      "hint": "This little step cooks off the raw sourness and is what separates good chicken rice from rice with ketchup on it.",
+      "title": "Soften onion",
+      "points": [
+        "Add the onion to the pan.",
+        "Cook for about 2 minutes, stirring, until translucent."
+      ],
       "image": "img/chicken-rice-4.svg"
     },
     {
-      "title": "Add the rice and toss",
-      "text": "Add the hot rice and break it up with the spatula, folding until every grain is evenly orange, about 2 minutes. If you're using butter or soy sauce, add it now and toss once more. Finish with black pepper.",
+      "title": "Heat rice",
+      "points": [
+        "Microwave the packed rice as directed.",
+        "Keep it hot and within reach for the last two steps."
+      ],
       "hint": "Hot rice separates easily. Cold rice clumps and tears, so heat it first, always.",
       "image": "img/chicken-rice-5.svg"
     },
     {
-      "title": "Plate it",
-      "text": "Taste, adjust with a pinch of salt if needed, and mound it onto a plate. A little extra ketchup on top is traditional, and a fried egg on top is even better if you have one spare.",
+      "title": "Fry ketchup",
+      "points": [
+        "Push everything to one side and squeeze the ketchup onto the empty half.",
+        "Let it bubble for 30 seconds, stirring just the ketchup.",
+        "It is ready when it darkens slightly and smells sweet instead of sharp."
+      ],
+      "hint": "This little step cooks off the raw sourness and is what separates good chicken rice from rice with ketchup on it.",
       "image": "img/chicken-rice-6.svg"
+    },
+    {
+      "title": "Add rice",
+      "points": [
+        "Add the hot rice and break it up with the spatula.",
+        "Fold until every grain is evenly orange, about 2 minutes.",
+        "Add the butter or soy sauce now if using, then finish with black pepper."
+      ],
+      "image": "img/chicken-rice-7.svg"
+    },
+    {
+      "title": "Plate chicken rice",
+      "points": [
+        "Taste, and adjust with a pinch of salt if needed.",
+        "Mound it onto a plate.",
+        "A little extra ketchup on top is traditional, and a fried egg is even better."
+      ],
+      "image": "img/chicken-rice-8.svg"
     }
   ],
   "troubleshooting": [

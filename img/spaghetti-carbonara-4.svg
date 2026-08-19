@@ -1,23 +1,26 @@
-<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cooked spaghetti in the pan with only a little cloudy liquid left">
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Salted water coming to a boil in the pan with the browned bacon and its fat still in it">
   <defs>
     <linearGradient id="pan" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#5c6066"/><stop offset="1" stop-color="#3c4046"/>
     </linearGradient>
   </defs>
   <ellipse cx="100" cy="126" rx="80" ry="8" fill="#000" opacity="0.25"/>
-  <path d="M30 64 L170 64 L160 112 Q100 124 40 112 Z" fill="url(#pan)"/>
-  <rect x="26" y="60" width="148" height="8" rx="4" fill="#6f747b"/>
-  <path d="M172 64 L198 58" stroke="#a97142" stroke-width="10" stroke-linecap="round"/>
-  <path d="M50 96 Q100 108 150 96 L148 102 Q100 112 52 102 Z" fill="#cfe3ec"/>
-  <g stroke="#f5d878" stroke-width="4" stroke-linecap="round" fill="none">
-    <path d="M54 92 q14 -10 28 0 t28 0 t28 0"/>
-    <path d="M60 84 q14 -10 28 0 t28 0 t24 2"/>
-    <path d="M68 98 q14 -8 26 0 t26 0"/>
+  <path d="M30 58 L170 58 L160 108 Q100 120 40 108 Z" fill="url(#pan)"/>
+  <rect x="26" y="54" width="148" height="8" rx="4" fill="#6f747b"/>
+  <path d="M172 58 L198 52" stroke="#a97142" stroke-width="10" stroke-linecap="round"/>
+  <path d="M44 66 L156 66 L150 100 Q100 110 50 100 Z" fill="#33b1ff" opacity="0.85"/>
+  <g fill="#bfe4ff" opacity="0.9">
+    <circle cx="66" cy="82" r="4"/><circle cx="86" cy="76" r="3"/><circle cx="104" cy="84" r="4.5"/>
+    <circle cx="124" cy="78" r="3"/><circle cx="138" cy="88" r="3.5"/><circle cx="78" cy="92" r="3"/>
+    <circle cx="114" cy="94" r="2.5"/>
   </g>
-  <rect x="70" y="88" width="12" height="6" rx="2" fill="#e05c54" transform="rotate(-10 76 91)"/>
-  <rect x="116" y="92" width="12" height="6" rx="2" fill="#e05c54" transform="rotate(8 122 95)"/>
-  <path d="M70 52 q-5 -9 0 -18 M100 50 q-5 -9 0 -18 M130 52 q-5 -9 0 -18" stroke="#aab6c0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.8"/>
-  <path d="M60 118 q-5 8 0 14 M100 120 q-5 8 0 14 M140 118 q-5 8 0 14" stroke="#ff832b" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M28 24 L52 24 L58 42 L22 42 Z" fill="#33b1ff" opacity="0.9"/>
-  <path d="M40 46 L40 58 M34 53 L40 59 L46 53" stroke="#33b1ff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke-linecap="round">
+    <path d="M58 92 q8 -5 16 0" stroke="#c65d51" stroke-width="8" fill="none"/>
+    <path d="M92 96 q8 -5 16 0" stroke="#c65d51" stroke-width="8" fill="none"/>
+    <path d="M124 92 q8 -5 16 0" stroke="#c65d51" stroke-width="8" fill="none"/>
+  </g>
+  <circle cx="70" cy="70" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="118" cy="70" r="2" fill="#ffffff" opacity="0.9"/>
+  <path d="M74 46 q-5 -9 0 -18 M100 42 q-5 -9 0 -18 M126 46 q-5 -9 0 -18" stroke="#aab6c0" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M76 114 q-5 8 0 14 M100 114 q-5 8 0 14 M124 114 q-5 8 0 14" stroke="#ff832b" stroke-width="4" fill="none" stroke-linecap="round"/>
 </svg>
