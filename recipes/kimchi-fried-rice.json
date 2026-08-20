@@ -8,13 +8,13 @@
     "toBuy": [
       {
         "item": "Frozen seafood mix or bacon",
-        "note": "Pick one. Seafood brings sweetness, bacon brings smoke and renders its own fat.",
-        "amount": "50 g seafood (1/3 bag), or 2 rashers of bacon"
+        "amount": "50 g (1/3 bag) or 2 rashers",
+        "note": "Pick one. Seafood brings sweetness, bacon brings smoke and renders its own fat."
       },
       {
         "item": "Napa cabbage kimchi",
-        "note": "Riper and more sour is better here. Keep the juice.",
-        "amount": "120 g"
+        "amount": "120 g",
+        "note": "Riper and more sour is better here. Keep the juice."
       },
       {
         "item": "Microwavable packed rice",
@@ -24,11 +24,13 @@
     "fromThePantry": [
       {
         "item": "Butter",
-        "amount": "1 1/2 tbsp, used in two goes"
+        "amount": "1 1/2 tbsp",
+        "note": "Used in two goes."
       },
       {
         "item": "Onion",
-        "amount": "1/3, finely diced"
+        "amount": "1/3",
+        "note": "Finely diced."
       },
       {
         "item": "Soy sauce",
@@ -40,7 +42,7 @@
       },
       {
         "item": "Salt and black pepper",
-        "amount": "A pinch of each"
+        "amount": "a pinch of each"
       },
       {
         "item": "Sesame oil",
@@ -56,12 +58,13 @@
       },
       {
         "item": "Garlic",
-        "amount": "1 clove, minced",
+        "amount": "1 clove",
+        "note": "Minced.",
         "optional": true
       },
       {
         "item": "Chopped scallion or toasted sesame",
-        "amount": "A little",
+        "amount": "a little",
         "optional": true
       }
     ]

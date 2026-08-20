@@ -2,19 +2,19 @@
   "id": "seafood-curry",
   "title": "Seafood Curry",
   "time": "20 min",
-  "serves": "1–2",
+  "serves": "1 to 2",
   "tried": true,
   "ingredients": {
     "toBuy": [
       {
         "item": "Frozen seafood mix",
-        "note": "Shrimp, squid, and clams. Pre-cleaned, ready to use straight from the bag.",
-        "amount": "1 bag (150 g)"
+        "amount": "1 bag (150 g)",
+        "note": "Shrimp, squid, and clams. Pre-cleaned, ready to use straight from the bag."
       },
       {
         "item": "Microwavable packed rice",
-        "note": "The heat-in-the-microwave kind.",
-        "amount": "1 pack per person"
+        "amount": "1 pack per person",
+        "note": "The heat-in-the-microwave kind."
       }
     ],
     "fromThePantry": [
@@ -24,15 +24,18 @@
       },
       {
         "item": "Onion",
-        "amount": "1/2, thinly sliced"
+        "amount": "1/2",
+        "note": "Thinly sliced."
       },
       {
         "item": "Carrots",
-        "amount": "2 small, in thin quarter-rounds"
+        "amount": "2 small",
+        "note": "In thin quarter-rounds."
       },
       {
         "item": "Butter",
-        "amount": "1 tbsp, plus a little to finish"
+        "amount": "1 tbsp",
+        "note": "Plus a little to finish."
       },
       {
         "item": "Water",
@@ -42,7 +45,7 @@
   },
   "tools": [
     {
-      "name": "Frying pan with a lid",
+      "name": "Frying pan with a lid (about 24 cm)",
       "required": true,
       "note": "The pan stands in for a pot. No lid? An upturned plate works too."
     },
@@ -64,7 +67,7 @@
     {
       "name": "Microwave",
       "required": true,
-      "note": "For the packed rice. 2 minutes at 500–600 W."
+      "note": "For the packed rice. 2 minutes at 500 to 600 W."
     },
     {
       "name": "Measuring cup",
@@ -81,7 +84,8 @@
     {
       "title": "Cut carrots",
       "points": [
-        "Cut the carrots into thin quarter-rounds, about 3 mm thick."
+        "Cut the carrots into thin quarter-rounds, about 3 mm thick.",
+        "Two small carrots are about a handful of slices."
       ],
       "hint": "A frying pan holds less water than a pot, so thin slices are the trick to cooking everything through before the liquid reduces away.",
       "image": "img/seafood-curry-1.svg"

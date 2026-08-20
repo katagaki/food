@@ -16,7 +16,8 @@
       },
       {
         "item": "Eggs",
-        "amount": "2 whole"
+        "amount": "2",
+        "note": "Whole eggs, not yolks only."
       },
       {
         "item": "Grated parmesan",
@@ -168,7 +169,7 @@
       "solution": "Too much liquid was left in the pan. Next time boil it down to about two spoonfuls before the egg goes in. This time, toss over the lowest possible heat for 10 to 15 seconds and it will tighten."
     },
     {
-      "problem": "I want a richer sauce",
+      "problem": "Want a richer sauce",
       "solution": "Richness comes from the yolk, not the white. Use one whole egg plus one extra yolk instead of two whole eggs. To separate one without a tool, crack the egg into a clean cupped hand over a bowl and let the white run between your fingers."
     },
     {
@@ -176,7 +177,7 @@
       "solution": "Parmesan keeps drinking liquid as it sits. Loosen it with a spoonful of hot water and toss again. Serving on a warmed plate slows this down."
     },
     {
-      "problem": "I want the bacon crisp in the finished dish",
+      "problem": "Want the bacon crisp in the finished dish",
       "solution": "Boiling with the pasta softens it. Lift the bacon out after browning, leaving every bit of fat behind, and stir it back in with the egg at the end. The fat still flavors the sauce and the bacon keeps its crunch, at the cost of one extra plate."
     },
     {
