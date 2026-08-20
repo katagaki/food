@@ -25,6 +25,20 @@ Step illustrations in `img/` share one visual language:
 - Recurring elements (pan, flames, steam, timer badge) should look the same across all illustrations.
 - Text inside SVGs is minimal, English, generic `sans-serif` (for example timer digits or "HEAT OFF").
 
+## Recipe data rules
+
+Every file in `recipes/` follows one shape. Keys appear in the order listed, and optional keys are written only when they apply.
+
+- Recipe file: `id`, `title`, `time`, `serves`, `tried`, `ingredients`, `tools`, `steps`, `troubleshooting`. `tried` is written only when the recipe has been cooked, as `true`; leave it out otherwise.
+- `recipes/index.json` entry: `id`, `file`, `title`, `time`, `serves`, `tried`, `keywords`. The `id`, `title`, `time`, `serves`, and `tried` values must match the recipe file exactly.
+- `time` reads like "15 min". `serves` is a plain count such as "1" or "1 to 2". Write ranges with the word "to", never a dash.
+- `ingredients` has exactly two sections, `toBuy` and `fromThePantry`. Each entry is `item`, `amount`, `note`, `optional`.
+  - `amount` carries the quantity only: "150 g", "1/2", "2 tbsp", or a lowercase vague measure such as "to taste", "a pinch", "a little". Prep work ("finely diced", "thinly sliced") belongs in `note`, not in `amount`.
+  - `note` is a full sentence with a period. `optional` is written only when the ingredient can be skipped, as `true`.
+- `tools` entries are `name`, `required`, `note`. All three are always present, `required` is `true` or `false`, and `note` is a full sentence saying what the tool is for. The main pan names its size, for example "Frying pan (about 24 cm)".
+- `steps` entries are `title`, `points`, `hint`, `image`. `title` is a short imperative phrase ("Brown pork"), `points` holds 2 to 3 sentences, `hint` is optional background, and `image` is `img/<id>-<step number>.svg`, numbered from 1.
+- `troubleshooting` entries are `problem` and `solution`. `problem` is a short symptom with no closing period, written in the third person ("The rice turned mushy") or as a want without the pronoun ("Want it more filling"). `solution` is one to three full sentences.
+
 ## Commit message rules
 
 - Single line only. No body, no trailers.
