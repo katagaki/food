@@ -42,6 +42,25 @@
       ]
     },
     {
+      "id": "kimchi-cheese-toastie",
+      "file": "recipes/kimchi-cheese-toastie.json",
+      "title": "Kimchi Cheese Toastie",
+      "time": "15 min",
+      "serves": "1",
+      "keywords": [
+        "kimchi",
+        "cheese",
+        "toastie",
+        "toasted sandwich",
+        "grilled cheese",
+        "bread",
+        "butter",
+        "frying pan",
+        "quick",
+        "easy"
+      ]
+    },
+    {
       "id": "pork-bowl",
       "file": "recipes/pork-bowl.json",
       "title": "Pork & Onion Rice Bowl",
