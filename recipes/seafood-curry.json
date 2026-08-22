@@ -8,33 +8,40 @@
     "supermarket": [
       {
         "item": "Frozen seafood mix",
+        "icon": "img/ingredients/seafood.svg",
         "amount": "1 bag (150 g)",
         "note": "Shrimp, squid, and clams. Pre-cleaned, ready to use straight from the bag."
       },
       {
         "item": "Onion",
+        "icon": "img/ingredients/onion.svg",
         "amount": "1/2"
       },
       {
         "item": "Carrots",
+        "icon": "img/ingredients/carrot.svg",
         "amount": "2 small"
       },
       {
         "item": "Butter",
+        "icon": "img/ingredients/butter.svg",
         "amount": "1 tbsp"
       }
     ],
     "general": [
       {
         "item": "Microwavable packed rice",
+        "icon": "img/ingredients/rice.svg",
         "amount": "1 pack per person"
       },
       {
         "item": "Curry roux",
+        "icon": "img/ingredients/curry-roux.svg",
         "amount": "2 blocks"
       },
       {
         "item": "Water",
+        "icon": "img/ingredients/water.svg",
         "amount": "250 ml"
       }
     ]

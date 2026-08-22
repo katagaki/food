@@ -8,58 +8,70 @@
     "supermarket": [
       {
         "item": "Frozen seafood mix or bacon",
+        "icon": "img/ingredients/seafood.svg",
         "amount": "50 g (1/3 bag) or 2 rashers",
         "note": "Pick one. Seafood brings sweetness, bacon brings smoke and renders its own fat."
       },
       {
         "item": "Napa cabbage kimchi",
+        "icon": "img/ingredients/kimchi.svg",
         "amount": "120 g",
         "note": "Riper and more sour is better here. Keep the juice."
       },
       {
         "item": "Butter",
+        "icon": "img/ingredients/butter.svg",
         "amount": "1 1/2 tbsp"
       },
       {
         "item": "Onion",
+        "icon": "img/ingredients/onion.svg",
         "amount": "1/3"
       }
     ],
     "general": [
       {
         "item": "Microwavable packed rice",
+        "icon": "img/ingredients/rice.svg",
         "amount": "180 g (1 pack)"
       },
       {
         "item": "Soy sauce",
+        "icon": "img/ingredients/soy-sauce.svg",
         "amount": "2 tsp"
       },
       {
         "item": "Sugar",
+        "icon": "img/ingredients/sugar.svg",
         "amount": "1/2 tsp"
       },
       {
         "item": "Salt and black pepper",
+        "icon": "img/ingredients/salt.svg",
         "amount": "a pinch of each"
       }
     ],
     "optional": [
       {
         "item": "Sesame oil",
+        "icon": "img/ingredients/sesame-oil.svg",
         "amount": "1 tsp",
         "note": "Stirred in off the heat for aroma. Skip it and the rice is still good, just less nutty."
       },
       {
         "item": "Egg",
+        "icon": "img/ingredients/egg.svg",
         "amount": "1",
         "note": "Worth the trip. It coats the grains and softens the heat of the kimchi."
       },
       {
         "item": "Garlic",
+        "icon": "img/ingredients/garlic.svg",
         "amount": "1 clove"
       },
       {
         "item": "Chopped scallion or toasted sesame",
+        "icon": "img/ingredients/spring-onion.svg",
         "amount": "a little"
       }
     ]

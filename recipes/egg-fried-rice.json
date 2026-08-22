@@ -8,42 +8,51 @@
     "supermarket": [
       {
         "item": "Eggs",
+        "icon": "img/ingredients/egg.svg",
         "amount": "2"
       },
       {
         "item": "Spring onion",
+        "icon": "img/ingredients/spring-onion.svg",
         "amount": "2 stalks"
       }
     ],
     "general": [
       {
         "item": "Microwavable packed rice",
+        "icon": "img/ingredients/rice.svg",
         "amount": "200 g"
       },
       {
         "item": "Cooking oil",
+        "icon": "img/ingredients/oil.svg",
         "amount": "1 tbsp"
       },
       {
         "item": "Soy sauce",
+        "icon": "img/ingredients/soy-sauce.svg",
         "amount": "1 tbsp"
       },
       {
         "item": "Salt",
+        "icon": "img/ingredients/salt.svg",
         "amount": "a pinch"
       },
       {
         "item": "White pepper",
+        "icon": "img/ingredients/pepper.svg",
         "amount": "to taste"
       }
     ],
     "optional": [
       {
         "item": "Sesame oil",
+        "icon": "img/ingredients/sesame-oil.svg",
         "amount": "1/2 tsp"
       },
       {
         "item": "Butter",
+        "icon": "img/ingredients/butter.svg",
         "amount": "5 g"
       }
     ]

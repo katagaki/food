@@ -7,39 +7,47 @@
     "supermarket": [
       {
         "item": "Garlic",
+        "icon": "img/ingredients/garlic.svg",
         "amount": "6 cloves"
       },
       {
         "item": "Butter",
+        "icon": "img/ingredients/butter.svg",
         "amount": "10 g"
       }
     ],
     "general": [
       {
         "item": "Microwavable packed rice",
+        "icon": "img/ingredients/rice.svg",
         "amount": "200 g",
         "note": "Cold rice from the fridge works too, broken up before it goes in."
       },
       {
         "item": "Cooking oil",
+        "icon": "img/ingredients/oil.svg",
         "amount": "2 tbsp"
       },
       {
         "item": "Soy sauce",
+        "icon": "img/ingredients/soy-sauce.svg",
         "amount": "1 tsp"
       },
       {
         "item": "Salt",
+        "icon": "img/ingredients/salt.svg",
         "amount": "a pinch"
       },
       {
         "item": "Black pepper",
+        "icon": "img/ingredients/pepper.svg",
         "amount": "to taste"
       }
     ],
     "optional": [
       {
         "item": "Spring onion",
+        "icon": "img/ingredients/spring-onion.svg",
         "amount": "1 stalk"
       }
     ]

@@ -8,39 +8,47 @@
     "supermarket": [
       {
         "item": "Bacon (block or thick-cut)",
+        "icon": "img/ingredients/bacon.svg",
         "amount": "60 g"
       },
       {
         "item": "Eggs",
+        "icon": "img/ingredients/egg.svg",
         "amount": "2",
         "note": "Whole eggs, not yolks only."
       },
       {
         "item": "Grated parmesan",
+        "icon": "img/ingredients/cheese.svg",
         "amount": "25 g"
       }
     ],
     "general": [
       {
         "item": "Spaghetti",
+        "icon": "img/ingredients/spaghetti.svg",
         "amount": "100 g"
       },
       {
         "item": "Water",
+        "icon": "img/ingredients/water.svg",
         "amount": "400 ml"
       },
       {
         "item": "Salt",
+        "icon": "img/ingredients/salt.svg",
         "amount": "1/3 tsp"
       },
       {
         "item": "Coarse black pepper",
+        "icon": "img/ingredients/pepper.svg",
         "amount": "plenty"
       }
     ],
     "optional": [
       {
         "item": "Olive oil",
+        "icon": "img/ingredients/oil.svg",
         "amount": "1 tsp"
       }
     ]

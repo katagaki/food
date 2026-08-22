@@ -7,32 +7,39 @@
     "supermarket": [
       {
         "item": "Bacon (half-size slices)",
+        "icon": "img/ingredients/bacon.svg",
         "amount": "2 slices"
       },
       {
         "item": "Grated cheese",
+        "icon": "img/ingredients/cheese.svg",
         "amount": "2 tbsp"
       }
     ],
     "general": [
       {
         "item": "Rice (unwashed)",
+        "icon": "img/ingredients/rice.svg",
         "amount": "1 cup (180 ml)"
       },
       {
         "item": "Water",
+        "icon": "img/ingredients/water.svg",
         "amount": "400 ml"
       },
       {
         "item": "Bouillon cube",
+        "icon": "img/ingredients/bouillon.svg",
         "amount": "1"
       },
       {
         "item": "Butter or olive oil",
+        "icon": "img/ingredients/butter.svg",
         "amount": "10 g"
       },
       {
         "item": "Salt and black pepper",
+        "icon": "img/ingredients/salt.svg",
         "amount": "to taste"
       }
     ]

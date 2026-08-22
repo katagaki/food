@@ -7,34 +7,41 @@
     "supermarket": [
       {
         "item": "Sausages",
+        "icon": "img/ingredients/sausage.svg",
         "amount": "4 (about 120 g)"
       },
       {
         "item": "Cabbage",
+        "icon": "img/ingredients/cabbage.svg",
         "amount": "1/4 head (about 250 g)"
       }
     ],
     "general": [
       {
         "item": "Cooking oil",
+        "icon": "img/ingredients/oil.svg",
         "amount": "1 tsp"
       },
       {
         "item": "Soy sauce",
+        "icon": "img/ingredients/soy-sauce.svg",
         "amount": "2 tsp"
       },
       {
         "item": "Whole-grain mustard",
+        "icon": "img/ingredients/mustard.svg",
         "amount": "2 tsp"
       },
       {
         "item": "Black pepper",
+        "icon": "img/ingredients/pepper.svg",
         "amount": "to taste"
       }
     ],
     "optional": [
       {
         "item": "Salt",
+        "icon": "img/ingredients/salt.svg",
         "amount": "a pinch"
       }
     ]

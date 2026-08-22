@@ -8,31 +8,37 @@
     "supermarket": [
       {
         "item": "White bread",
+        "icon": "img/ingredients/bread.svg",
         "amount": "2 slices",
         "note": "Plain sandwich slices work best, thick-cut bread takes longer to heat through."
       },
       {
         "item": "Kimchi",
+        "icon": "img/ingredients/kimchi.svg",
         "amount": "60 g"
       },
       {
         "item": "Grated cheese",
+        "icon": "img/ingredients/cheese.svg",
         "amount": "60 g",
         "note": "Any melting cheese such as mozzarella, cheddar, or a pizza blend."
       },
       {
         "item": "Butter",
+        "icon": "img/ingredients/butter.svg",
         "amount": "15 g"
       }
     ],
     "optional": [
       {
         "item": "Sugar",
+        "icon": "img/ingredients/sugar.svg",
         "amount": "a pinch",
         "note": "Stirred into the kimchi to round off the sourness."
       },
       {
         "item": "Black pepper",
+        "icon": "img/ingredients/pepper.svg",
         "amount": "to taste"
       }
     ]

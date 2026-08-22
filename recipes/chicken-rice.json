@@ -7,42 +7,51 @@
     "supermarket": [
       {
         "item": "Chicken thigh, boneless",
+        "icon": "img/ingredients/chicken.svg",
         "amount": "150 g"
       },
       {
         "item": "Onion",
+        "icon": "img/ingredients/onion.svg",
         "amount": "1/2"
       }
     ],
     "general": [
       {
         "item": "Microwavable packed rice",
+        "icon": "img/ingredients/rice.svg",
         "amount": "200 g"
       },
       {
         "item": "Ketchup",
+        "icon": "img/ingredients/ketchup.svg",
         "amount": "3 tbsp"
       },
       {
         "item": "Cooking oil",
+        "icon": "img/ingredients/oil.svg",
         "amount": "1 tsp"
       },
       {
         "item": "Salt",
+        "icon": "img/ingredients/salt.svg",
         "amount": "a pinch"
       },
       {
         "item": "Black pepper",
+        "icon": "img/ingredients/pepper.svg",
         "amount": "to taste"
       }
     ],
     "optional": [
       {
         "item": "Butter",
+        "icon": "img/ingredients/butter.svg",
         "amount": "10 g"
       },
       {
         "item": "Soy sauce",
+        "icon": "img/ingredients/soy-sauce.svg",
         "amount": "1 tsp"
       }
     ]

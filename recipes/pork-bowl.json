@@ -7,46 +7,56 @@
     "supermarket": [
       {
         "item": "Thin-sliced pork offcuts",
+        "icon": "img/ingredients/pork.svg",
         "amount": "150 g"
       },
       {
         "item": "Onion",
+        "icon": "img/ingredients/onion.svg",
         "amount": "1/2"
       }
     ],
     "general": [
       {
         "item": "Microwavable packed rice",
+        "icon": "img/ingredients/rice.svg",
         "amount": "200 g"
       },
       {
         "item": "Soy sauce",
+        "icon": "img/ingredients/soy-sauce.svg",
         "amount": "2 tbsp"
       },
       {
         "item": "Sugar",
+        "icon": "img/ingredients/sugar.svg",
         "amount": "1 tbsp"
       },
       {
         "item": "Sake",
+        "icon": "img/ingredients/sake.svg",
         "amount": "1 tbsp"
       },
       {
         "item": "Water",
+        "icon": "img/ingredients/water.svg",
         "amount": "2 tbsp"
       },
       {
         "item": "Cooking oil",
+        "icon": "img/ingredients/oil.svg",
         "amount": "1 tsp"
       }
     ],
     "optional": [
       {
         "item": "Butter",
+        "icon": "img/ingredients/butter.svg",
         "amount": "5 g"
       },
       {
         "item": "Ginger paste (tube)",
+        "icon": "img/ingredients/ginger.svg",
         "amount": "2 cm"
       }
     ]

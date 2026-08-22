@@ -7,20 +7,24 @@
     "supermarket": [
       {
         "item": "Thick-cut bread (about 3 cm)",
+        "icon": "img/ingredients/bread.svg",
         "amount": "1 slice"
       },
       {
         "item": "Butter",
+        "icon": "img/ingredients/butter.svg",
         "amount": "15 g"
       }
     ],
     "optional": [
       {
         "item": "Salt",
+        "icon": "img/ingredients/salt.svg",
         "amount": "a small pinch"
       },
       {
         "item": "Honey",
+        "icon": "img/ingredients/honey.svg",
         "amount": "1 tsp"
       }
     ]

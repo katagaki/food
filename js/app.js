@@ -111,31 +111,25 @@
     { key: "optional", title: "Optional", cls: " opt" }
   ];
 
-  function ingredientTable(section, list) {
-    // Notes are rare now, so the column only appears where one is actually used
-    var notes = list.some(function (i) { return i.note; });
+  function ingredientCard(i) {
     return (
-      '<div class="ing-group' + section.cls + '"><h3>' + section.title + "</h3>" +
-      '<div class="table-wrap"><table class="ing">' +
-      "<thead><tr><th>Ingredient</th><th>Amount</th>" +
-      (notes ? "<th>Notes</th>" : "") +
-      "</tr></thead><tbody>" +
-      list.map(function (i) {
-        return (
-          "<tr><td>" + esc(i.item) + "</td>" +
-          "<td>" + esc(i.amount) + "</td>" +
-          (notes ? "<td>" + esc(i.note || "") + "</td>" : "") +
-          "</tr>"
-        );
-      }).join("") +
-      "</tbody></table></div></div>"
+      '<li class="ing-card">' +
+      '<img class="ing-icon" src="' + esc(i.icon) + '" alt="" loading="lazy" width="44" height="44">' +
+      '<span class="ing-name">' + esc(i.item) + "</span>" +
+      '<span class="ing-amt">' + esc(i.amount) + "</span>" +
+      (i.note ? '<span class="ing-note">' + esc(i.note) + "</span>" : "") +
+      "</li>"
     );
   }
 
-  function ingredientTables(ingredients) {
+  function ingredientGrids(ingredients) {
     return SECTIONS.map(function (s) {
       var list = (ingredients && ingredients[s.key]) || [];
-      return list.length ? ingredientTable(s, list) : "";
+      if (!list.length) return "";
+      return (
+        '<div class="ing-group' + s.cls + '"><h3>' + s.title + "</h3>" +
+        '<ul class="ing-grid">' + list.map(ingredientCard).join("") + "</ul></div>"
+      );
     }).join("");
   }
 
@@ -150,7 +144,7 @@
       "</header>" +
 
       "<section><h2>Ingredients</h2>" +
-      ingredientTables(r.ingredients) + "</section>" +
+      ingredientGrids(r.ingredients) + "</section>" +
 
       '<section><h2>Tools</h2><div class="table-wrap"><table>' +
       "<thead><tr><th>Tool</th><th>Needed?</th><th>Notes</th></tr></thead><tbody>" +
