@@ -80,50 +80,42 @@
     {
       "name": "Frying pan (about 24 cm)",
       "icon": "img/tools/pan.svg",
-      "required": true,
-      "note": "Everything happens here, in three passes."
+      "required": true
     },
     {
       "name": "Spatula",
       "icon": "img/tools/spatula.svg",
-      "required": true,
-      "note": "For pressing the rice flat, not just stirring."
+      "required": true
     },
     {
       "name": "Kitchen scissors",
       "icon": "img/tools/scissors.svg",
-      "required": true,
-      "note": "Cut the kimchi in a bowl, and the bacon too if you use it. Much faster than a knife."
+      "required": true
     },
     {
       "name": "Knife",
       "icon": "img/tools/knife.svg",
-      "required": true,
-      "note": "The onion needs to be cut small."
+      "required": true
     },
     {
       "name": "Cutting board",
       "icon": "img/tools/cutting-board.svg",
-      "required": true,
-      "note": "A clean plate can stand in."
+      "required": true
     },
     {
       "name": "Microwave",
       "icon": "img/tools/microwave.svg",
-      "required": true,
-      "note": "For the packed rice. 2 minutes at 500 to 600 W."
+      "required": true
     },
     {
       "name": "Plate",
       "icon": "img/tools/plate.svg",
-      "required": true,
-      "note": "To park the cooked seafood or bacon while the kimchi fries."
+      "required": true
     },
     {
       "name": "Small bowl",
       "icon": "img/tools/bowl.svg",
-      "required": false,
-      "note": "For holding the cut kimchi and its juice."
+      "required": false
     }
   ],
   "steps": [

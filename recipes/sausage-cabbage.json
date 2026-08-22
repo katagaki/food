@@ -56,26 +56,22 @@
     {
       "name": "Cutting board",
       "icon": "img/tools/cutting-board.svg",
-      "required": true,
-      "note": "For the cabbage and sausages."
+      "required": true
     },
     {
       "name": "Knife",
       "icon": "img/tools/knife.svg",
-      "required": true,
-      "note": "For the cabbage and sausages."
+      "required": true
     },
     {
       "name": "Cooking chopsticks or tongs",
       "icon": "img/tools/chopsticks.svg",
-      "required": true,
-      "note": "For tossing."
+      "required": true
     },
     {
       "name": "Small bowl",
       "icon": "img/tools/bowl.svg",
-      "required": false,
-      "note": "For mixing the soy sauce and mustard."
+      "required": false
     }
   ],
   "steps": [

@@ -39,14 +39,12 @@
     {
       "name": "Spatula or tongs",
       "icon": "img/tools/spatula.svg",
-      "required": true,
-      "note": "For flipping and pressing."
+      "required": true
     },
     {
       "name": "Butter knife",
-      "icon": "img/tools/knife.svg",
-      "required": false,
-      "note": "For the finishing butter."
+      "icon": "img/tools/butter-knife.svg",
+      "required": false
     }
   ],
   "steps": [

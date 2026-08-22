@@ -65,44 +65,37 @@
     {
       "name": "Frying pan (about 24 cm)",
       "icon": "img/tools/pan.svg",
-      "required": true,
-      "note": "For searing and reducing."
+      "required": true
     },
     {
       "name": "Cutting board",
       "icon": "img/tools/cutting-board.svg",
-      "required": true,
-      "note": "For the onion."
+      "required": true
     },
     {
       "name": "Knife",
       "icon": "img/tools/knife.svg",
-      "required": true,
-      "note": "For the onion."
+      "required": true
     },
     {
       "name": "Cooking chopsticks or tongs",
       "icon": "img/tools/chopsticks.svg",
-      "required": true,
-      "note": "For turning the meat and stirring."
+      "required": true
     },
     {
       "name": "Microwave",
       "icon": "img/tools/microwave.svg",
-      "required": true,
-      "note": "For heating the packed rice."
+      "required": true
     },
     {
       "name": "Measuring spoons",
       "icon": "img/tools/measuring-spoons.svg",
-      "required": false,
-      "note": "For the sauce."
+      "required": false
     },
     {
       "name": "Donburi bowl",
       "icon": "img/tools/bowl.svg",
-      "required": false,
-      "note": "For serving."
+      "required": false
     }
   ],
   "steps": [

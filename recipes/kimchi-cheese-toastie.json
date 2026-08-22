@@ -47,20 +47,17 @@
     {
       "name": "Frying pan (about 24 cm)",
       "icon": "img/tools/pan.svg",
-      "required": true,
-      "note": "Holds the sandwich flat with room to slide a spatula under."
+      "required": true
     },
     {
       "name": "Spatula",
       "icon": "img/tools/spatula.svg",
-      "required": true,
-      "note": "For pressing the sandwich down and flipping it in one motion."
+      "required": true
     },
     {
       "name": "Butter knife",
-      "icon": "img/tools/knife.svg",
-      "required": true,
-      "note": "For spreading butter to the very edges of the bread."
+      "icon": "img/tools/butter-knife.svg",
+      "required": true
     },
     {
       "name": "Chopping board and knife",

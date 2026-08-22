@@ -56,26 +56,22 @@
     {
       "name": "Knife",
       "icon": "img/tools/knife.svg",
-      "required": true,
-      "note": "For the onion and carrots. The seafood needs no cutting."
+      "required": true
     },
     {
       "name": "Cutting board",
       "icon": "img/tools/cutting-board.svg",
-      "required": true,
-      "note": "A clean plate can stand in."
+      "required": true
     },
     {
       "name": "Spatula or large spoon",
       "icon": "img/tools/spatula.svg",
-      "required": true,
-      "note": "For stir-frying and for dissolving the roux."
+      "required": true
     },
     {
       "name": "Microwave",
       "icon": "img/tools/microwave.svg",
-      "required": true,
-      "note": "For the packed rice. 2 minutes at 500 to 600 W."
+      "required": true
     },
     {
       "name": "Measuring cup",

@@ -57,20 +57,17 @@
     {
       "name": "Frying pan (about 24 cm)",
       "icon": "img/tools/pan.svg",
-      "required": true,
-      "note": "The pasta cooks directly in it."
+      "required": true
     },
     {
       "name": "Cutting board",
       "icon": "img/tools/cutting-board.svg",
-      "required": true,
-      "note": "For the bacon."
+      "required": true
     },
     {
       "name": "Knife",
       "icon": "img/tools/knife.svg",
-      "required": true,
-      "note": "For the bacon."
+      "required": true
     },
     {
       "name": "Fine grater",
@@ -81,20 +78,17 @@
     {
       "name": "Cooking chopsticks or tongs",
       "icon": "img/tools/chopsticks.svg",
-      "required": true,
-      "note": "For loosening and tossing the pasta."
+      "required": true
     },
     {
       "name": "Small bowl",
       "icon": "img/tools/bowl.svg",
-      "required": true,
-      "note": "For the egg and cheese mixture."
+      "required": true
     },
     {
       "name": "Measuring cup",
       "icon": "img/tools/measuring-cup.svg",
-      "required": false,
-      "note": "For the water."
+      "required": false
     }
   ],
   "steps": [

@@ -48,14 +48,12 @@
     {
       "name": "Frying pan (about 24 cm)",
       "icon": "img/tools/pan.svg",
-      "required": true,
-      "note": "Handles everything from frying to simmering."
+      "required": true
     },
     {
       "name": "Wooden spatula or cooking chopsticks",
       "icon": "img/tools/spatula.svg",
-      "required": true,
-      "note": "For stirring the bottom while it simmers."
+      "required": true
     },
     {
       "name": "Measuring cup",
