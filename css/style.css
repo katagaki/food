@@ -323,62 +323,25 @@ h2 {
 }
 
 /* Ingredients */
-.cols {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: var(--sp-4);
-}
+.ing-group { margin-bottom: var(--sp-5); }
 
-.panel {
-  background: var(--layer-01);
-  padding: var(--sp-4) var(--sp-4) var(--sp-2);
-  border-top: 3px solid var(--interactive);
-}
+.ing-group:last-child { margin-bottom: 0; }
 
-.panel.alt { border-top-color: var(--support-caution); }
-.panel.opt { border-top-color: var(--border-strong); }
-
-.panel h3 {
+.ing-group h3 {
   font-size: 14px;
   font-weight: 600;
-  margin: 0 0 var(--sp-2);
+  margin: 0 0 var(--sp-3);
+  padding-left: 9px;
+  border-left: 3px solid var(--interactive);
 }
 
-ul.items { list-style: none; margin: 0; padding: 0; }
+.ing-group.alt h3 { border-left-color: var(--support-caution); }
+.ing-group.opt h3 { border-left-color: var(--border-strong); }
 
-ul.items li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 2px var(--sp-4);
-  padding: 9px 0;
-  border-bottom: 1px solid var(--layer-02);
-  font-size: 14px;
-}
+/* Two or three narrow columns, so it does not need the tools table's floor */
+table.ing { min-width: 0; }
 
-/* Three panels leave each one narrow, so a long amount drops onto its own
-   line instead of squeezing the ingredient name to one word per line. */
-ul.items li > span:first-child {
-  flex: 1 1 auto;
-  min-width: 8em;
-}
-
-ul.items li:last-child { border-bottom: none; }
-
-ul.items .amt {
-  color: var(--text-helper);
-  white-space: nowrap;
-  text-align: right;
-  margin-left: auto;
-}
-
-.item-note {
-  display: block;
-  font-size: 12.5px;
-  color: var(--text-helper);
-  margin-top: 2px;
-}
+table.ing td:nth-child(2) { color: var(--text-helper); }
 
 /* Tools table */
 .table-wrap {
@@ -591,7 +554,6 @@ dl.trouble dd:last-child { border-bottom: none; }
 
   h1 { font-size: 30px; }
   .lede { font-size: 15px; }
-  .cols { grid-template-columns: 1fr; }
   section { margin-bottom: var(--sp-6); }
   th, td { padding: 9px 10px; }
 

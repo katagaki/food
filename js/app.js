@@ -111,23 +111,31 @@
     { key: "optional", title: "Optional", cls: " opt" }
   ];
 
-  function ingredientItem(i) {
+  function ingredientTable(section, list) {
+    // Notes are rare now, so the column only appears where one is actually used
+    var notes = list.some(function (i) { return i.note; });
     return (
-      "<li><span>" + esc(i.item) +
-      (i.note ? '<span class="item-note">' + esc(i.note) + "</span>" : "") +
-      '</span><span class="amt">' + esc(i.amount) + "</span></li>"
+      '<div class="ing-group' + section.cls + '"><h3>' + section.title + "</h3>" +
+      '<div class="table-wrap"><table class="ing">' +
+      "<thead><tr><th>Ingredient</th><th>Amount</th>" +
+      (notes ? "<th>Notes</th>" : "") +
+      "</tr></thead><tbody>" +
+      list.map(function (i) {
+        return (
+          "<tr><td>" + esc(i.item) + "</td>" +
+          "<td>" + esc(i.amount) + "</td>" +
+          (notes ? "<td>" + esc(i.note || "") + "</td>" : "") +
+          "</tr>"
+        );
+      }).join("") +
+      "</tbody></table></div></div>"
     );
   }
 
-  function ingredientPanels(ingredients) {
+  function ingredientTables(ingredients) {
     return SECTIONS.map(function (s) {
       var list = (ingredients && ingredients[s.key]) || [];
-      if (!list.length) return "";
-      return (
-        '<div class="panel' + s.cls + '"><h3>' + s.title + '</h3><ul class="items">' +
-        list.map(ingredientItem).join("") +
-        "</ul></div>"
-      );
+      return list.length ? ingredientTable(s, list) : "";
     }).join("");
   }
 
@@ -142,7 +150,7 @@
       "</header>" +
 
       "<section><h2>Ingredients</h2>" +
-      '<div class="cols">' + ingredientPanels(r.ingredients) + "</div></section>" +
+      ingredientTables(r.ingredients) + "</section>" +
 
       '<section><h2>Tools</h2><div class="table-wrap"><table>' +
       "<thead><tr><th>Tool</th><th>Needed?</th><th>Notes</th></tr></thead><tbody>" +
