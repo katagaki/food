@@ -5,21 +5,21 @@
   "serves": "1",
   "tried": true,
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "Eggs",
         "amount": "2"
-      },
-      {
-        "item": "Microwavable packed rice",
-        "amount": "200 g"
       },
       {
         "item": "Spring onion",
         "amount": "2 stalks"
       }
     ],
-    "fromThePantry": [
+    "general": [
+      {
+        "item": "Microwavable packed rice",
+        "amount": "200 g"
+      },
       {
         "item": "Cooking oil",
         "amount": "1 tbsp"
@@ -35,16 +35,16 @@
       {
         "item": "White pepper",
         "amount": "to taste"
-      },
+      }
+    ],
+    "optional": [
       {
         "item": "Sesame oil",
-        "amount": "1/2 tsp",
-        "optional": true
+        "amount": "1/2 tsp"
       },
       {
         "item": "Butter",
-        "amount": "5 g",
-        "optional": true
+        "amount": "5 g"
       }
     ]
   },

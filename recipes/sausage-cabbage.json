@@ -4,7 +4,7 @@
   "time": "15 min",
   "serves": "1",
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "Sausages",
         "amount": "4 (about 120 g)"
@@ -14,7 +14,7 @@
         "amount": "1/4 head (about 250 g)"
       }
     ],
-    "fromThePantry": [
+    "general": [
       {
         "item": "Cooking oil",
         "amount": "1 tsp"
@@ -30,11 +30,12 @@
       {
         "item": "Black pepper",
         "amount": "to taste"
-      },
+      }
+    ],
+    "optional": [
       {
         "item": "Salt",
-        "amount": "a pinch",
-        "optional": true
+        "amount": "a pinch"
       }
     ]
   },

@@ -4,7 +4,7 @@
   "time": "20 min",
   "serves": "1",
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "Chicken thigh, boneless",
         "amount": "150 g"
@@ -12,13 +12,13 @@
       {
         "item": "Onion",
         "amount": "1/2"
-      },
+      }
+    ],
+    "general": [
       {
         "item": "Microwavable packed rice",
         "amount": "200 g"
-      }
-    ],
-    "fromThePantry": [
+      },
       {
         "item": "Ketchup",
         "amount": "3 tbsp"
@@ -34,16 +34,16 @@
       {
         "item": "Black pepper",
         "amount": "to taste"
-      },
+      }
+    ],
+    "optional": [
       {
         "item": "Butter",
-        "amount": "10 g",
-        "optional": true
+        "amount": "10 g"
       },
       {
         "item": "Soy sauce",
-        "amount": "1 tsp",
-        "optional": true
+        "amount": "1 tsp"
       }
     ]
   },

@@ -103,13 +103,32 @@
       "</div>";
   }
 
+  // Supermarket holds the perishables, general the shelf-stable staples.
+  // A section is left out of the JSON entirely when it has no entries.
+  var SECTIONS = [
+    { key: "supermarket", title: "Supermarket only", cls: "" },
+    { key: "general", title: "General", cls: " alt" },
+    { key: "optional", title: "Optional", cls: " opt" }
+  ];
+
   function ingredientItem(i) {
     return (
       "<li><span>" + esc(i.item) +
-      (i.optional ? '<span class="optional">optional</span>' : "") +
       (i.note ? '<span class="item-note">' + esc(i.note) + "</span>" : "") +
       '</span><span class="amt">' + esc(i.amount) + "</span></li>"
     );
+  }
+
+  function ingredientPanels(ingredients) {
+    return SECTIONS.map(function (s) {
+      var list = (ingredients && ingredients[s.key]) || [];
+      if (!list.length) return "";
+      return (
+        '<div class="panel' + s.cls + '"><h3>' + s.title + '</h3><ul class="items">' +
+        list.map(ingredientItem).join("") +
+        "</ul></div>"
+      );
+    }).join("");
   }
 
   function renderRecipe(r) {
@@ -123,14 +142,7 @@
       "</header>" +
 
       "<section><h2>Ingredients</h2>" +
-      '<div class="cols">' +
-      '<div class="panel"><h3>To buy</h3><ul class="items">' +
-      r.ingredients.toBuy.map(ingredientItem).join("") +
-      "</ul></div>" +
-      '<div class="panel alt"><h3>From the pantry</h3><ul class="items">' +
-      r.ingredients.fromThePantry.map(ingredientItem).join("") +
-      "</ul></div>" +
-      "</div></section>" +
+      '<div class="cols">' + ingredientPanels(r.ingredients) + "</div></section>" +
 
       '<section><h2>Tools</h2><div class="table-wrap"><table>' +
       "<thead><tr><th>Tool</th><th>Needed?</th><th>Notes</th></tr></thead><tbody>" +

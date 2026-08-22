@@ -5,7 +5,7 @@
   "serves": "1",
   "tried": true,
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "White bread",
         "amount": "2 slices",
@@ -19,24 +19,22 @@
         "item": "Grated cheese",
         "amount": "60 g",
         "note": "Any melting cheese such as mozzarella, cheddar, or a pizza blend."
-      }
-    ],
-    "fromThePantry": [
+      },
       {
         "item": "Butter",
         "amount": "15 g",
         "note": "Softened, for the outside of both slices."
-      },
+      }
+    ],
+    "optional": [
       {
         "item": "Sugar",
         "amount": "a pinch",
-        "note": "Stirred into the kimchi to round off the sourness.",
-        "optional": true
+        "note": "Stirred into the kimchi to round off the sourness."
       },
       {
         "item": "Black pepper",
-        "amount": "to taste",
-        "optional": true
+        "amount": "to taste"
       }
     ]
   },

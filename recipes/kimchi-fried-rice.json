@@ -5,7 +5,7 @@
   "serves": "1",
   "tried": true,
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "Frozen seafood mix or bacon",
         "amount": "50 g (1/3 bag) or 2 rashers",
@@ -17,12 +17,6 @@
         "note": "Riper and more sour is better here. Keep the juice."
       },
       {
-        "item": "Microwavable packed rice",
-        "amount": "180 g (1 pack)"
-      }
-    ],
-    "fromThePantry": [
-      {
         "item": "Butter",
         "amount": "1 1/2 tbsp",
         "note": "Used in two goes."
@@ -30,6 +24,12 @@
       {
         "item": "Onion",
         "amount": "1/3"
+      }
+    ],
+    "general": [
+      {
+        "item": "Microwavable packed rice",
+        "amount": "180 g (1 pack)"
       },
       {
         "item": "Soy sauce",
@@ -42,29 +42,27 @@
       {
         "item": "Salt and black pepper",
         "amount": "a pinch of each"
-      },
+      }
+    ],
+    "optional": [
       {
         "item": "Sesame oil",
         "amount": "1 tsp",
-        "note": "Stirred in off the heat for aroma. Skip it and the rice is still good, just less nutty.",
-        "optional": true
+        "note": "Stirred in off the heat for aroma. Skip it and the rice is still good, just less nutty."
       },
       {
         "item": "Egg",
         "amount": "1",
-        "note": "Worth the trip. It coats the grains and softens the heat of the kimchi.",
-        "optional": true
+        "note": "Worth the trip. It coats the grains and softens the heat of the kimchi."
       },
       {
         "item": "Garlic",
         "amount": "1 clove",
-        "note": "Minced.",
-        "optional": true
+        "note": "Minced."
       },
       {
         "item": "Chopped scallion or toasted sesame",
-        "amount": "a little",
-        "optional": true
+        "amount": "a little"
       }
     ]
   },

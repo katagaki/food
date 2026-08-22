@@ -5,11 +5,7 @@
   "serves": "1",
   "tried": true,
   "ingredients": {
-    "toBuy": [
-      {
-        "item": "Spaghetti",
-        "amount": "100 g"
-      },
+    "supermarket": [
       {
         "item": "Bacon (block or thick-cut)",
         "amount": "60 g"
@@ -24,7 +20,11 @@
         "amount": "25 g"
       }
     ],
-    "fromThePantry": [
+    "general": [
+      {
+        "item": "Spaghetti",
+        "amount": "100 g"
+      },
       {
         "item": "Water",
         "amount": "400 ml"
@@ -36,11 +36,12 @@
       {
         "item": "Coarse black pepper",
         "amount": "plenty"
-      },
+      }
+    ],
+    "optional": [
       {
         "item": "Olive oil",
-        "amount": "1 tsp",
-        "optional": true
+        "amount": "1 tsp"
       }
     ]
   },

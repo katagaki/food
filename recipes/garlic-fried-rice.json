@@ -4,32 +4,27 @@
   "time": "20 min",
   "serves": "1",
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "Garlic",
         "amount": "6 cloves",
         "note": "Three sliced thin for chips, three chopped fine for the rice."
       },
       {
+        "item": "Butter",
+        "amount": "10 g"
+      }
+    ],
+    "general": [
+      {
         "item": "Microwavable packed rice",
         "amount": "200 g",
         "note": "Cold rice from the fridge works too, broken up before it goes in."
       },
       {
-        "item": "Spring onion",
-        "amount": "1 stalk",
-        "optional": true
-      }
-    ],
-    "fromThePantry": [
-      {
         "item": "Cooking oil",
         "amount": "2 tbsp",
         "note": "Enough for the garlic slices to sit in while they crisp."
-      },
-      {
-        "item": "Butter",
-        "amount": "10 g"
       },
       {
         "item": "Soy sauce",
@@ -43,6 +38,12 @@
       {
         "item": "Black pepper",
         "amount": "to taste"
+      }
+    ],
+    "optional": [
+      {
+        "item": "Spring onion",
+        "amount": "1 stalk"
       }
     ]
   },

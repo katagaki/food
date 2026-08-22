@@ -4,26 +4,24 @@
   "time": "10 min",
   "serves": "1",
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "Thick-cut bread (about 3 cm)",
         "amount": "1 slice"
-      }
-    ],
-    "fromThePantry": [
+      },
       {
         "item": "Butter",
         "amount": "15 g"
-      },
+      }
+    ],
+    "optional": [
       {
         "item": "Salt",
-        "amount": "a small pinch",
-        "optional": true
+        "amount": "a small pinch"
       },
       {
         "item": "Honey",
-        "amount": "1 tsp",
-        "optional": true
+        "amount": "1 tsp"
       }
     ]
   },

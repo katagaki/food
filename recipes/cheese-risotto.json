@@ -4,7 +4,7 @@
   "time": "25 min",
   "serves": "1",
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "Bacon (half-size slices)",
         "amount": "2 slices"
@@ -14,7 +14,7 @@
         "amount": "2 tbsp"
       }
     ],
-    "fromThePantry": [
+    "general": [
       {
         "item": "Rice (unwashed)",
         "amount": "1 cup (180 ml)"

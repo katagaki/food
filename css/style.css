@@ -325,7 +325,7 @@ h2 {
 /* Ingredients */
 .cols {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: var(--sp-4);
 }
 
@@ -336,6 +336,7 @@ h2 {
 }
 
 .panel.alt { border-top-color: var(--support-caution); }
+.panel.opt { border-top-color: var(--border-strong); }
 
 .panel h3 {
   font-size: 14px;
@@ -347,12 +348,20 @@ ul.items { list-style: none; margin: 0; padding: 0; }
 
 ul.items li {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
-  gap: var(--sp-4);
+  gap: 2px var(--sp-4);
   padding: 9px 0;
   border-bottom: 1px solid var(--layer-02);
   font-size: 14px;
+}
+
+/* Three panels leave each one narrow, so a long amount drops onto its own
+   line instead of squeezing the ingredient name to one word per line. */
+ul.items li > span:first-child {
+  flex: 1 1 auto;
+  min-width: 8em;
 }
 
 ul.items li:last-child { border-bottom: none; }
@@ -361,6 +370,7 @@ ul.items .amt {
   color: var(--text-helper);
   white-space: nowrap;
   text-align: right;
+  margin-left: auto;
 }
 
 .item-note {
@@ -368,17 +378,6 @@ ul.items .amt {
   font-size: 12.5px;
   color: var(--text-helper);
   margin-top: 2px;
-}
-
-.optional {
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--text-helper);
-  border: 1px solid var(--border-strong);
-  border-radius: 999px;
-  padding: 0 7px;
-  margin-left: 6px;
-  vertical-align: 1px;
 }
 
 /* Tools table */

@@ -4,7 +4,7 @@
   "time": "15 min",
   "serves": "1",
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "Thin-sliced pork offcuts",
         "amount": "150 g"
@@ -12,13 +12,13 @@
       {
         "item": "Onion",
         "amount": "1/2"
-      },
+      }
+    ],
+    "general": [
       {
         "item": "Microwavable packed rice",
         "amount": "200 g"
-      }
-    ],
-    "fromThePantry": [
+      },
       {
         "item": "Soy sauce",
         "amount": "2 tbsp"
@@ -38,16 +38,16 @@
       {
         "item": "Cooking oil",
         "amount": "1 tsp"
-      },
+      }
+    ],
+    "optional": [
       {
         "item": "Butter",
-        "amount": "5 g",
-        "optional": true
+        "amount": "5 g"
       },
       {
         "item": "Ginger paste (tube)",
-        "amount": "2 cm",
-        "optional": true
+        "amount": "2 cm"
       }
     ]
   },

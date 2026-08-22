@@ -5,21 +5,11 @@
   "serves": "1 to 2",
   "tried": true,
   "ingredients": {
-    "toBuy": [
+    "supermarket": [
       {
         "item": "Frozen seafood mix",
         "amount": "1 bag (150 g)",
         "note": "Shrimp, squid, and clams. Pre-cleaned, ready to use straight from the bag."
-      },
-      {
-        "item": "Microwavable packed rice",
-        "amount": "1 pack per person"
-      }
-    ],
-    "fromThePantry": [
-      {
-        "item": "Curry roux",
-        "amount": "2 blocks"
       },
       {
         "item": "Onion",
@@ -33,6 +23,16 @@
         "item": "Butter",
         "amount": "1 tbsp",
         "note": "Plus a little to finish."
+      }
+    ],
+    "general": [
+      {
+        "item": "Microwavable packed rice",
+        "amount": "1 pack per person"
+      },
+      {
+        "item": "Curry roux",
+        "amount": "2 blocks"
       },
       {
         "item": "Water",
