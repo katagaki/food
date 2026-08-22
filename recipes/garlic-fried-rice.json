@@ -1,0 +1,198 @@
+{
+  "id": "garlic-fried-rice",
+  "title": "Garlic Fried Rice",
+  "time": "20 min",
+  "serves": "1",
+  "ingredients": {
+    "toBuy": [
+      {
+        "item": "Garlic",
+        "amount": "6 cloves",
+        "note": "Three sliced thin for chips, three chopped fine for the rice."
+      },
+      {
+        "item": "Microwavable packed rice",
+        "amount": "200 g",
+        "note": "Cold rice from the fridge works too, broken up before it goes in."
+      },
+      {
+        "item": "Spring onion",
+        "amount": "1 stalk",
+        "note": "Sliced thin and scattered over at the end.",
+        "optional": true
+      }
+    ],
+    "fromThePantry": [
+      {
+        "item": "Cooking oil",
+        "amount": "2 tbsp",
+        "note": "Enough for the garlic slices to sit in while they crisp."
+      },
+      {
+        "item": "Butter",
+        "amount": "10 g",
+        "note": "Goes in with the chopped garlic."
+      },
+      {
+        "item": "Soy sauce",
+        "amount": "1 tsp",
+        "note": "Poured around the rim of the pan near the end."
+      },
+      {
+        "item": "Salt",
+        "amount": "a pinch",
+        "note": "The main seasoning here, added to taste at the end."
+      },
+      {
+        "item": "Black pepper",
+        "amount": "to taste",
+        "note": "Ground over the rice just before plating."
+      }
+    ]
+  },
+  "tools": [
+    {
+      "name": "Frying pan (about 24 cm)",
+      "required": true,
+      "note": "Everything cooks in it."
+    },
+    {
+      "name": "Knife and cutting board",
+      "required": true,
+      "note": "For slicing and chopping the garlic."
+    },
+    {
+      "name": "Spatula or rice paddle",
+      "required": true,
+      "note": "For pressing the rice flat and folding it over."
+    },
+    {
+      "name": "Microwave",
+      "required": true,
+      "note": "For heating the packed rice."
+    },
+    {
+      "name": "Small plate",
+      "required": true,
+      "note": "For draining the garlic chips, lined with kitchen paper."
+    },
+    {
+      "name": "Slotted spoon",
+      "required": false,
+      "note": "For lifting the chips out cleanly. A regular spoon and a tilt of the pan do the same job."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prep garlic",
+      "points": [
+        "Peel all six cloves. Slice three of them as thin as you can manage, and chop the other three fine.",
+        "Keep the two piles separate. The slices turn into crisp chips, the chopped garlic flavors the rice.",
+        "Even thickness matters more than thinness, because uneven slices burn at different times."
+      ],
+      "hint": "A cold clove slices thinner than a room-temperature one. Ten minutes in the freezer firms it up.",
+      "image": "img/garlic-fried-rice-1.svg"
+    },
+    {
+      "title": "Heat rice",
+      "points": [
+        "Microwave the packed rice as directed.",
+        "Break it up with the spatula while it is still hot, and leave it beside the stove.",
+        "Rice that goes in as a solid block never separates properly."
+      ],
+      "image": "img/garlic-fried-rice-2.svg"
+    },
+    {
+      "title": "Crisp garlic slices",
+      "points": [
+        "Put the sliced garlic and the oil into the pan together, then turn the heat to low.",
+        "Starting from cold dries the garlic out slowly instead of scorching it.",
+        "Stir now and then for about 4 minutes, until the slices are pale gold at the edges."
+      ],
+      "hint": "Garlic goes from gold to bitter in under 20 seconds. Pull it a shade lighter than you want, it keeps browning off the heat.",
+      "image": "img/garlic-fried-rice-3.svg"
+    },
+    {
+      "title": "Lift out chips",
+      "points": [
+        "Scoop the slices onto the paper-lined plate the moment they turn pale gold.",
+        "Spread them in a single layer so they crisp as they cool.",
+        "Leave the oil in the pan. That is where most of the garlic flavor now lives."
+      ],
+      "image": "img/garlic-fried-rice-4.svg"
+    },
+    {
+      "title": "Cook chopped garlic",
+      "points": [
+        "Turn the heat up to medium and add the chopped garlic to the hot oil.",
+        "Stir for about 30 seconds, until it smells sweet and the edges just start to color.",
+        "Drop in the butter and swirl the pan until it melts."
+      ],
+      "hint": "Chopped garlic burns faster than sliced garlic. Have the rice within arm's reach before this step starts.",
+      "image": "img/garlic-fried-rice-5.svg"
+    },
+    {
+      "title": "Fry rice",
+      "points": [
+        "Turn the heat to medium-high and tip in the hot rice.",
+        "Press it flat with the spatula and leave it alone for 30 seconds before folding it over.",
+        "Repeat the press and fold for about 2 minutes, until the grains separate and jump loose in the pan."
+      ],
+      "hint": "Pressing puts the rice against hot metal. Constant stirring steams it instead, which is what makes fried rice go sticky.",
+      "image": "img/garlic-fried-rice-6.svg"
+    },
+    {
+      "title": "Season rice",
+      "points": [
+        "Pour the soy sauce around the rim of the pan so it hits bare metal and sizzles, then toss straight away.",
+        "Add the pinch of salt and a good grind of black pepper.",
+        "Taste it, and reach for more salt rather than more soy sauce if it needs lifting."
+      ],
+      "hint": "Soy sauce colors rice faster than it seasons it. A tablespoon would turn the whole pan brown before it tasted right.",
+      "image": "img/garlic-fried-rice-7.svg"
+    },
+    {
+      "title": "Plate and top",
+      "points": [
+        "Turn off the heat and mound the rice onto a plate.",
+        "Scatter the garlic chips over the top, along with the spring onion if using.",
+        "The chips go on at the last moment, because they soften as soon as they meet the hot rice."
+      ],
+      "image": "img/garlic-fried-rice-8.svg"
+    }
+  ],
+  "troubleshooting": [
+    {
+      "problem": "The garlic tastes bitter",
+      "solution": "It browned too far. Garlic turns bitter within seconds of hitting deep gold, and no amount of seasoning covers it. Start again with fresh slices in fresh oil, on a lower heat, and lift them out while they still look underdone."
+    },
+    {
+      "problem": "The garlic chips went soft",
+      "solution": "They were either lifted out late or left in a heap on the plate. Spread them in one layer as soon as they leave the pan, and keep them off the rice until the moment it is served."
+    },
+    {
+      "problem": "The rice is sticky and clumped",
+      "solution": "The pan wasn't hot enough, or the rice was stirred nonstop. Get the pan properly hot, press the rice flat, and leave it alone between folds. Day-old rice from the fridge, broken up cold, also fries drier than fresh."
+    },
+    {
+      "problem": "It doesn't taste garlicky enough",
+      "solution": "Most of the flavor is in the oil, so make sure all of it goes into the rice rather than staying in the pan. Chopping the second batch finer also helps, since more cut surface means more flavor released."
+    },
+    {
+      "problem": "The rice sticks to the pan",
+      "solution": "The oil went into the rice rather than under it. Tilt the pan so the oil pools, let it come back up to heat for a few seconds, then push the rice through it before pressing down again."
+    },
+    {
+      "problem": "It tastes flat",
+      "solution": "Usually not enough salt. Soy sauce adds color faster than it adds seasoning, so add a pinch of salt and a heavier grind of pepper before adding any more soy."
+    },
+    {
+      "problem": "Want it more filling",
+      "solution": "A fried egg on top is the usual answer, with the yolk broken through the rice at the table. Diced spam, bacon, or leftover sausage can go in with the chopped garlic instead."
+    },
+    {
+      "problem": "No microwavable packed rice",
+      "solution": "Cold cooked rice from the fridge is better anyway. Break the grains apart with wet hands before it goes in, and give it an extra minute in the pan since it starts cold."
+    }
+  ]
+}

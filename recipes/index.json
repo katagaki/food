@@ -177,6 +177,25 @@
         "easy",
         "cheap"
       ]
+    },
+    {
+      "id": "garlic-fried-rice",
+      "file": "recipes/garlic-fried-rice.json",
+      "title": "Garlic Fried Rice",
+      "time": "20 min",
+      "serves": "1",
+      "keywords": [
+        "garlic",
+        "fried rice",
+        "rice",
+        "sinangag",
+        "butter",
+        "soy sauce",
+        "one-pan",
+        "frying pan",
+        "quick",
+        "cheap"
+      ]
     }
   ]
 }
