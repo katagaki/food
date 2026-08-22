@@ -12,7 +12,7 @@ A static single-page recipe app. Recipe data lives in `recipes/` as JSON, step i
 
 - All text is non-selectable (`user-select: none` on `body`), except the recipe content itself: `.content .page` re-enables selection with `user-select: text`. Keep any new UI (sidebar, buttons, empty states) non-selectable.
 - Links and clickable controls use the default cursor. Never use `cursor: pointer`.
-- The sidebar recipe list is sorted alphabetically by title, ascending. The sort happens in `js/app.js` after the manifest loads; do not rely on the order in `recipes/index.json`.
+- The sidebar recipe list is sorted and filtered in `js/app.js` on every render, so do not rely on the order in `recipes/index.json`. The default sort is alphabetical by title, ascending. The Quickest sort reads `time` as a minute count and falls back to title on a tie, and entries with an unreadable `time` go last. The Human tested filter keeps only entries with `tried`.
 - On mobile (720px and below) there is no drawer and no homepage: the sidebar recipe list is the root view, and opening a recipe pushes the recipe view in from the right like a navigation stack (`body.recipe-open`), with a fixed back button to pop it. Desktop keeps the permanent sidebar plus content layout.
 
 ## SVG style rules
@@ -26,6 +26,8 @@ Step illustrations in `img/` share one visual language:
 - Text inside SVGs is minimal, English, generic `sans-serif` (for example timer digits or "HEAT OFF").
 
 ## Recipe data rules
+
+All recipe JSON is fetched through `getJSON` in `js/app.js`, which passes `cache: "no-cache"` so the browser revalidates every time. Without it a stale `recipes/index.json` hides newly added recipes until a hard refresh.
 
 Every file in `recipes/` follows one shape. Keys appear in the order listed, and optional keys are written only when they apply.
 

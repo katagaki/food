@@ -117,6 +117,82 @@ a { cursor: default; }
   outline-offset: -2px;
 }
 
+/* Sort and filter controls */
+.list-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin: 0 var(--sp-4) var(--sp-4);
+}
+
+.seg { display: flex; }
+
+.seg-btn,
+.filter-chip {
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-secondary);
+  background: var(--layer-01);
+  border: 1px solid var(--border-subtle);
+  border-radius: 0;
+  padding: 5px 10px;
+  cursor: default;
+  appearance: none;
+  transition: background 70ms;
+}
+
+.seg-btn:hover,
+.filter-chip:hover { background: var(--hover); color: var(--text-primary); }
+
+.seg-btn:focus-visible,
+.filter-chip:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: -2px;
+}
+
+.seg-btn + .seg-btn { margin-left: -1px; }
+
+.seg-btn[aria-pressed="true"],
+.seg-btn[aria-pressed="true"]:hover {
+  position: relative;
+  z-index: 1;
+  background: var(--interactive);
+  border-color: var(--interactive);
+  color: var(--text-on-color);
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filter-chip[aria-pressed="true"],
+.filter-chip[aria-pressed="true"]:hover {
+  background: #0e3a1c;
+  border-color: #17512a;
+  color: var(--text-primary);
+}
+
+.chip-box {
+  flex: none;
+  width: 14px;
+  height: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-strong);
+  color: transparent;
+}
+
+.filter-chip[aria-pressed="true"] .chip-box {
+  background: var(--support-success);
+  border-color: var(--support-success);
+  color: #0b0b0b;
+}
+
 .sidenav nav { flex: 1; overflow-y: auto; }
 
 .recipe-list {
@@ -503,6 +579,8 @@ dl.trouble dd:last-child { border-bottom: none; }
 
   /* 16px stops iOS from zooming the page when the field is focused */
   #search { font-size: 16px; padding-top: 12px; padding-bottom: 12px; }
+
+  .seg-btn, .filter-chip { font-size: 13px; padding: 9px 12px; }
 
   .recipe-link { padding: 14px var(--sp-4); }
 

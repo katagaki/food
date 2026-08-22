@@ -5,9 +5,13 @@
   var contentEl = document.getElementById("content");
   var searchEl = document.getElementById("search");
   var backBtn = document.getElementById("backBtn");
+  var sortBtns = document.querySelectorAll(".seg-btn");
+  var triedBtn = document.getElementById("triedFilter");
 
   var manifest = [];
   var cache = {};
+  var sortMode = "title";
+  var triedOnly = false;
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -17,6 +21,15 @@
       .replace(/"/g, "&quot;");
   }
 
+  // Recipe JSON changes far more often than the browser's default cache policy
+  // assumes, so every request revalidates and a 304 keeps it cheap.
+  function getJSON(url) {
+    return fetch(url, { cache: "no-cache" }).then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    });
+  }
+
   function currentId() {
     var m = location.hash.match(/^#\/([\w-]+)/);
     return m ? m[1] : null;
@@ -24,17 +37,47 @@
 
   /* ---------- Sidebar ---------- */
 
+  // "15 min" and "1 hr 10 min" both become a plain minute count. Anything
+  // unparseable sorts to the bottom rather than to the top.
+  function minutes(time) {
+    var total = null;
+    String(time || "").toLowerCase().replace(
+      /(\d+(?:\.\d+)?)\s*(h|hr|hrs|hour|hours|m|min|mins|minute|minutes)\b/g,
+      function (_, n, unit) {
+        total = (total || 0) + parseFloat(n) * (unit.charAt(0) === "h" ? 60 : 1);
+        return "";
+      }
+    );
+    return total === null ? Infinity : total;
+  }
+
+  function compare(a, b) {
+    if (sortMode === "time") {
+      var am = minutes(a.time);
+      var bm = minutes(b.time);
+      if (am !== bm) return am < bm ? -1 : 1;
+    }
+    return a.title.localeCompare(b.title);
+  }
+
+  function emptyMessage(q) {
+    if (q && triedOnly) return "No human tested recipes match your search.";
+    if (q) return "No recipes match your search.";
+    return "No recipes have been human tested yet.";
+  }
+
   function renderList(filter) {
     var q = (filter || "").trim().toLowerCase();
     var active = currentId();
     var shown = manifest.filter(function (r) {
+      if (triedOnly && !r.tried) return false;
       if (!q) return true;
       var hay = [r.title].concat(r.keywords || []).join(" ").toLowerCase();
       return q.split(/\s+/).every(function (w) { return hay.indexOf(w) !== -1; });
-    });
+    }).sort(compare);
 
     if (!shown.length) {
-      listEl.innerHTML = '<li class="no-results">No recipes match your search.</li>';
+      listEl.innerHTML = '<li class="no-results">' + esc(emptyMessage(q)) + "</li>";
       return;
     }
 
@@ -141,11 +184,7 @@
       return;
     }
     contentEl.innerHTML = '<div class="page"><div class="state">Loading&hellip;</div></div>';
-    fetch(entry.file)
-      .then(function (res) {
-        if (!res.ok) throw new Error("HTTP " + res.status);
-        return res.json();
-      })
+    getJSON(entry.file)
       .then(function (data) {
         cache[id] = data;
         if (currentId() === id) renderRecipe(data);
@@ -194,17 +233,27 @@
     renderList(searchEl.value);
   });
 
+  Array.prototype.forEach.call(sortBtns, function (btn) {
+    btn.addEventListener("click", function () {
+      sortMode = btn.getAttribute("data-sort");
+      Array.prototype.forEach.call(sortBtns, function (other) {
+        other.setAttribute("aria-pressed", other === btn ? "true" : "false");
+      });
+      renderList(searchEl.value);
+    });
+  });
+
+  triedBtn.addEventListener("click", function () {
+    triedOnly = !triedOnly;
+    triedBtn.setAttribute("aria-pressed", triedOnly ? "true" : "false");
+    renderList(searchEl.value);
+  });
+
   window.addEventListener("hashchange", route);
 
-  fetch("recipes/index.json")
-    .then(function (res) {
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      return res.json();
-    })
+  getJSON("recipes/index.json")
     .then(function (data) {
-      manifest = (data.recipes || []).slice().sort(function (a, b) {
-        return a.title.localeCompare(b.title);
-      });
+      manifest = data.recipes || [];
       route();
     })
     .catch(function () {
