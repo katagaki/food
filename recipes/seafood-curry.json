@@ -13,8 +13,7 @@
       },
       {
         "item": "Microwavable packed rice",
-        "amount": "1 pack per person",
-        "note": "The heat-in-the-microwave kind."
+        "amount": "1 pack per person"
       }
     ],
     "fromThePantry": [
@@ -24,13 +23,11 @@
       },
       {
         "item": "Onion",
-        "amount": "1/2",
-        "note": "Thinly sliced."
+        "amount": "1/2"
       },
       {
         "item": "Carrots",
-        "amount": "2 small",
-        "note": "In thin quarter-rounds."
+        "amount": "2 small"
       },
       {
         "item": "Butter",

@@ -13,8 +13,7 @@
       },
       {
         "item": "Kimchi",
-        "amount": "60 g",
-        "note": "Squeezed dry and roughly chopped."
+        "amount": "60 g"
       },
       {
         "item": "Grated cheese",
@@ -37,7 +36,6 @@
       {
         "item": "Black pepper",
         "amount": "to taste",
-        "note": "Ground over the cheese before the sandwich closes.",
         "optional": true
       }
     ]

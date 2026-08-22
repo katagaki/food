@@ -18,7 +18,6 @@
       {
         "item": "Spring onion",
         "amount": "1 stalk",
-        "note": "Sliced thin and scattered over at the end.",
         "optional": true
       }
     ],
@@ -30,13 +29,11 @@
       },
       {
         "item": "Butter",
-        "amount": "10 g",
-        "note": "Goes in with the chopped garlic."
+        "amount": "10 g"
       },
       {
         "item": "Soy sauce",
-        "amount": "1 tsp",
-        "note": "Poured around the rim of the pan near the end."
+        "amount": "1 tsp"
       },
       {
         "item": "Salt",
@@ -45,8 +42,7 @@
       },
       {
         "item": "Black pepper",
-        "amount": "to taste",
-        "note": "Ground over the rice just before plating."
+        "amount": "to taste"
       }
     ]
   },
