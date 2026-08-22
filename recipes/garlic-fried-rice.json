@@ -7,8 +7,7 @@
     "supermarket": [
       {
         "item": "Garlic",
-        "amount": "6 cloves",
-        "note": "Three sliced thin for chips, three chopped fine for the rice."
+        "amount": "6 cloves"
       },
       {
         "item": "Butter",
@@ -23,8 +22,7 @@
       },
       {
         "item": "Cooking oil",
-        "amount": "2 tbsp",
-        "note": "Enough for the garlic slices to sit in while they crisp."
+        "amount": "2 tbsp"
       },
       {
         "item": "Soy sauce",
@@ -32,8 +30,7 @@
       },
       {
         "item": "Salt",
-        "amount": "a pinch",
-        "note": "The main seasoning here, added to taste at the end."
+        "amount": "a pinch"
       },
       {
         "item": "Black pepper",
