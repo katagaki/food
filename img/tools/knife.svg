@@ -1,0 +1,5 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Knife">
+  <path d="M9 9c10 1 19 8 23 17l-4 3C23 21 16 15 9 13Z" fill="#cfd6dd"/>
+  <path d="M9 9c8 3 15 9 19 17" stroke="#8d939b" stroke-width="1.6" fill="none"/>
+  <rect x="26" y="27" width="16" height="6" rx="3" transform="rotate(35 26 27)" fill="#a97142"/>
+</svg>

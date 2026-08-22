@@ -10,6 +10,7 @@ A static single-page recipe app. Recipe data lives in `recipes/` as JSON, step i
 
 ## UI rules
 
+- Ingredients and tools both render as tiles: a shared 44 px icon, a name, and the amount or nothing, grouped under headings that carry a colored left rule. Tools group into "Required" and "Optional" rather than labelling each row, so the tile never repeats what its heading already says.
 - All text is non-selectable (`user-select: none` on `body`), except the recipe content itself: `.content .page` re-enables selection with `user-select: text`. Keep any new UI (sidebar, buttons, empty states) non-selectable.
 - Links and clickable controls use the default cursor. Never use `cursor: pointer`.
 - The sidebar recipe list is sorted and filtered in `js/app.js` on every render, so do not rely on the order in `recipes/index.json`. The default sort is alphabetical by title, ascending. The Quickest sort reads `time` as a minute count and falls back to title on a tie, and entries with an unreadable `time` go last. The Human tested filter keeps only entries with `tried`.
@@ -25,12 +26,12 @@ Step illustrations in `img/` share one visual language:
 - Recurring elements (pan, flames, steam, timer badge) should look the same across all illustrations.
 - Text inside SVGs is minimal, English, generic `sans-serif` (for example timer digits or "HEAT OFF").
 
-Ingredient icons in `img/ingredients/` are a separate, smaller format:
+Ingredient icons in `img/ingredients/` and tool icons in `img/tools/` are a separate, smaller format:
 
 - `viewBox="0 0 48 48"`, square, transparent, with `role="img"` and an `aria-label` naming the ingredient.
 - Same palette and flat fills as the step art, but no ground shadow and no gradients: at 44 px they only add noise.
 - One shape reading clearly at a glance, built from a handful of paths. The recipe text carries the detail, the icon only has to be recognisable.
-- Named for the ingredient, not the recipe, since the file is shared: `garlic.svg`, not `garlic-fried-rice-garlic.svg`.
+- Named for the thing, not the recipe, since the file is shared: `garlic.svg`, not `garlic-fried-rice-garlic.svg`.
 
 ## Recipe data rules
 
@@ -42,11 +43,12 @@ Every file in `recipes/` follows one shape. Keys appear in the order listed, and
 - `recipes/index.json` entry: `id`, `file`, `title`, `time`, `serves`, `tried`, `keywords`. The `id`, `title`, `time`, `serves`, and `tried` values must match the recipe file exactly.
 - `time` reads like "15 min". `serves` is a plain count such as "1" or "1 to 2". Write ranges with the word "to", never a dash.
 - `ingredients` has three sections in this order: `supermarket`, `general`, `optional`. A section is written only when it holds entries, so a recipe with nothing optional has no `optional` key at all. Each entry is `item`, `icon`, `amount`, `note`.
-  - `supermarket` is the perishable shopping list: fresh vegetables, meat, seafood, dairy, bread, eggs, kimchi. `general` is everything shelf-stable, including packed rice, spaghetti, curry roux, bouillon, sake, oil, soy sauce, salt, and sugar. `optional` holds anything that can be skipped, whichever of the other two it would otherwise sit in.
+  - `supermarket` renders as "Fresh and chilled" and holds the perishables: fresh vegetables, meat, seafood, dairy, bread, eggs, kimchi, and the frozen bag that lives in the same trip. `general` renders as "From the pantry" and holds everything shelf-stable, including packed rice, spaghetti, curry roux, bouillon, sake, oil, soy sauce, salt, and sugar. `optional` holds anything that can be skipped, whichever of the other two it would otherwise sit in. The JSON keys stay as they are; only the headings read differently.
   - `icon` points at a shared square icon in `img/ingredients/`, written as a full path such as `img/ingredients/garlic.svg`. Icons are shared across recipes and across wordings: every pepper uses `pepper.svg`, both bacons use `bacon.svg`, and packed rice and raw rice both use `rice.svg`. Reuse an existing icon rather than adding a near-duplicate, and only draw a new one for an ingredient the set genuinely does not cover.
   - `amount` carries the quantity only: "150 g", "1/2", "2 tbsp", or a lowercase vague measure such as "to taste", "a pinch", "a little". Prep work ("finely diced", "thinly sliced") belongs in `note`, not in `amount`.
   - `note` is a full sentence with a period. Write one only when it changes what you buy: which version to pick, whether a substitute works, or what an optional ingredient adds if you go and get it. Notes that narrate the method ("Used in two goes", "Minced", "Stirred in at the end") do not belong here, because the steps already say it. Most ingredients need no note at all.
-- `tools` entries are `name`, `required`, `note`. All three are always present, `required` is `true` or `false`, and `note` is a full sentence saying what the tool is for. The main pan names its size, for example "Frying pan (about 24 cm)".
+- `tools` entries are `name`, `icon`, `required`, `note`. All four are always present, `required` is `true` or `false`, and `note` is a full sentence saying what the tool is for. The main pan names its size, for example "Frying pan (about 24 cm)".
+  - `icon` points at a shared icon in `img/tools/`, the same way ingredient icons work: every frying pan uses `pan.svg`, every spatula `spatula.svg`, and small, large and donburi bowls all use `bowl.svg`.
 - `steps` entries are `title`, `points`, `hint`, `image`. `title` is a short imperative phrase ("Brown pork"), `points` holds 2 to 3 sentences, `hint` is optional background, and `image` is `img/<id>-<step number>.svg`, numbered from 1.
 - `troubleshooting` entries are `problem` and `solution`. `problem` is a short symptom with no closing period, written in the third person ("The rice turned mushy") or as a want without the pronoun ("Want it more filling"). `solution` is one to three full sentences.
 

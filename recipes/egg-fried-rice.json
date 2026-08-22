@@ -60,31 +60,37 @@
   "tools": [
     {
       "name": "Frying pan (about 24 cm)",
+      "icon": "img/tools/pan.svg",
       "required": true,
       "note": "Everything cooks in it."
     },
     {
       "name": "Bowl",
+      "icon": "img/tools/bowl.svg",
       "required": true,
       "note": "For beating the eggs."
     },
     {
       "name": "Chopsticks or a fork",
+      "icon": "img/tools/chopsticks.svg",
       "required": true,
       "note": "For beating the eggs and stirring the curds."
     },
     {
       "name": "Spatula or rice paddle",
+      "icon": "img/tools/spatula.svg",
       "required": true,
       "note": "For breaking up and tossing the rice."
     },
     {
       "name": "Microwave",
+      "icon": "img/tools/microwave.svg",
       "required": true,
       "note": "For heating the packed rice."
     },
     {
       "name": "Knife and cutting board",
+      "icon": "img/tools/knife.svg",
       "required": false,
       "note": "For the spring onion. Scissors work just as well."
     }

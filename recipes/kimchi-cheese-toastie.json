@@ -46,26 +46,31 @@
   "tools": [
     {
       "name": "Frying pan (about 24 cm)",
+      "icon": "img/tools/pan.svg",
       "required": true,
       "note": "Holds the sandwich flat with room to slide a spatula under."
     },
     {
       "name": "Spatula",
+      "icon": "img/tools/spatula.svg",
       "required": true,
       "note": "For pressing the sandwich down and flipping it in one motion."
     },
     {
       "name": "Butter knife",
+      "icon": "img/tools/knife.svg",
       "required": true,
       "note": "For spreading butter to the very edges of the bread."
     },
     {
       "name": "Chopping board and knife",
+      "icon": "img/tools/cutting-board.svg",
       "required": false,
       "note": "For chopping the kimchi, kitchen scissors do the same job in the bowl."
     },
     {
       "name": "Lid",
+      "icon": "img/tools/lid.svg",
       "required": false,
       "note": "Traps heat so the cheese melts before the bread darkens."
     }

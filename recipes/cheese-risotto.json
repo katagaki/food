@@ -47,21 +47,25 @@
   "tools": [
     {
       "name": "Frying pan (about 24 cm)",
+      "icon": "img/tools/pan.svg",
       "required": true,
       "note": "Handles everything from frying to simmering."
     },
     {
       "name": "Wooden spatula or cooking chopsticks",
+      "icon": "img/tools/spatula.svg",
       "required": true,
       "note": "For stirring the bottom while it simmers."
     },
     {
       "name": "Measuring cup",
+      "icon": "img/tools/measuring-cup.svg",
       "required": false,
       "note": "A 500 ml bottle filled to about 80% works too."
     },
     {
       "name": "Lid",
+      "icon": "img/tools/lid.svg",
       "required": false,
       "note": "For an extra steam if the rice is still chalky at the end."
     }

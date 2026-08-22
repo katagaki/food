@@ -32,16 +32,19 @@
   "tools": [
     {
       "name": "Frying pan (any size)",
+      "icon": "img/tools/pan.svg",
       "required": true,
       "note": "A lid helps but is not required."
     },
     {
       "name": "Spatula or tongs",
+      "icon": "img/tools/spatula.svg",
       "required": true,
       "note": "For flipping and pressing."
     },
     {
       "name": "Butter knife",
+      "icon": "img/tools/knife.svg",
       "required": false,
       "note": "For the finishing butter."
     }

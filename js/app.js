@@ -103,34 +103,54 @@
       "</div>";
   }
 
-  // Supermarket holds the perishables, general the shelf-stable staples.
-  // A section is left out of the JSON entirely when it has no entries.
-  var SECTIONS = [
-    { key: "supermarket", title: "Supermarket only", cls: "" },
-    { key: "general", title: "General", cls: " alt" },
+  // Fresh and chilled holds the perishables, the pantry the cupboard
+  // staples. A section is left out of the JSON entirely when it is empty.
+  var ING_SECTIONS = [
+    { key: "supermarket", title: "Fresh and chilled", cls: "" },
+    { key: "general", title: "From the pantry", cls: " alt" },
     { key: "optional", title: "Optional", cls: " opt" }
   ];
 
-  function ingredientCard(i) {
+  function tile(icon, name, meta, note) {
     return (
-      '<li class="ing-card">' +
-      '<img class="ing-icon" src="' + esc(i.icon) + '" alt="" loading="lazy" width="44" height="44">' +
-      '<span class="ing-name">' + esc(i.item) + "</span>" +
-      '<span class="ing-amt">' + esc(i.amount) + "</span>" +
-      (i.note ? '<span class="ing-note">' + esc(i.note) + "</span>" : "") +
+      '<li class="tile">' +
+      '<img class="tile-icon" src="' + esc(icon) + '" alt="" loading="lazy" width="44" height="44">' +
+      '<span class="tile-name">' + esc(name) + "</span>" +
+      (meta ? '<span class="tile-meta">' + esc(meta) + "</span>" : "") +
+      (note ? '<span class="tile-note">' + esc(note) + "</span>" : "") +
       "</li>"
     );
   }
 
-  function ingredientGrids(ingredients) {
-    return SECTIONS.map(function (s) {
+  function tileGroup(title, cls, tiles) {
+    if (!tiles.length) return "";
+    return (
+      '<div class="tile-group' + cls + '"><h3>' + title + "</h3>" +
+      '<ul class="tile-grid">' + tiles.join("") + "</ul></div>"
+    );
+  }
+
+  function ingredientGroups(ingredients) {
+    return ING_SECTIONS.map(function (s) {
       var list = (ingredients && ingredients[s.key]) || [];
-      if (!list.length) return "";
-      return (
-        '<div class="ing-group' + s.cls + '"><h3>' + s.title + "</h3>" +
-        '<ul class="ing-grid">' + list.map(ingredientCard).join("") + "</ul></div>"
-      );
+      return tileGroup(s.title, s.cls, list.map(function (i) {
+        return tile(i.icon, i.item, i.amount, i.note);
+      }));
     }).join("");
+  }
+
+  // Required and optional become the two headings, so a tile never has
+  // to spell out which of the two a tool is.
+  function toolGroups(tools) {
+    function group(required) {
+      return (tools || []).filter(function (t) {
+        return !!t.required === required;
+      }).map(function (t) { return tile(t.icon, t.name, "", t.note); });
+    }
+    return (
+      tileGroup("Required", "", group(true)) +
+      tileGroup("Optional", " opt", group(false))
+    );
   }
 
   function renderRecipe(r) {
@@ -144,18 +164,9 @@
       "</header>" +
 
       "<section><h2>Ingredients</h2>" +
-      ingredientGrids(r.ingredients) + "</section>" +
+      ingredientGroups(r.ingredients) + "</section>" +
 
-      '<section><h2>Tools</h2><div class="table-wrap"><table>' +
-      "<thead><tr><th>Tool</th><th>Needed?</th><th>Notes</th></tr></thead><tbody>" +
-      r.tools.map(function (t) {
-        return (
-          "<tr><td>" + esc(t.name) + "</td>" +
-          '<td class="status ' + (t.required ? "req" : "opt") + '">' + (t.required ? "Required" : "Optional") + "</td>" +
-          "<td>" + esc(t.note || "") + "</td></tr>"
-        );
-      }).join("") +
-      "</tbody></table></div></section>" +
+      "<section><h2>Tools</h2>" + toolGroups(r.tools) + "</section>" +
 
       '<section><h2>Method</h2><ol class="steps">' +
       r.steps.map(function (s) {

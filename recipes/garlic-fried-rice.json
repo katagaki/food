@@ -55,31 +55,37 @@
   "tools": [
     {
       "name": "Frying pan (about 24 cm)",
+      "icon": "img/tools/pan.svg",
       "required": true,
       "note": "Everything cooks in it."
     },
     {
       "name": "Knife and cutting board",
+      "icon": "img/tools/knife.svg",
       "required": true,
       "note": "For slicing and chopping the garlic."
     },
     {
       "name": "Spatula or rice paddle",
+      "icon": "img/tools/spatula.svg",
       "required": true,
       "note": "For pressing the rice flat and folding it over."
     },
     {
       "name": "Microwave",
+      "icon": "img/tools/microwave.svg",
       "required": true,
       "note": "For heating the packed rice."
     },
     {
       "name": "Small plate",
+      "icon": "img/tools/plate.svg",
       "required": true,
       "note": "For draining the garlic chips, lined with kitchen paper."
     },
     {
       "name": "Slotted spoon",
+      "icon": "img/tools/slotted-spoon.svg",
       "required": false,
       "note": "For lifting the chips out cleanly. A regular spoon and a tilt of the pan do the same job."
     }

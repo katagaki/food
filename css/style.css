@@ -322,12 +322,12 @@ h2 {
   border-bottom: 1px solid var(--border-subtle);
 }
 
-/* Ingredients */
-.ing-group { margin-bottom: var(--sp-5); }
+/* Ingredient and tool tiles */
+.tile-group { margin-bottom: var(--sp-5); }
 
-.ing-group:last-child { margin-bottom: 0; }
+.tile-group:last-child { margin-bottom: 0; }
 
-.ing-group h3 {
+.tile-group h3 {
   font-size: 14px;
   font-weight: 600;
   margin: 0 0 var(--sp-3);
@@ -335,10 +335,10 @@ h2 {
   border-left: 3px solid var(--interactive);
 }
 
-.ing-group.alt h3 { border-left-color: var(--support-caution); }
-.ing-group.opt h3 { border-left-color: var(--border-strong); }
+.tile-group.alt h3 { border-left-color: var(--support-caution); }
+.tile-group.opt h3 { border-left-color: var(--border-strong); }
 
-.ing-grid {
+.tile-grid {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -347,70 +347,38 @@ h2 {
   gap: var(--sp-3);
 }
 
-.ing-card {
+.tile {
   background: var(--layer-01);
   padding: var(--sp-3);
   display: flex;
   flex-direction: column;
 }
 
-.ing-icon {
+.tile-icon {
   display: block;
   width: 44px;
   height: 44px;
   margin-bottom: var(--sp-2);
 }
 
-.ing-name {
+.tile-name {
   font-size: 13.5px;
   font-weight: 600;
   line-height: 1.3;
 }
 
-.ing-amt {
+.tile-meta {
   font-size: 12.5px;
   color: var(--text-helper);
   margin-top: 2px;
 }
 
-.ing-note {
+.tile-note {
   font-size: 12px;
   line-height: 1.4;
   color: var(--text-helper);
   margin-top: 6px;
 }
-
-/* Tools table */
-.table-wrap {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-table {
-  width: 100%;
-  min-width: 460px;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-
-th {
-  text-align: left;
-  font-weight: 600;
-  color: var(--text-secondary);
-  background: var(--layer-01);
-  padding: 10px var(--sp-4);
-  border-bottom: 1px solid var(--border-strong);
-}
-
-td {
-  padding: 11px var(--sp-4);
-  border-bottom: 1px solid var(--border-subtle);
-  vertical-align: top;
-}
-
-td.status { white-space: nowrap; }
-.req { color: var(--interactive); font-weight: 600; }
-.opt { color: var(--text-helper); }
 
 /* Steps */
 ol.steps { list-style: none; margin: 0; padding: 0; counter-reset: step; }
@@ -592,7 +560,6 @@ dl.trouble dd:last-child { border-bottom: none; }
   h1 { font-size: 30px; }
   .lede { font-size: 15px; }
   section { margin-bottom: var(--sp-6); }
-  th, td { padding: 9px 10px; }
 
   ol.steps > li {
     grid-template-columns: 32px 1fr;

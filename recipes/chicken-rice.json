@@ -59,31 +59,37 @@
   "tools": [
     {
       "name": "Frying pan (about 24 cm)",
+      "icon": "img/tools/pan.svg",
       "required": true,
       "note": "Everything cooks in it."
     },
     {
       "name": "Cutting board",
+      "icon": "img/tools/cutting-board.svg",
       "required": true,
       "note": "For the chicken and onion."
     },
     {
       "name": "Knife",
+      "icon": "img/tools/knife.svg",
       "required": true,
       "note": "For the chicken and onion."
     },
     {
       "name": "Spatula or rice paddle",
+      "icon": "img/tools/spatula.svg",
       "required": true,
       "note": "For breaking up and tossing the rice."
     },
     {
       "name": "Microwave",
+      "icon": "img/tools/microwave.svg",
       "required": true,
       "note": "For heating the packed rice."
     },
     {
       "name": "Measuring spoons",
+      "icon": "img/tools/measuring-spoons.svg",
       "required": false,
       "note": "For the ketchup."
     }

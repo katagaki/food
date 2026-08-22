@@ -49,26 +49,31 @@
   "tools": [
     {
       "name": "Frying pan (about 24 cm)",
+      "icon": "img/tools/pan.svg",
       "required": true,
       "note": "A big pan helps, cabbage starts bulky."
     },
     {
       "name": "Cutting board",
+      "icon": "img/tools/cutting-board.svg",
       "required": true,
       "note": "For the cabbage and sausages."
     },
     {
       "name": "Knife",
+      "icon": "img/tools/knife.svg",
       "required": true,
       "note": "For the cabbage and sausages."
     },
     {
       "name": "Cooking chopsticks or tongs",
+      "icon": "img/tools/chopsticks.svg",
       "required": true,
       "note": "For tossing."
     },
     {
       "name": "Small bowl",
+      "icon": "img/tools/bowl.svg",
       "required": false,
       "note": "For mixing the soy sauce and mustard."
     }

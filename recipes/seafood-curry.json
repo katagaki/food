@@ -49,36 +49,43 @@
   "tools": [
     {
       "name": "Frying pan with a lid (about 24 cm)",
+      "icon": "img/tools/pan.svg",
       "required": true,
       "note": "The pan stands in for a pot. No lid? An upturned plate works too."
     },
     {
       "name": "Knife",
+      "icon": "img/tools/knife.svg",
       "required": true,
       "note": "For the onion and carrots. The seafood needs no cutting."
     },
     {
       "name": "Cutting board",
+      "icon": "img/tools/cutting-board.svg",
       "required": true,
       "note": "A clean plate can stand in."
     },
     {
       "name": "Spatula or large spoon",
+      "icon": "img/tools/spatula.svg",
       "required": true,
       "note": "For stir-frying and for dissolving the roux."
     },
     {
       "name": "Microwave",
+      "icon": "img/tools/microwave.svg",
       "required": true,
       "note": "For the packed rice. 2 minutes at 500 to 600 W."
     },
     {
       "name": "Measuring cup",
+      "icon": "img/tools/measuring-cup.svg",
       "required": false,
       "note": "A mug is fine. A typical mug holds about 250 ml."
     },
     {
       "name": "Peeler",
+      "icon": "img/tools/peeler.svg",
       "required": false,
       "note": "Carrot skin is edible. Wash well and you can skip peeling."
     }

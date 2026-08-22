@@ -56,36 +56,43 @@
   "tools": [
     {
       "name": "Frying pan (about 24 cm)",
+      "icon": "img/tools/pan.svg",
       "required": true,
       "note": "The pasta cooks directly in it."
     },
     {
       "name": "Cutting board",
+      "icon": "img/tools/cutting-board.svg",
       "required": true,
       "note": "For the bacon."
     },
     {
       "name": "Knife",
+      "icon": "img/tools/knife.svg",
       "required": true,
       "note": "For the bacon."
     },
     {
       "name": "Fine grater",
+      "icon": "img/tools/grater.svg",
       "required": true,
       "note": "For the cheese. A microplane or the fine side of a box grater. Skip it if you buy the cheese already grated."
     },
     {
       "name": "Cooking chopsticks or tongs",
+      "icon": "img/tools/chopsticks.svg",
       "required": true,
       "note": "For loosening and tossing the pasta."
     },
     {
       "name": "Small bowl",
+      "icon": "img/tools/bowl.svg",
       "required": true,
       "note": "For the egg and cheese mixture."
     },
     {
       "name": "Measuring cup",
+      "icon": "img/tools/measuring-cup.svg",
       "required": false,
       "note": "For the water."
     }
