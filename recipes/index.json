@@ -199,6 +199,27 @@
         "quick",
         "cheap"
       ]
+    },
+    {
+      "id": "french-toast",
+      "file": "recipes/french-toast.json",
+      "title": "French Toast",
+      "time": "20 min",
+      "serves": "1",
+      "keywords": [
+        "french toast",
+        "toast",
+        "bread",
+        "egg",
+        "sugar",
+        "butter",
+        "milk",
+        "honey",
+        "breakfast",
+        "frying pan",
+        "sweet",
+        "easy"
+      ]
     }
   ]
 }
