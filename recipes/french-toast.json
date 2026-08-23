@@ -37,6 +37,12 @@
         "note": "It loosens the egg so the bread soaks through to the middle."
       },
       {
+        "item": "Maple syrup",
+        "icon": "img/ingredients/maple-syrup.svg",
+        "amount": "to taste",
+        "note": "Real maple syrup and the cheaper pancake syrup both work here."
+      },
+      {
         "item": "Honey",
         "icon": "img/ingredients/honey.svg",
         "amount": "to taste"
@@ -131,7 +137,7 @@
       "title": "Serve",
       "points": [
         "Move both slices to a plate and cut them across on the diagonal.",
-        "Add honey while the surface is still hot enough to thin it out.",
+        "Pour over maple syrup while the surface is still hot enough to thin it out.",
         "Eat straight away, before the crust softens."
       ],
       "image": "img/french-toast-6.svg"
@@ -161,6 +167,10 @@
     {
       "problem": "Want it more filling",
       "solution": "Use two eggs and four slices, and fry them in two goes so the pan stays hot. A second slice reheats badly, so cook both while you are already standing there."
+    },
+    {
+      "problem": "No maple syrup or honey",
+      "solution": "The toast is already sweet from the sugar in the custard, so it is fine plain. A dusting of sugar over the hot surface, or a spoon of jam on the side, covers the same ground."
     }
   ]
 }
