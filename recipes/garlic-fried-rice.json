@@ -46,9 +46,21 @@
     ],
     "optional": [
       {
+        "item": "Sausage",
+        "icon": "img/ingredients/sausage.svg",
+        "amount": "2",
+        "note": "Any cooked sausage works, frankfurter or chorizo alike. It makes the plate a full meal rather than a side."
+      },
+      {
         "item": "Spring onion",
         "icon": "img/ingredients/spring-onion.svg",
         "amount": "1 stalk"
+      },
+      {
+        "item": "Sesame oil",
+        "icon": "img/ingredients/sesame-oil.svg",
+        "amount": "1/2 tsp",
+        "note": "Added off the heat for aroma. Skip it and the rice is still good, just less nutty."
       }
     ]
   },
@@ -127,8 +139,8 @@
     {
       "title": "Cook chopped garlic",
       "points": [
-        "Turn the heat up to medium and add the chopped garlic to the hot oil.",
-        "Stir for about 30 seconds, until it smells sweet and the edges just start to color.",
+        "Turn the heat up to medium. If you are using sausage, cut it into thick coins and brown them in the garlic oil for about 2 minutes, then push them to one side of the pan.",
+        "Add the chopped garlic and stir for about 30 seconds, until it smells sweet and the edges just start to color.",
         "Drop in the butter and swirl the pan until it melts."
       ],
       "hint": "Chopped garlic burns faster than sliced garlic. Have the rice within arm's reach before this step starts.",
@@ -157,7 +169,7 @@
     {
       "title": "Plate and top",
       "points": [
-        "Turn off the heat and mound the rice onto a plate.",
+        "Turn off the heat, drizzle over the sesame oil if using, and fold it through once before mounding the rice onto a plate.",
         "Scatter the garlic chips over the top, along with the spring onion if using.",
         "The chips go on at the last moment, because they soften as soon as they meet the hot rice."
       ],
@@ -191,7 +203,7 @@
     },
     {
       "problem": "Want it more filling",
-      "solution": "A fried egg on top is the usual answer, with the yolk broken through the rice at the table. Diced spam, bacon, or leftover sausage can go in with the chopped garlic instead."
+      "solution": "Add the optional sausage, or a fried egg on top with the yolk broken through the rice at the table. Diced spam or bacon can go in with the chopped garlic the same way."
     },
     {
       "problem": "No microwavable packed rice",
