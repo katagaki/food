@@ -37,6 +37,8 @@ Ingredient icons in `img/ingredients/` and tool icons in `img/tools/` are a sepa
 
 All recipe JSON is fetched through `getJSON` in `js/app.js`, which passes `cache: "no-cache"` so the browser revalidates every time. Without it a stale `recipes/index.json` hides newly added recipes until a hard refresh.
 
+Run `python3 tools/check-recipes.py` after touching recipe data. It checks the index against the recipe files and fails on the mismatches described below. A `pre-commit` hook in `.githooks/` runs it automatically, wired up with `git config core.hooksPath .githooks`.
+
 Every file in `recipes/` follows one shape. Keys appear in the order listed, and optional keys are written only when they apply.
 
 - Recipe file: `id`, `title`, `time`, `serves`, `tried`, `ingredients`, `tools`, `steps`, `troubleshooting`. `tried` is written only when the recipe has been cooked, as `true`; leave it out otherwise.
