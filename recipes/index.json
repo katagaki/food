@@ -222,6 +222,28 @@
         "sweet",
         "easy"
       ]
+    },
+    {
+      "id": "yakisoba",
+      "file": "recipes/yakisoba.json",
+      "title": "Sauce Yakisoba",
+      "time": "15 min",
+      "serves": "1",
+      "keywords": [
+        "yakisoba",
+        "noodles",
+        "ramen",
+        "pork",
+        "cabbage",
+        "carrot",
+        "onion",
+        "stir-fry",
+        "sauce",
+        "japanese",
+        "one-pan",
+        "frying pan",
+        "quick"
+      ]
     }
   ]
 }
