@@ -289,6 +289,27 @@
         "one-pan",
         "frying pan"
       ]
+    },
+    {
+      "id": "grilled-cheese",
+      "file": "recipes/grilled-cheese.json",
+      "title": "Grilled Cheese Sandwich",
+      "time": "15 min",
+      "serves": "1",
+      "keywords": [
+        "grilled cheese",
+        "cheese",
+        "sandwich",
+        "toastie",
+        "toasted sandwich",
+        "bread",
+        "butter",
+        "cheddar",
+        "mustard",
+        "frying pan",
+        "quick",
+        "easy"
+      ]
     }
   ]
 }
