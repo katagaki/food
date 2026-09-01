@@ -244,6 +244,27 @@
         "frying pan",
         "quick"
       ]
+    },
+    {
+      "id": "tomato-egg",
+      "file": "recipes/tomato-egg.json",
+      "title": "Tomato & Egg Stir-Fry",
+      "time": "15 min",
+      "serves": "1 to 2",
+      "keywords": [
+        "egg",
+        "tomato",
+        "stir-fry",
+        "scrambled egg",
+        "spring onion",
+        "chinese",
+        "rice",
+        "one-pan",
+        "frying pan",
+        "quick",
+        "cheap",
+        "vegetarian"
+      ]
     }
   ]
 }
