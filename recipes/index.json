@@ -265,6 +265,29 @@
         "cheap",
         "vegetarian"
       ]
+    },
+    {
+      "id": "vegetable-stir-fry",
+      "file": "recipes/vegetable-stir-fry.json",
+      "title": "Vegetable Stir-Fry",
+      "time": "20 min",
+      "serves": "1 to 2",
+      "keywords": [
+        "vegetables",
+        "stir-fry",
+        "cabbage",
+        "bean sprouts",
+        "carrot",
+        "onion",
+        "bell pepper",
+        "mushroom",
+        "garlic",
+        "soy sauce",
+        "vegetarian",
+        "healthy",
+        "one-pan",
+        "frying pan"
+      ]
     }
   ]
 }
